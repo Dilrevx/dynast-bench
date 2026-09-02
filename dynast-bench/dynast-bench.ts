@@ -2251,7 +2251,67 @@ interface VerifyResult {
   harness: number;
   failures: string[];
   broken: string[];
+  /** containers that came back up mid-run - see restartedDuring() */
+  restarted: string[];
   passed: boolean;
+}
+
+/**
+ * When each of these containers last started.
+ *
+ * Compose restarts a crashed app now (`restart: unless-stopped`), so one planted
+ * DoS no longer ends the run - but a restart nobody sees is worse than the crash
+ * was. The PoC that killed the app exits nonzero, the app is back by the time the
+ * runner probes health, and the oracle in poc-runner.sh reads "cleanly rejected"
+ * - so "the app died" gets recorded as "the bug is fixed", which is a wrong
+ * answer about the app rather than a loud harness failure.
+ *
+ * RestartCount cannot carry this: a policy restart resets it to 0 (and clears
+ * FinishedAt) on Docker Desktop, so it reads the same as a container that never
+ * fell over. StartedAt moves and stays moved, so compare that instead.
+ */
+async function startTimes(names: string[]): Promise<Record<string, string>> {
+  const out: Record<string, string> = {};
+  await Promise.all(
+    names.map(async (n) => {
+      const res = await docker(["inspect", "-f", "{{.State.StartedAt}}", n]);
+      if (res.code === 0) out[n] = res.stdout.trim();
+    }),
+  );
+  return out;
+}
+
+/** Every container in one app's stack, by name. */
+async function stackContainerNames(
+  app: App,
+  variant: Variant,
+  mode: Mode,
+): Promise<string[]> {
+  const containers = await listContainers();
+  return stacksOf(app, containers)
+    .filter((s) => s.variant === variant && s.mode === mode)
+    .flatMap((s) => s.containers.map((ct) => ct.name));
+}
+
+/** Names whose StartedAt moved between the two snapshots. */
+function restartedDuring(
+  before: Record<string, string>,
+  after: Record<string, string>,
+): string[] {
+  return Object.keys(before).filter((n) => after[n] && after[n] !== before[n]);
+}
+
+/**
+ * A restart during a PoC run does not fail the run - the PoCs that ran after the
+ * app came back are still real results - but it is never routine, and every
+ * result recorded on either side of it is suspect. Say so.
+ */
+function warnRestarts(r: VerifyResult) {
+  if (!r.restarted.length || JSON_MODE.on) return;
+  warn(
+    `${r.restarted.join(", ")} restarted during this run — a PoC took the app down and ` +
+      `compose brought it back. Results around the crash may read as "fixed"; re-run to trust them.`,
+  );
 }
 
 /**
@@ -2295,12 +2355,16 @@ async function runVerify(
   target: string,
   expect: Variant,
   ports: Record<string, string> = {},
+  /** the stack's containers, so a mid-run restart can be caught */
+  watch: string[] = [],
 ): Promise<VerifyResult> {
+  const before = await startTimes(watch);
   const res = await exec(["bash", "ground-truth/run.sh", `expect-${expect}`], {
     cwd: app.dir,
     env: { ...ports, TARGET: target },
     stream: true,
   });
+  const restarted = restartedDuring(before, await startTimes(watch));
   const out = res.stdout + res.stderr;
   const summary = out.match(/ok=(\d+)\s+bad=(\d+)(?:\s+harness=(\d+))?/);
   const names = (re: RegExp) =>
@@ -2314,6 +2378,7 @@ async function runVerify(
     harness: Number(summary?.[3] ?? 0),
     failures: names(/FAILURES:(.*)/),
     broken: names(/HARNESS:(.*)/),
+    restarted,
     passed: res.code === 0,
   };
 }
@@ -2341,8 +2406,10 @@ async function cmdVerify(args: Args) {
   const result = await runVerify(
     app!, target!, expect,
     await publishedPortEnv(app!, expect, live[0]?.mode ?? "compose", containers),
+    (live[0]?.containers ?? []).map((ct) => ct.name),
   );
   emit(result);
+  warnRestarts(result);
   if (!result.passed) {
     // In --json the result object above is the machine answer; don't also emit
     // an error document. Just fail the exit code.
@@ -2397,6 +2464,7 @@ async function cmdValidate(args: Args) {
     const vulnUp = await startApp(app!, { ...common, variant: "vuln" });
     vulnRes = await runVerify(
       app!, vulnUp.target, "vuln", await publishedPortEnv(app!, "vuln", "compose"),
+      await stackContainerNames(app!, "vuln", "compose"),
     );
 
     step(`validate ${app!.name}: safe twin → all fixed`);
@@ -2409,6 +2477,7 @@ async function cmdValidate(args: Args) {
     const safeUp = await startApp(app!, { ...common, variant: "safe" });
     safeRes = await runVerify(
       app!, safeUp.target, "safe", await publishedPortEnv(app!, "safe", "compose"),
+      await stackContainerNames(app!, "safe", "compose"),
     );
   } finally {
     // A failed health wait or a PoC run that threw used to leave the stack up.
@@ -2423,6 +2492,10 @@ async function cmdValidate(args: Args) {
   const passed = vulnRes.passed && safeRes.passed;
   emit({ app: app!.name, passed, vuln: vulnRes, safe: safeRes });
   log();
+  // The safe leg matters most here: a crash there brings the app back healthy,
+  // so every PoC after it reads as "cleanly rejected" = fixed.
+  warnRestarts(vulnRes);
+  warnRestarts(safeRes);
   const trouble = (r: VerifyResult) =>
     `bad=${r.bad}` + (r.harness ? `, harness=${r.harness}` : "");
   log(

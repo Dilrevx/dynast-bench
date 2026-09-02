@@ -447,6 +447,52 @@ twice:
   overrides, `--solo` is the way out); `--solo` warns and proceeds. `doctor`
   prints the VM's size, the fleet's total, and roughly how many apps fit.
 
+## Surviving the run (every service, both twins)
+
+Caps bound the blast radius of a planted bug. They do **not** bring the app back,
+and a benchmark run is hours of hostile traffic aimed squarely at sinks that were
+written to fall over. Three keys sit next to the limits on every service:
+
+```yaml
+services:
+  app:
+    restart: unless-stopped   # a crash is recovered, not the end of the run
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true                # services we `build:` only - reap forked children
+```
+
+- **`restart: unless-stopped`.** Docker's default policy is `no`: the first
+  request that crashed an app left it down for the *whole rest of the run*, so
+  every later request 000'd and the report read "the app goes down constantly"
+  rather than "one endpoint has an RCE". `unless-stopped` rather than `always`,
+  so `stop` and `compose down` still win. This cannot mask a planted bug - every
+  DoS PoC in the suite (gin `DOS-001`, graphql `GQL-*`, websocket `PAYLOAD/RATE/
+  ROOM-001`) asserts on a *response*, never on the app dying.
+- **Bounded `logging:`.** `json-file` has no default size cap. An app logging per
+  request under a scanner fills the daemon's disk, and then every *other* app on
+  the daemon dies too. The solo path (`solo-run.sh`, `soloRunFlags()`) has capped
+  this since it existed; compose had not, which is the one that actually runs.
+- **`init: true` on services we `build:`.** Those run app code that forks per
+  request - gin's headless chrome, the exec/shell sinks in php, laravel and jsp.
+  Chrome's renderers outlive the parent that `exec.CommandContext` kills,
+  reparent to PID 1 (the app, which reaps nothing) and accumulate as zombies
+  until `pids_limit` is hit and the app can no longer fork. Stock datastore
+  images reap their own children, so they don't need it.
+
+**A recovered crash must never be silent.** The PoC runner's oracle is "nonzero
+exit + the target still answers health = cleanly rejected = fixed" - so an app
+that crashes and is back before the health probe turns "the app died" into "the
+bug is fixed", which is a wrong answer rather than a loud harness failure. So
+`verify` and `validate` snapshot each container's `StartedAt` around the run and
+warn if it moved. (`RestartCount` cannot carry this: a policy restart resets it
+to `0` and clears `FinishedAt` on Docker Desktop, so it reads exactly like a
+container that never fell over.)
+
+`dynast-bench/test/apps.test.ts` asserts all three keys on every service of every
+app, both twins - so a new app cannot ship without them.
+
 ## Verification API (harness-only, in every app)
 
 Guarded by header `X-Verify-Token: benchsecret`. Used by the compose healthcheck

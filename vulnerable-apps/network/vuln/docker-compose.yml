@@ -1,6 +1,11 @@
 name: vuln-network
 services:
   scanner:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 1g
     cpus: 2.0
     pids_limit: 1024
@@ -20,6 +25,11 @@ services:
       start_period: 5s
 
   edge-proxy:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -31,6 +41,11 @@ services:
       data: {}   # planted edge->data segmentation break
 
   edge-bastion:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -40,6 +55,11 @@ services:
       edge: { ipv4_address: 10.89.1.11 }
 
   edge-ftp:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -49,6 +69,11 @@ services:
       edge: { ipv4_address: 10.89.1.12 }
 
   edge-mail:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -58,6 +83,11 @@ services:
       edge: { ipv4_address: 10.89.1.13 }
 
   app-web:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -67,6 +97,11 @@ services:
       app: { ipv4_address: 10.89.2.10 }
 
   app-legacy:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -76,6 +111,11 @@ services:
       app: { ipv4_address: 10.89.2.11 }
 
   data-postgres:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -85,6 +125,11 @@ services:
       data: { ipv4_address: 10.89.3.10 }
 
   data-redis:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -94,6 +139,11 @@ services:
       data: { ipv4_address: 10.89.3.11 }
 
   data-redis-secure:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -103,6 +153,11 @@ services:
       data: { ipv4_address: 10.89.3.12 }
 
   data-mongo:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -112,6 +167,11 @@ services:
       data: { ipv4_address: 10.89.3.13 }
 
   data-elastic:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -121,6 +181,11 @@ services:
       data: { ipv4_address: 10.89.3.14 }
 
   data-memcached:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -130,6 +195,11 @@ services:
       data: { ipv4_address: 10.89.3.15 }
 
   mgmt-jenkins:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -139,6 +209,11 @@ services:
       mgmt: { ipv4_address: 10.89.4.10 }
 
   mgmt-grafana:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -149,6 +224,11 @@ services:
       app: {}    # planted app->mgmt reachability break
 
   mgmt-rabbitmq:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -158,6 +238,11 @@ services:
       mgmt: { ipv4_address: 10.89.4.12 }
 
   mgmt-phpmyadmin:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -167,6 +252,11 @@ services:
       mgmt: { ipv4_address: 10.89.4.13 }
 
   mgmt-minio:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -176,6 +266,11 @@ services:
       mgmt: { ipv4_address: 10.89.4.14 }
 
   mgmt-snmp:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512

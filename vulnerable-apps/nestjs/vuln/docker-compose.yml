@@ -1,6 +1,10 @@
 name: vuln-nestjs
 services:
   nginx:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 1g
     cpus: 2.0
     pids_limit: 1024
@@ -13,6 +17,11 @@ services:
     depends_on:
       app: { condition: service_healthy }
   app:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -36,6 +45,10 @@ services:
       retries: 30
       start_period: 60s
   postgres:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -47,6 +60,10 @@ services:
       timeout: 5s
       retries: 20
   redis:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 256m
     cpus: 0.5
     pids_limit: 512
@@ -57,6 +74,10 @@ services:
       timeout: 5s
       retries: 20
   internal-sink:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512

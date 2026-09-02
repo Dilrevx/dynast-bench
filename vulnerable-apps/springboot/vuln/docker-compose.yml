@@ -1,6 +1,11 @@
 name: vuln-springboot
 services:
   app:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 2g
     cpus: 2.0
     pids_limit: 1024
@@ -24,6 +29,10 @@ services:
       timeout: 3s
       retries: 40
   postgres:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -36,6 +45,10 @@ services:
       timeout: 3s
       retries: 30
   internal-sink:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -44,6 +57,10 @@ services:
     command: ["node", "/srv/internal-sink.mjs"]
     volumes: ["./internal-sink.mjs:/srv/internal-sink.mjs:ro"]
   jenkins:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 1g
     cpus: 1.0
     pids_limit: 512
@@ -51,6 +68,10 @@ services:
     ports: ["127.0.0.1:${DYNAST_PORT_JENKINS_8080:-13313}:8080"]
     environment: { JENKINS_ADMIN_ID: admin, JENKINS_ADMIN_PASSWORD: admin }
   prometheus:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512

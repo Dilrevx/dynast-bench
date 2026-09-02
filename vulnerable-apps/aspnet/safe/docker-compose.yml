@@ -1,6 +1,11 @@
 name: safe-aspnet
 services:
   app:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 2g
     cpus: 2.0
     pids_limit: 1024
@@ -25,6 +30,10 @@ services:
       retries: 30
       start_period: 120s
   sqlserver:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 3g
     cpus: 2.0
     pids_limit: 512
@@ -42,6 +51,10 @@ services:
       retries: 30
       start_period: 60s
   mailpit:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 256m
     cpus: 0.5
     pids_limit: 512

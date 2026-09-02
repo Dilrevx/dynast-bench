@@ -1,5 +1,10 @@
 services:
   app:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 2g
     cpus: 2.0
     pids_limit: 1024
@@ -26,6 +31,10 @@ services:
       timeout: 3s
       retries: 20
   postgres:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -41,6 +50,10 @@ services:
       timeout: 3s
       retries: 20
   redis:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 256m
     cpus: 0.5
     pids_limit: 512
@@ -52,6 +65,10 @@ services:
       timeout: 3s
       retries: 20
   ollama:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 256m
     cpus: 0.5
     pids_limit: 512
@@ -63,6 +80,11 @@ services:
         while true; do printf 'HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n{"models":[{"name":"gemma3:1b"}]}' | nc -l -p 11434; done
     expose: ["11434"]
   internal-svc:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512

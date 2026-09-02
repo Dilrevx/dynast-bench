@@ -1,6 +1,11 @@
 name: safe-llmagent
 services:
   app:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 2g
     cpus: 2.0
     pids_limit: 1024

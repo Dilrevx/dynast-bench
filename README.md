@@ -552,5 +552,5 @@ so spraying a wordlist is not a way to score higher. Full model:
 ## License
 
 `dynast-bench` is made with ♥ by [@j3ssie](https://github.com/j3ssie) to benchmark
-**Vigolium** and **Gimora** (an autonomous offensive-security agent), and it is
+**Vigolium** and **Gimorra** (An autonomous offensive-security agent), and it is
 released under the [MIT license](LICENSE).

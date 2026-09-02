@@ -1,6 +1,11 @@
 name: safe-php
 services:
   app:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 1g
     cpus: 2.0
     pids_limit: 1024
@@ -25,6 +30,10 @@ services:
       retries: 30
       start_period: 60s
   mysql:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 1g
     cpus: 1.0
     pids_limit: 512
@@ -40,6 +49,10 @@ services:
       timeout: 5s
       retries: 30
   mailpit:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 256m
     cpus: 0.5
     pids_limit: 512

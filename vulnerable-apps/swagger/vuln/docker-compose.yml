@@ -1,6 +1,11 @@
 name: vuln-swagger
 services:
   app:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 1g
     cpus: 2.0
     pids_limit: 1024
@@ -25,6 +30,10 @@ services:
       retries: 30
       start_period: 60s
   postgres:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512
@@ -36,6 +45,10 @@ services:
       timeout: 5s
       retries: 20
   redis:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 256m
     cpus: 0.5
     pids_limit: 512
@@ -46,12 +59,21 @@ services:
       timeout: 5s
       retries: 20
   mailpit:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
     mem_limit: 256m
     cpus: 0.5
     pids_limit: 512
     image: axllent/mailpit:v1.20
     ports: ["127.0.0.1:${DYNAST_PORT_MAILPIT_8025:-13312}:8025", "127.0.0.1:${DYNAST_PORT_MAILPIT_1025:-13313}:1025"]
   partner-api:
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    init: true
     mem_limit: 512m
     cpus: 1.0
     pids_limit: 512

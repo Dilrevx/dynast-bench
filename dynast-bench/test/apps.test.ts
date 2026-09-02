@@ -136,6 +136,40 @@ describe.each(apps)("%s", (app) => {
           `${app}/${variant} service "${svc.name}" has no ${key} (see CLAUDE.md "Resource limits")`,
         ).toBe(true);
       }
+
+      // Caps stop a planted bug taking the machine down; they do NOT bring the
+      // app back. Docker's default restart policy is "no", so the first PoC or
+      // scanner request that crashes an app left it down for the whole rest of
+      // the run - which is the "the benchmark is flaky" report, and is why every
+      // service now declares one. See CLAUDE.md "Surviving the run".
+      expect(
+        /^\s*restart:\s*unless-stopped\s*$/m.test(body),
+        `${app}/${variant} service "${svc.name}" has no "restart: unless-stopped" ` +
+          `(see CLAUDE.md "Surviving the run")`,
+      ).toBe(true);
+
+      // json-file has no default size cap, so an app logging per request under a
+      // scanner fills the daemon's disk and takes every OTHER app with it. The
+      // solo path has capped this since it existed; compose had not.
+      expect(
+        /^\s*logging:/m.test(body) && /max-size/.test(body),
+        `${app}/${variant} service "${svc.name}" has no bounded logging: ` +
+          `(see CLAUDE.md "Surviving the run")`,
+      ).toBe(true);
+
+      // A service we build runs app code that forks per request (gin's headless
+      // chrome, the exec/shell sinks in php/laravel/jsp). Chrome's renderers
+      // outlive the parent the context timeout kills, reparent to PID 1 - the
+      // app itself, which reaps nothing - and pile up as zombies until
+      // pids_limit is hit and the app can no longer fork. Stock datastore images
+      // reap their own children, so this is only asked of the ones we build.
+      if (/^\s*build:/m.test(body)) {
+        expect(
+          /^\s*init:\s*true\s*$/m.test(body),
+          `${app}/${variant} service "${svc.name}" builds app code but has no "init: true" ` +
+            `(see CLAUDE.md "Surviving the run")`,
+        ).toBe(true);
+      }
     }
   });
 });

@@ -1,7 +1,7 @@
 {
   "application": "laravel",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "856135799cd9751c9724acbe658fb25fb6f8e6f99730ac045089fd27a88c3e80",
+  "operation_catalog": "dbff6d33cb85ad6926ddaac44ea4316f5c2938ce4881f831d80db6ed560e7f39",
   "seed_setup": "Modern Laravel 11 (PHP 8.3, Apache, MySQL). Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, returned only via SQLi/IDOR. A weak service account admin/admin exists only in vuln/. Seed users: admin@bench.local/Admin123!, editor@bench.local/Editor123!, user1@bench.local/User123! (Acme), user2@bench.local/User123! (Globex). CSRF is enabled app-wide (PoCs scrape the _token); one route is the planted exception. TrimStrings is active, so SQLi PoCs comment with `#`, not `-- `.\n",
   "versions": {
     "safe": "dc88a39280ebbcb8c0814a375752f110038488906c767feb22a389db953aed71",

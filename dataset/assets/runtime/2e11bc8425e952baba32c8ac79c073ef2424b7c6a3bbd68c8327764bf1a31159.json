@@ -1,7 +1,7 @@
 {
   "application": "weirdproxy",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "cd8395a67d857ebeb801ce4a4651c45f195df4b7c6563dd2c8409dd298824a5d",
+  "operation_catalog": "9685b3d2a6caa0a68d9852369dbd1a772499336580f650bc1f186108a8240691",
   "seed_setup": "Internal Node origin (never published) normalizes paths permissively (decode, resolve ./.., collapse //, strip ;params, case-fold). nginx=13311 (app under test), apache=13312, traefik=13313. Protected paths /admin, /internal/*, /metrics carry GLOBEX-CONFIDENTIAL-MARKER-7f3a. The origin also trusts an X-Internal-Auth: trusted header that a correct proxy must strip. PoCs use curl --path-as-is so the crafted path reaches the proxy unmodified.\n",
   "versions": {
     "safe": "857b3b54befdb266ce47f9703c64a21565fdf2df01e15f4ae8f8b3ca71391223",

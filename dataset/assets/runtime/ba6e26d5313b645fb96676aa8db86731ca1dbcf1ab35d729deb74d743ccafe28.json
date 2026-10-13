@@ -1,0 +1,299 @@
+{
+  "application": "network",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "edge-proxy",
+        "port": 443,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-TLS-001",
+        "dynast:network:NET-TLS-002"
+      ],
+      "kind": "net",
+      "operation_id": "net.edge-proxy-443"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "edge-proxy",
+        "port": 80,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-HTTP-001",
+        "dynast:network:NET-STATUS-001",
+        "dynast:network:NET-SEG-001",
+        "dynast:network:NET-HEADERS-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.edge-proxy-80"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "edge-bastion",
+        "port": 22,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-SSH-001",
+        "dynast:network:NET-SSH-002",
+        "dynast:network:NET-SSH-003",
+        "dynast:network:NET-CRED-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.edge-bastion-22"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "edge-ftp",
+        "port": 21,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-FTP-001",
+        "dynast:network:NET-FTP-002"
+      ],
+      "kind": "net",
+      "operation_id": "net.edge-ftp-21"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "edge-mail",
+        "port": 25,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-SMTP-001",
+        "dynast:network:NET-SMTP-002"
+      ],
+      "kind": "net",
+      "operation_id": "net.edge-mail-25"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "app-web",
+        "port": 31337,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-ROGUE-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.app-web-31337"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "app-legacy",
+        "port": 23,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-TELNET-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.app-legacy-23"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "app-legacy",
+        "port": 8000,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-LEGACY-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.app-legacy-8000"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "data-postgres",
+        "port": 5432,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-PG-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.data-postgres-5432"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "data-redis",
+        "port": 6379,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-REDIS-001",
+        "dynast:network:NET-SEG-002",
+        "dynast:network:NET-MARKER-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.data-redis-6379"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "data-mongo",
+        "port": 27017,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-MONGO-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.data-mongo-27017"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "data-elastic",
+        "port": 9200,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-ELASTIC-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.data-elastic-9200"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "data-memcached",
+        "port": 11211,
+        "proto": "udp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-MEMC-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.data-memcached-11211"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "mgmt-jenkins",
+        "port": 8080,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-JENKINS-001",
+        "dynast:network:NET-SEG-003"
+      ],
+      "kind": "net",
+      "operation_id": "net.mgmt-jenkins-8080"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "mgmt-grafana",
+        "port": 3000,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-GRAFANA-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.mgmt-grafana-3000"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "mgmt-rabbitmq",
+        "port": 15672,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-RABBIT-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.mgmt-rabbitmq-15672"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "mgmt-phpmyadmin",
+        "port": 8081,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-PMA-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.mgmt-phpmyadmin-8081"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "mgmt-minio",
+        "port": 9000,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-MINIO-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.mgmt-minio-9000"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "mgmt-snmp",
+        "port": 161,
+        "proto": "udp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-SNMP-001"
+      ],
+      "kind": "net",
+      "operation_id": "net.mgmt-snmp-161"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "host": "edge-ftp",
+        "port": 30000,
+        "proto": "tcp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:network:NET-FTP-003"
+      ],
+      "kind": "net",
+      "operation_id": "net.edge-ftp-30000"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

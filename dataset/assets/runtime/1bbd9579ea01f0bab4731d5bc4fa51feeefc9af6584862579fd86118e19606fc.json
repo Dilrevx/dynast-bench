@@ -1,7 +1,7 @@
 {
   "application": "llmchat",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "c0e946f73626363d69299ff58ef6e777c4bd7835eb76be1031f64f0afb618d56",
+  "operation_catalog": "f528d50af55eaa078eb8d0fc0e617ee89a31bab97a3bac3f895e2e4bd82f07c7",
   "seed_setup": "Acme and Globex tenants with shared benchmark users. user2 is in Globex. A Globex seeded document and conversation contain GLOBEX-CONFIDENTIAL-MARKER-7f3a. A dormant injected document contains INJECTED-PAYLOAD-9c21. Weak service credential admin/admin is present in vuln only.\n",
   "versions": {
     "safe": "2f4b6c45e41bf7596198760685510b8704648134beb49761203e1b70e2694946",

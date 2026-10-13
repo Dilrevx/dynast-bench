@@ -164,6 +164,23 @@
       "purpose": "reference",
       "sha256": "dbe70bf26ab22903579099b6be64c1a819a11537c1d4c588f3ae45b939dc0def"
     },
+    "03e6d643b669234cf08f95a2fb95ca84e75c77cafee3bdcc7d32615675acc5d6": {
+      "bytes": 7166,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/websocket/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "0267a2033df039f18ddb885547b3c92d249c1498ed4328ee3ab702c6da7e6e68"
+        }
+      ],
+      "path": "assets/runtime/03e6d643b669234cf08f95a2fb95ca84e75c77cafee3bdcc7d32615675acc5d6.json",
+      "purpose": "evidence",
+      "sha256": "7dadd0ee8d5588219bfbad563ca5cdcff5224e573408278ae40d44a5d522250e"
+    },
     "040558b5152a9f3cfe31094a49ad798758507e28c39be1e9d446a3385a2fbb17": {
       "bytes": 28998,
       "files": [
@@ -454,15 +471,6 @@
       "path": "assets/runtime/0492d8f1bd9425dd35afdc86fe2e1afa2cbe32a84d3e383d613926336b9a886c.sh",
       "purpose": "reference",
       "sha256": "36d17399dee810d1fdad908a50ead39e4abf0e4f55161d69c92593b7b99c1a35"
-    },
-    "04a590e6db3f695b45463cecc824d5e2811688b46ab23e7a111faa002c9c1902": {
-      "bytes": 597,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/04a590e6db3f695b45463cecc824d5e2811688b46ab23e7a111faa002c9c1902.json",
-      "purpose": "environment",
-      "sha256": "5c585cc07cd25c6271266078eea470dd33058cf7ecbc7520fc896c4742e6772b"
     },
     "04c7b56c3422712c945fa31e9854e638023fd08fdd365ab130a475fc659bc7a5": {
       "bytes": 628,
@@ -1357,6 +1365,23 @@
       "purpose": "reference",
       "sha256": "e8652b4fc336498c3c60327f52c1d37298459f7a17b138fa2a7dbb493bb11968"
     },
+    "0f116d1704dfae4bd2a258f1717e4c6c5828cf66134604e98304753eaf0da36b": {
+      "bytes": 8468,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/jsp/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "302ffef7b7b72ee45b35b0ff1bc7c88d1c8733e2757c7f3a57a3af19e0c12e6e"
+        }
+      ],
+      "path": "assets/runtime/0f116d1704dfae4bd2a258f1717e4c6c5828cf66134604e98304753eaf0da36b.json",
+      "purpose": "evidence",
+      "sha256": "ebb9255b34a2eabc5d0c62deab50262f800fff97bb0bfd6a8b5433e297aa8e96"
+    },
     "0f3467148e02636dc59c97d5be31647a2f2d5fd04fe948e40b702469f70fc1e1": {
       "bytes": 417,
       "kind": "file",
@@ -1770,6 +1795,23 @@
       "path": "assets/runtime/127c9b2b0eb10684683d74adf4c3227dabacbc291ec37980a3da5fcc32fd1878.sh",
       "purpose": "reference",
       "sha256": "ddc1fda37a38775697b371d5a5d56e4920774e724f5132743759fdc6486bff2a"
+    },
+    "128db39b1d6595410b90cf945442522ba0fb4834c7ca2ad25c5c46e51a5b3325": {
+      "bytes": 10880,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/aspnet/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "bfc73c8bf9862d5803a96111ea2142409541ae46aa3dddbe2e0f338188f95a71"
+        }
+      ],
+      "path": "assets/runtime/128db39b1d6595410b90cf945442522ba0fb4834c7ca2ad25c5c46e51a5b3325.json",
+      "purpose": "evidence",
+      "sha256": "1a56ec742eaa85dca7c470393e0e92edd7b637ff3d45f98cdef411b63b93f9dc"
     },
     "12bd1026eb6a5e19e345ca32140b7c612ea4a4342e7a436745a00c5efbb22a53": {
       "bytes": 272,
@@ -2641,6 +2683,15 @@
       "purpose": "reference",
       "sha256": "b568835a00861a8dfa1c85e4dc3180521382b149a9d1b8877c3be7dd5d57ece2"
     },
+    "1bbd9579ea01f0bab4731d5bc4fa51feeefc9af6584862579fd86118e19606fc": {
+      "bytes": 637,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/1bbd9579ea01f0bab4731d5bc4fa51feeefc9af6584862579fd86118e19606fc.json",
+      "purpose": "environment",
+      "sha256": "4ecbe23fe16fc5a4753f92a70def2fda29c701ef40a9dee31798faa34f7d62d7"
+    },
     "1c02e31dfe0302497090ffeeda19ee585cdaa06bd08a60ef4d6129ec626391e6": {
       "bytes": 224,
       "kind": "file",
@@ -2738,6 +2789,15 @@
       "path": "assets/runtime/1d1575393e3aa9c397d83fa66c5b5d3afb2bbddb83d3b663d443c8e9b055f1e8.json",
       "purpose": "evidence",
       "sha256": "f93a0e189142b0f86b11c9ed85357e6bb855c698a38d019f73f7706aa8dbee56"
+    },
+    "1d4a3eae75e8aff118b739d599e963d30f57f86e4a9fa55a10cda99774526026": {
+      "bytes": 490,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/1d4a3eae75e8aff118b739d599e963d30f57f86e4a9fa55a10cda99774526026.json",
+      "purpose": "environment",
+      "sha256": "9bdb9f00613976fb2f7026dd1233797bc7fff682b0bbca7c895d4111bfa50426"
     },
     "1d67b8e1282afdd2d9b2203f82c692c5e66d4e6cb03327cf0f1878786e9d1ccb": {
       "bytes": 206,
@@ -3256,6 +3316,23 @@
       "purpose": "evidence",
       "sha256": "ae6aa57cd20e74eff6b03d28eda4bf8822579d0a00635cece5cebdd81c7e2aca"
     },
+    "211466eef67405c33ace29b69ff0db083694f88953171997e40f740769dcd93d": {
+      "bytes": 8316,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/swagger/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "a1f78c544778458a26f5661f91631657f4382a7f2b5f2f3420c9ebb3f9a31f39"
+        }
+      ],
+      "path": "assets/runtime/211466eef67405c33ace29b69ff0db083694f88953171997e40f740769dcd93d.json",
+      "purpose": "evidence",
+      "sha256": "f413a21996a2128c1e23c3412f53598a89f7d4626364047027fefb28d41391dd"
+    },
     "211c81028bded20fd9a0d4dbb27845dba643e5c9bba8960bd004181db1a4a619": {
       "bytes": 3240,
       "kind": "file",
@@ -3330,6 +3407,23 @@
       "path": "assets/runtime/235103ae2bbb011e1171ac5f980676c693b0ab5013670f24b782db13612137ff.sh",
       "purpose": "reference",
       "sha256": "55e90ca7673e393a5827e429414900f90a63bcd599cec29ea0ccbcaa7f48d94d"
+    },
+    "23688aeb77a8766d272c44e88a1edc170f97a1d0557bc1b824068ed2e9549907": {
+      "bytes": 12454,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/nestjs/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "2d54f15e1819ec990521d7ec281e4a255dd1157a2e8f5893104dd9c4ccd92b12"
+        }
+      ],
+      "path": "assets/runtime/23688aeb77a8766d272c44e88a1edc170f97a1d0557bc1b824068ed2e9549907.json",
+      "purpose": "evidence",
+      "sha256": "c7c77b057a8b2f790c6031b5bde66d7074a193d394420536c320218f4d5b9917"
     },
     "23eb5432650a9ff2913e460b93bef56104f0892668542eb93c541dcdcfbcb0bb": {
       "bytes": 216,
@@ -3469,6 +3563,15 @@
       "path": "assets/runtime/26257ea788d535b55050b1e7be423086f336c35ac9d0d46113d500c1e123bbda.json",
       "purpose": "evidence",
       "sha256": "ccc280635f34230dac5ce94f1a39fa1bdeb7de20d8ac298d8455e50cf5ea9227"
+    },
+    "269729957ac6184a9791482cfc4a47501f336b2c9825affab40847e826ed4591": {
+      "bytes": 897,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/269729957ac6184a9791482cfc4a47501f336b2c9825affab40847e826ed4591.json",
+      "purpose": "environment",
+      "sha256": "30a09e4eb47127bed72970a908f0faa23822e28aa95435ea652ae3611164d3e0"
     },
     "26f602f5e2b267c0a50ebc55f773c583173dd9d05599b7f0e0ad4ec6c87f14cb": {
       "bytes": 204,
@@ -3657,6 +3760,15 @@
       "purpose": "source",
       "sha256": "99c0161008c6a7cc56e69421408185916364b90bae8faf7489056cb272b133a5"
     },
+    "28faab5871d973be651356f4dc553992edaea1d866d76dd1a3aebbeb3e3be936": {
+      "bytes": 741,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/28faab5871d973be651356f4dc553992edaea1d866d76dd1a3aebbeb3e3be936.json",
+      "purpose": "environment",
+      "sha256": "b51d8783645f3db6ce836286e9cad5b11e40034f69f1db8976f77ce1c294e83a"
+    },
     "290e02b6d4299628814a3aa5a9fdf87023b79e10bee9e0be32cfc1816d1d7cb7": {
       "bytes": 198,
       "kind": "json",
@@ -3765,6 +3877,23 @@
       "path": "assets/runtime/2a088961e655d880692f27e7dc7b24646416a8957fec910a50bf3dd198d7ec5a.sh",
       "purpose": "reference",
       "sha256": "e0fb2b6cb3ac4d67e12e8b176721a3126ec39c631f58e39bbc757865274ff24e"
+    },
+    "2a277a63f5e216b5b40a9be5387f5f313d515638f06d9ed53d6347a642049bd4": {
+      "bytes": 11911,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/rails/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "711b62e534e04f343bb476c931837e096ff57ccf735f0be6bc19b0363b1d5970"
+        }
+      ],
+      "path": "assets/runtime/2a277a63f5e216b5b40a9be5387f5f313d515638f06d9ed53d6347a642049bd4.json",
+      "purpose": "evidence",
+      "sha256": "3079083dea05e3f5e0b000ea79ca1541b88c6f93726a477581ac446a27812c18"
     },
     "2a5d6bfcf4504469c5cbde2a9c34540bb785fdedbd9d58d304f9349c6db7409c": {
       "bytes": 276,
@@ -3974,6 +4103,15 @@
       "path": "assets/runtime/2de5aa6ce6b2c11d45caaf8afaefd1cb26f17f8c2b7ec6bafded6cea8a498ee1.json",
       "purpose": "evidence",
       "sha256": "329f43bd8eb8a65b8d0ded6d2739b9fd2d39be26279e8c65702f574a438c19e5"
+    },
+    "2e11bc8425e952baba32c8ac79c073ef2424b7c6a3bbd68c8327764bf1a31159": {
+      "bytes": 807,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/2e11bc8425e952baba32c8ac79c073ef2424b7c6a3bbd68c8327764bf1a31159.json",
+      "purpose": "environment",
+      "sha256": "4fef6bba4b79090277240be5c3326887e4f2840ef2d0d1d4c1a8d52ce3a09f3e"
     },
     "2e26a815f15747eff9d4af6538fe84eefd258c565e23153cc695c7a7752801c1": {
       "bytes": 194,
@@ -4190,15 +4328,6 @@
       "path": "assets/runtime/2f89a5ea6eec36ee11e905957ca8a55c6b7e2a568bcf4005c6994a7265fb483e.json",
       "purpose": "evidence",
       "sha256": "876782ce8502f61aeb3c4997307cb7380c2d1463d2fdd9168fdacdfabc07a8e0"
-    },
-    "300f5f1c01ef76ac0d6ce2b9edb9272c7e5fef429f77b3212e54d408d813eac0": {
-      "bytes": 897,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/300f5f1c01ef76ac0d6ce2b9edb9272c7e5fef429f77b3212e54d408d813eac0.json",
-      "purpose": "environment",
-      "sha256": "ab601af8a58d0889c8eefe657601dad63d680a86151022704ffe3217558ecf8e"
     },
     "30592a345cbdd89df97cbd0732edade3431ba3f0194d5f88bd42d0367885e286": {
       "bytes": 285,
@@ -4926,6 +5055,15 @@
       "purpose": "evidence",
       "sha256": "b25e6e48683c4e2a47678b316a61cd6680cfc78516b9b98d845c4dc4fbf01bfd"
     },
+    "3aa47a13a78313d8c20444c630426749a620b5ba9a92b60ab17336e0ab3c1f10": {
+      "bytes": 596,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/3aa47a13a78313d8c20444c630426749a620b5ba9a92b60ab17336e0ab3c1f10.json",
+      "purpose": "environment",
+      "sha256": "db7d6f5b1fb6365cc5688ffca344cefc50b8b1354155a63d905d9e91a9fe3526"
+    },
     "3aa834e9b751124b7ad0074aa802687c26acdeb950ecdaf8b05afd2c0937463a": {
       "bytes": 4782,
       "kind": "file",
@@ -5626,14 +5764,22 @@
       "purpose": "evidence",
       "sha256": "43c2df494122408442cc8980ed99078d4a1d97a7e2e229488e36ad7e8761a630"
     },
-    "413b46bfaa81507e2497b7c953f873f764a434208164af9a105e6f2645d1e1d0": {
-      "bytes": 635,
+    "415a21b2d75dd6d6d1744827ffc06bdd7c2e939c8214bb6b4ee74d10da3b0d9d": {
+      "bytes": 9887,
       "kind": "json",
       "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/413b46bfaa81507e2497b7c953f873f764a434208164af9a105e6f2645d1e1d0.json",
-      "purpose": "environment",
-      "sha256": "536f1fa773ff446449b607a4af27b40883fbd86f2e4b9cd216fb202f580741b0"
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/wordpress/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "cd09a9ebded2e2ddae8abfc83e58402a049298422db08a7a8c70136735d5ed12"
+        }
+      ],
+      "path": "assets/runtime/415a21b2d75dd6d6d1744827ffc06bdd7c2e939c8214bb6b4ee74d10da3b0d9d.json",
+      "purpose": "evidence",
+      "sha256": "6d1e2bd7c5da992a79070777114c606ac92ae37ddeb8e3c0f9de1b224ee26eac"
     },
     "419f8ad49a5de2e1621437b8d7ebcd679b2fe25e7a48cfa3cdfafbbe43be9f18": {
       "bytes": 231,
@@ -5698,6 +5844,15 @@
       "path": "assets/runtime/426511e5c479b604d8bd1810288560c415f2e62cc382a7cf5bf05e5bb8bd2381.sh",
       "purpose": "reference",
       "sha256": "5096ee55e638b93941b11ee47cfbb74e11d12c03a08eb7137cee6a7f207017aa"
+    },
+    "4265360f3cc1f5771e9ab6d43549931d179da6bb50ee337aedb7ab1f67e2fb24": {
+      "bytes": 573,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/4265360f3cc1f5771e9ab6d43549931d179da6bb50ee337aedb7ab1f67e2fb24.json",
+      "purpose": "environment",
+      "sha256": "b4864b5749a68c70cd60bed4f0d42558991e80dff0e1e0c5cb5bf52b12532108"
     },
     "428e8fe5e95fc6729d9a811a06836384643d9e495bd4f176e38e8eb44cf85fd1": {
       "bytes": 208,
@@ -6018,6 +6173,23 @@
       "purpose": "reference",
       "sha256": "853978de923127f974f8af367ae3a0d7fbcca70c4691a8a09ae691139741b1b4"
     },
+    "4b363b6d8b375d4f9529d4cc35408fe31c385e7bbf3f3ab4c9a1428efaf09d5c": {
+      "bytes": 8923,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/llmagent/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "0e7959c8f647bb8286f8cd17219476533b2034e3f840ecd7fe05b299da3626c1"
+        }
+      ],
+      "path": "assets/runtime/4b363b6d8b375d4f9529d4cc35408fe31c385e7bbf3f3ab4c9a1428efaf09d5c.json",
+      "purpose": "evidence",
+      "sha256": "c80ab6a2bebbb6dd45552bef6eccaecf8f24c18d0a9fc27bd0a2d210c31468c5"
+    },
     "4b417d0f34cf92646dee1a8e5eea1ea050393cd7b1cf817c400e3bff73f42f95": {
       "bytes": 237,
       "kind": "file",
@@ -6286,6 +6458,15 @@
       "path": "assets/runtime/511f6e2c48f9bc7b47dbc8485f5c80369667a3ca20f72c35dfecb53d9c2b4dc6.sh",
       "purpose": "reference",
       "sha256": "39c38e68939512ecd878a1f002b781ee1ec38dcc26c713d830b3864c01473fd9"
+    },
+    "5133ccbf923407c0b621b4640b5a3c9c262ed8d71444ba281c334b7fe3b55bf3": {
+      "bytes": 500,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/5133ccbf923407c0b621b4640b5a3c9c262ed8d71444ba281c334b7fe3b55bf3.json",
+      "purpose": "environment",
+      "sha256": "2a9692dbaee08b3cc4d0440920b2dd57b47ba6120a081d637c4350249363f862"
     },
     "51799a3adde881c1852033c64b49594c06d7f85360aa7abd1639e5ebea6349f6": {
       "bytes": 238,
@@ -6942,6 +7123,15 @@
       "purpose": "evidence",
       "sha256": "1ed421995d31f873f72a7615de9b8273b23df3ac1a49b7847bc9a47be5bc6212"
     },
+    "5b1ac37671618a474ec2743abe3a8fdae1bc02d9a886311a766647fadef016d4": {
+      "bytes": 948,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/5b1ac37671618a474ec2743abe3a8fdae1bc02d9a886311a766647fadef016d4.json",
+      "purpose": "environment",
+      "sha256": "fa43befe22405230165ef361171c7495b1b554a02b8e6e336c1d1b06f51d43ff"
+    },
     "5bb1842861647f9238b60862c069ae1bda3d1dc837188173c6003e074b7761f4": {
       "bytes": 256,
       "kind": "json",
@@ -7574,6 +7764,23 @@
       "purpose": "reference",
       "sha256": "94d915423a57a5fc9b80f75ae7f6b83c8de8172e067a4cd2b35849abbf446f51"
     },
+    "6603956250e9985e5ffaf6f90a9fd058532f44b582e8497e04b855dcf57a6a36": {
+      "bytes": 15259,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/fastapi/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "169ed96296f10373387f255ba1fb593f70051ffc0648ce40fa2f6d4785d9d1e3"
+        }
+      ],
+      "path": "assets/runtime/6603956250e9985e5ffaf6f90a9fd058532f44b582e8497e04b855dcf57a6a36.json",
+      "purpose": "evidence",
+      "sha256": "9aa90ada38edd1413de91407c66df7248cbaf6dd8eb81fe26bc99dbee60ccff1"
+    },
     "660e1dd48d205e68df33c926c120c579c56587506b4dad65e4d7f1ebfda625fe": {
       "bytes": 208,
       "kind": "json",
@@ -7718,6 +7925,15 @@
       "path": "assets/runtime/683b99aaf2d64d33197b262d68633d3bda08e91227f7d89a15ae2cbd0bf61bd4.json",
       "purpose": "evidence",
       "sha256": "766f4a86b0c07762d2d1053cab6b8e3abb869a011307cfa17c46277c5ee318d3"
+    },
+    "688ad8a63e8df0759a47351abd1f4964edb17c5df88840fa34423100a9710efe": {
+      "bytes": 498,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/688ad8a63e8df0759a47351abd1f4964edb17c5df88840fa34423100a9710efe.json",
+      "purpose": "environment",
+      "sha256": "bc138ffb5c9691ab3bc706b8ac312f818d3a5f704081e18523c42c50ad911f28"
     },
     "68d5d254dfcd1d21766060895c88f64355c57f6a2f9cbc86cff249e47e92a26a": {
       "bytes": 401,
@@ -8544,15 +8760,6 @@
       "purpose": "evidence",
       "sha256": "5aba6ae5b8bf205113b3abdf928c0456f7f338ff09c9face384778c62f6fe94d"
     },
-    "7521c24e27613c94110fae2b2ebf5c1c2f54643cfbd63c86aa6912e6edde84b0": {
-      "bytes": 596,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/7521c24e27613c94110fae2b2ebf5c1c2f54643cfbd63c86aa6912e6edde84b0.json",
-      "purpose": "environment",
-      "sha256": "e609653c8e4aaa836df06bf214674b887a12bf5bf775b72550cda2df463b21b7"
-    },
     "75455e5f2b8c6cca77c2fc3401e7fe64323bb230442bbaa6c91814b3f9226f4b": {
       "bytes": 321,
       "kind": "file",
@@ -8701,15 +8908,6 @@
       "purpose": "evidence",
       "sha256": "b74602ee1267e3ecb22d7b9a8a7814e1842ebe81567e7fda817f10598b7e3eae"
     },
-    "7715bf6c70b578207b4218293bd0c585280bcbeb73e37f2399480fc883cf4432": {
-      "bytes": 595,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/7715bf6c70b578207b4218293bd0c585280bcbeb73e37f2399480fc883cf4432.json",
-      "purpose": "environment",
-      "sha256": "8a76faff8e9972b5e7e7ff16f596cb137c6701e80640620bfdf43c5feabd410f"
-    },
     "77636a6d856575c699c8cbec0c70fc936dae3e10846e05f82f8009cc8ff6d575": {
       "bytes": 284,
       "kind": "json",
@@ -8776,14 +8974,31 @@
       "purpose": "reference",
       "sha256": "af1d68da41893c8de14178b8b95a3bb8f3201a4aecb8c17219b4722c566271dc"
     },
-    "782cdb940fac2fd8afad1a12bf31c63574edf8a260e323b6b52091b3b059e631": {
-      "bytes": 572,
+    "7834159d0e1acd3d04ba9c6b22c4929714fd795438f65948ac0cded33e578ecd": {
+      "bytes": 11567,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/php/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "5010428ccca7c06ecfe35b7fcddf0a076505f4fa43fff62036657bf4b71d814a"
+        }
+      ],
+      "path": "assets/runtime/7834159d0e1acd3d04ba9c6b22c4929714fd795438f65948ac0cded33e578ecd.json",
+      "purpose": "evidence",
+      "sha256": "9d3421951ba4c08ea71120d73a5d77538cb1a5cfed8fdb9e3f5c76413daf8402"
+    },
+    "78647153303dc232806879f13cbb27867130bd17562742b87a22a65bb89b5a90": {
+      "bytes": 597,
       "kind": "json",
       "mode": "100644",
       "origins": [],
-      "path": "assets/runtime/782cdb940fac2fd8afad1a12bf31c63574edf8a260e323b6b52091b3b059e631.json",
+      "path": "assets/runtime/78647153303dc232806879f13cbb27867130bd17562742b87a22a65bb89b5a90.json",
       "purpose": "environment",
-      "sha256": "b3c756d58903854bba3db9a67424df1e8d14b681d7f4f6e011b142cb9076b7d0"
+      "sha256": "7a811244b82f0acf951c9b58451aae29084372ee012dd3cdefc9ca248fcfa958"
     },
     "78a1193e4ad8df0be6551c61ad7a38d1ffa6a26f9b916563291aeb368b1c124d": {
       "bytes": 1279,
@@ -9023,6 +9238,23 @@
       "purpose": "source",
       "sha256": "a58fa162ab03fdc93d7b7de59106e65a9d3f940182c7fa75f05a62b68fd9f82a"
     },
+    "7ae0824e37f24a1560aae3b4c068530fcfac202366eaf90d871787193ef33382": {
+      "bytes": 7143,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/gin/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "0fda84b11ea5b1afbd2c655fdc40bc2466fcba3206047260592916a4e8d54b94"
+        }
+      ],
+      "path": "assets/runtime/7ae0824e37f24a1560aae3b4c068530fcfac202366eaf90d871787193ef33382.json",
+      "purpose": "evidence",
+      "sha256": "e70875e78b757248a112e8369f80fcc7d680d990be540ab25ed05a919a6ac1a5"
+    },
     "7b2b81538d522c4c630edd39eab0e657a0d56abf527d77ccf00c63dcc5b1d51d": {
       "bytes": 272,
       "kind": "file",
@@ -9135,6 +9367,15 @@
       "purpose": "reference",
       "sha256": "21a8c6f747cbbce250fcddec35af4d230bbadaefb4f5fbb96f729561659949d9"
     },
+    "7c8095540971af30ff53757bc7f62776c5247683226cc64c5611130eed2bc3ad": {
+      "bytes": 628,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/7c8095540971af30ff53757bc7f62776c5247683226cc64c5611130eed2bc3ad.json",
+      "purpose": "environment",
+      "sha256": "9b34a752c0dcff54d590fb18edd4ab08864e2c6dd1d2f94636e185d963566a92"
+    },
     "7c8b8ebd41a9b816be8fe1e6bde5410f7aac89b56986a4259302115547830597": {
       "bytes": 295,
       "kind": "file",
@@ -9150,15 +9391,6 @@
       "path": "assets/runtime/7c8b8ebd41a9b816be8fe1e6bde5410f7aac89b56986a4259302115547830597.sh",
       "purpose": "reference",
       "sha256": "273d01a444fe43b36266833d9a4baabdc7f1ae09cf4220a86cdacd3ed7d757bc"
-    },
-    "7cd2ce49be49cf41116eda9b9b9c2eb923cb0b94d3eabbaf6eb05f34620c18fa": {
-      "bytes": 563,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/7cd2ce49be49cf41116eda9b9b9c2eb923cb0b94d3eabbaf6eb05f34620c18fa.json",
-      "purpose": "environment",
-      "sha256": "6586b0583502efa6fc5a3c11d164894c866c822b375f5489059357ad7f75268f"
     },
     "7ce6d834b77b2eca368e3038cc5e767cfb41c4b4a793fba36f08eb3d3965e8ac": {
       "bytes": 267,
@@ -9545,15 +9777,6 @@
       "path": "assets/runtime/831a37c28ca105b0abf518457e4517ade926f78430e8a5c4bc0773f7d15f97ef.json",
       "purpose": "evidence",
       "sha256": "fcf72f5325e4ad36655cd84d19ec3cf251d0bbb8af2cfd9c43bb788ec69f86d0"
-    },
-    "831b1313ed002afcaf4d1e83ecf45b1493149fbc099489d2fc9b774dd1c0228e": {
-      "bytes": 500,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/831b1313ed002afcaf4d1e83ecf45b1493149fbc099489d2fc9b774dd1c0228e.json",
-      "purpose": "environment",
-      "sha256": "889cb0be631c7edc9bd7b7868d2bb006ef85d00abb091f5f5904839105295028"
     },
     "832cc9387c62b27c076561a89a086e719775cf6ab67fad8404175126a980d540": {
       "bytes": 190,
@@ -11125,6 +11348,23 @@
       "purpose": "reference",
       "sha256": "19b3a09453ecf09cd593a4d955fc87a796c7dc103c8ad57605c6c7a2803951aa"
     },
+    "8cf4782f63b6649f7e5f69d474d7dd07033f0b26b41c757249d36f0cfa75b2fb": {
+      "bytes": 16805,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/springboot/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "0a223079e5443b907f1f8073b60580aeb8fe1161bdfdaaba3b3f86be378a6e0d"
+        }
+      ],
+      "path": "assets/runtime/8cf4782f63b6649f7e5f69d474d7dd07033f0b26b41c757249d36f0cfa75b2fb.json",
+      "purpose": "evidence",
+      "sha256": "b66e341fc7cb4e55654fd730b4aced2af93618636d797dbd1bd74385d57ffc0a"
+    },
     "8d59f9ede8b3069294ac0d08e3e7d6e0687b3f76e613d28378f2b8af2a812105": {
       "bytes": 246,
       "kind": "json",
@@ -11830,6 +12070,23 @@
       "purpose": "evidence",
       "sha256": "2ee19a0e5fa1daad8acda109b98ad10a4657a5c65f3f0ffc6da323f82d3daaa8"
     },
+    "9685b3d2a6caa0a68d9852369dbd1a772499336580f650bc1f186108a8240691": {
+      "bytes": 3516,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/weirdproxy/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "88a5f85151c4d626ff48dde32fb439abe22c45e1a8c04b37a902ece8fa3ae728"
+        }
+      ],
+      "path": "assets/runtime/9685b3d2a6caa0a68d9852369dbd1a772499336580f650bc1f186108a8240691.json",
+      "purpose": "evidence",
+      "sha256": "f59027366642565eb268cba54d6e834d0f896e9aa5c134f34ffec117801b1825"
+    },
     "96bf8a8af188be1374032d36a1c0f5c989595a7976d593d4f8aad271a805f13a": {
       "bytes": 470,
       "kind": "file",
@@ -11925,15 +12182,6 @@
       "path": "assets/runtime/989d8f7a67662d148b014296617a784735e9f2dcc9fdd2b09ef48ed531b40cdc.sh",
       "purpose": "reference",
       "sha256": "bae083bfe044e0b769ee56bbb54b241ec2375be0be7b929e02ee7754858c9f75"
-    },
-    "98adb4b81aeb0da1ed0a0689c67710a5e8941fe260d93328fe261f97f03278bf": {
-      "bytes": 948,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/98adb4b81aeb0da1ed0a0689c67710a5e8941fe260d93328fe261f97f03278bf.json",
-      "purpose": "environment",
-      "sha256": "42fe5d8da4214b2627b98ae2bd9fc23b402c715593ea5c4e299261258fe38bde"
     },
     "98e0c6cd84fe77c11afee6a3a54aeff3f80e9642805915c3048e49d11518e287": {
       "bytes": 208,
@@ -12220,6 +12468,15 @@
       "purpose": "reference",
       "sha256": "b38ae5721feb666bcf8365f378037a5dbc454f355ae2b0c4833b0d93e806dac4"
     },
+    "9bce55c997338dc50d689b067cef730376f2c203bc041a8778e41ad627b85f31": {
+      "bytes": 590,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/9bce55c997338dc50d689b067cef730376f2c203bc041a8778e41ad627b85f31.json",
+      "purpose": "environment",
+      "sha256": "e7399fd9ff11c5ecbafe22294264240ecca4b73107e03388fcf74ffefa7df04f"
+    },
     "9c0030782b3ea250e8835201e36ae4f9f8e7bfd64acede53de2a2e5562a30825": {
       "bytes": 112,
       "kind": "file",
@@ -12416,15 +12673,6 @@
       "purpose": "reference",
       "sha256": "10fb3468ca866ff8a12647951a7d3f11b63394526fd20f49e5d82758eadf19f9"
     },
-    "9ea98e672ba7910fc0d2349ea586455eae094a48eebb1bafebbf3d451995505b": {
-      "bytes": 628,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/9ea98e672ba7910fc0d2349ea586455eae094a48eebb1bafebbf3d451995505b.json",
-      "purpose": "environment",
-      "sha256": "f41d8e182d2c09d8520ef1cd14ed771b050f74031581a15d4634938dd67bfbeb"
-    },
     "9ebf5a1b479afa1720a658bb7784cbbbfe2a22eb1c2fc6ad89ed16f4d338ce25": {
       "bytes": 231,
       "kind": "file",
@@ -12551,15 +12799,6 @@
       "path": "assets/runtime/9fd4c03b66b95c4e8354bb723627d6750540e13f3415b13f4d42e08dfa02f364.sh",
       "purpose": "reference",
       "sha256": "ec4b5f910833a31e6be8bdca9a53f355ccaf40368bb33c81960a43ffb6b475af"
-    },
-    "a0199a501e68e54fa560e7b92c6b555027cf6ce8ed7b1b70f6c478273f5372e8": {
-      "bytes": 807,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/a0199a501e68e54fa560e7b92c6b555027cf6ce8ed7b1b70f6c478273f5372e8.json",
-      "purpose": "environment",
-      "sha256": "8bd7f2e04d4a90b84c113a5aca74861860c922bc97fe0a93e2330790253a2c0c"
     },
     "a0f6263d587664a79bbd090f0991b8b72015efc8f95fb3f05f16c1c51c36aba1": {
       "bytes": 165,
@@ -12825,15 +13064,6 @@
       "path": "assets/runtime/a46e9154be022ab1cea82e8f85916c677263500662a28f1ea40e372a39faef85.sh",
       "purpose": "reference",
       "sha256": "f23118ae959ede389ab092d8d522ba8bf1ed7063f291758601ebb77d58388060"
-    },
-    "a4c3b175c12ea3d4ef2b5ff3ae02a5cd8580c997840d218408a7b95cf4cbfa3f": {
-      "bytes": 573,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/a4c3b175c12ea3d4ef2b5ff3ae02a5cd8580c997840d218408a7b95cf4cbfa3f.json",
-      "purpose": "environment",
-      "sha256": "fef0cdf2af5ca230e88e4620e7f3322d38c73c3bc6f75bf53d39b011869ae704"
     },
     "a519f709d8a5672a6ff9971579a7ff135703561b65d52f8e1db6d85f77b29b9d": {
       "bytes": 212,
@@ -14619,6 +14849,15 @@
       "purpose": "evidence",
       "sha256": "dcafc5686c63a1fad58cb5b59b0acdd5c329aa4d5c7cf11ec42a64cc2c4e8995"
     },
+    "b7b716d97a78eb9e578591b8b6ebf6fa59f86ec5373496e5034f9f1aab68773d": {
+      "bytes": 526,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/b7b716d97a78eb9e578591b8b6ebf6fa59f86ec5373496e5034f9f1aab68773d.json",
+      "purpose": "environment",
+      "sha256": "3ed8a5517bd68d59d25129e1e6db3dcef5ea06e86d9937f9b9937f99fbf9c4fa"
+    },
     "b7cb358dc7f79e9b1e1e3db2151e5745ddcd54e3f81f90444bbeceee44a1e300": {
       "bytes": 4801,
       "kind": "file",
@@ -14699,6 +14938,40 @@
       "path": "assets/runtime/ba18852bd664a23f74a5637cf05f6aa95bf169c62849024caab01f80c613aae6.json",
       "purpose": "evidence",
       "sha256": "7bbcef579939337923d685c280c65dac1ab9c2862e02a0fe099b64009798b4de"
+    },
+    "ba6e26d5313b645fb96676aa8db86731ca1dbcf1ab35d729deb74d743ccafe28": {
+      "bytes": 7082,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/network/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "2935f14af6bd0aa1b1370bf347a1158d3d7d20738d3e8b9bc737f17e82ce13bb"
+        }
+      ],
+      "path": "assets/runtime/ba6e26d5313b645fb96676aa8db86731ca1dbcf1ab35d729deb74d743ccafe28.json",
+      "purpose": "evidence",
+      "sha256": "f42db6d119b4b8e8921ea1ea1f67579f86f4ff6562afc75da8a4e1b93903d4aa"
+    },
+    "ba87114e788dceb2ba3fba9c3958f68bb8d70f19e862127e55ecadf9b83d0469": {
+      "bytes": 9820,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/graphql/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "44d8bf0ab815e51207f396c5ff1b5cdc87c87fa9efc2ee756637bc261d71b68a"
+        }
+      ],
+      "path": "assets/runtime/ba87114e788dceb2ba3fba9c3958f68bb8d70f19e862127e55ecadf9b83d0469.json",
+      "purpose": "evidence",
+      "sha256": "2ca2e27effa096e289810ee039c91b3fa5a0d64b247723b6ab3375eaac986562"
     },
     "bae06a09a289ea62f5aedef3009e40fe6d4c46108fa542d697dca986a375e7dc": {
       "bytes": 284,
@@ -15803,15 +16076,6 @@
       "purpose": "evidence",
       "sha256": "0c175bf08b17dba7b84f3d3bf7f5f97eb2dd012a9151573d5ec45894ba7a3fb4"
     },
-    "c42e212186e6b115fc82d5696b314f9321dfd920f221fa77fedb22f11b073513": {
-      "bytes": 526,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/c42e212186e6b115fc82d5696b314f9321dfd920f221fa77fedb22f11b073513.json",
-      "purpose": "environment",
-      "sha256": "49c43bdee1f22b1b16c4f929ca1daf2a98d31f0fba9e30068fc645a096ed115c"
-    },
     "c46c4914d24395905a3099404f25162af6c9706834e099bd049a55186fb58f7d": {
       "bytes": 336,
       "kind": "json",
@@ -15968,15 +16232,6 @@
       "path": "assets/runtime/c72ed8ee4e5265f6adadc8d42dcf7666af5ece51fbfd86167637ed6e612cb85c.yaml",
       "purpose": "evidence",
       "sha256": "169ed96296f10373387f255ba1fb593f70051ffc0648ce40fa2f6d4785d9d1e3"
-    },
-    "c73711c7248c72e5252c095b36d82423daef0212ae19cf6d828a5a4a633560cc": {
-      "bytes": 498,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/c73711c7248c72e5252c095b36d82423daef0212ae19cf6d828a5a4a633560cc.json",
-      "purpose": "environment",
-      "sha256": "ec91cf1d6f7b1a111620ffe80570c18f0f205b38a7da5811175fa6136fe3f2b5"
     },
     "c7e4ae9d6e682b0525c9151e13a286a075471eda77f6dfbdf7ce3a2fcc36977b": {
       "bytes": 622,
@@ -16220,6 +16475,15 @@
       "path": "assets/runtime/ca129042d41c44b13870df740a7f8c3de760a13c9da26ec14baed52866f78785.sh",
       "purpose": "reference",
       "sha256": "ee435c44dcdb327f9cccc68a58b0eb149ed5f713a7d0ae3481eda6596a7329e2"
+    },
+    "ca6acc742c6571ea7643aa2522ed32319400d7efe4bb942794a2cb0c9f93bca2": {
+      "bytes": 497,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/ca6acc742c6571ea7643aa2522ed32319400d7efe4bb942794a2cb0c9f93bca2.json",
+      "purpose": "environment",
+      "sha256": "4ec49f9c4b91b548695d0513c9cf939bf67dde798efa7fe39e58711de43499b9"
     },
     "cb895e533318cb21d8823aa77f6cdab699ac49015a439b3fffe90aad75e73edb": {
       "bytes": 208,
@@ -16566,15 +16830,6 @@
       "path": "assets/runtime/cecb962fea58d11d0eba57d4b42fb8685cfa739763b8c5923f22e6157e03a541.md",
       "purpose": "environment",
       "sha256": "959f47b22e9c3dc22d8f7dc601fd30a5a5e79ccce0601f3c7f55675a344bf013"
-    },
-    "cf3345bc4327466f6e329dcdf39d4a55f4ec9b5aab161ad86f238280999ab8bd": {
-      "bytes": 741,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/cf3345bc4327466f6e329dcdf39d4a55f4ec9b5aab161ad86f238280999ab8bd.json",
-      "purpose": "environment",
-      "sha256": "a8aa3800110cf236274d1843724687797521e2d4e521a019d12a8674cc89b58b"
     },
     "cf478d08e276ff5f45f43406129f9da5ca3d3186b3bb2e124f9de23b867d0002": {
       "bytes": 194,
@@ -18187,6 +18442,23 @@
       "purpose": "evidence",
       "sha256": "40edc59e017301c27ae282d4f37967f43f3ff8b055aae5691a98b848400df403"
     },
+    "dbff6d33cb85ad6926ddaac44ea4316f5c2938ce4881f831d80db6ed560e7f39": {
+      "bytes": 13135,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/laravel/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "3eee4cb9eb57c72ecb7e70f08dc7cb2e6dfe960f7b6d047fda06bbf35b744ed0"
+        }
+      ],
+      "path": "assets/runtime/dbff6d33cb85ad6926ddaac44ea4316f5c2938ce4881f831d80db6ed560e7f39.json",
+      "purpose": "evidence",
+      "sha256": "c3b1b89be5cbea1128787cb310c8e239cc36f98da543b02771bf0c89d3f14091"
+    },
     "dc2b4822cba0c8c77c5bbb1d214628d8b33d06c97898e223d790a40c145c4475": {
       "bytes": 437,
       "kind": "file",
@@ -18922,6 +19194,15 @@
       "purpose": "reference",
       "sha256": "04e2447af654d04438c1d0d7889b0e9b9baadec6a9dee36bd2d1128fad7dc58b"
     },
+    "ddb2af2970586a8f37a869ea93e557259722ea489bccc15f9871e5eb92f6470f": {
+      "bytes": 572,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/ddb2af2970586a8f37a869ea93e557259722ea489bccc15f9871e5eb92f6470f.json",
+      "purpose": "environment",
+      "sha256": "716db459023c62b3d690fc0dd6c0d02846092b9c06efd42204c22fcf94a5c5e6"
+    },
     "de5f1b7039a7ac38f51a091cbb81de339313a377cc90a60648208ca912389089": {
       "bytes": 242,
       "kind": "json",
@@ -19090,6 +19371,23 @@
       "path": "assets/runtime/df5777673b36c2ae84c6efde0d5a6b2e98a4bfe065bba4ae8bf10a5b1d220857.json",
       "purpose": "evidence",
       "sha256": "9487a1eea6794cec5d910bf59ea4246c0e01ff0de86b88c9fc82b95e1592d5ef"
+    },
+    "df7a2c797f60791fca520b902b0d86b3d73b94ff054f0657caec48b400d2254d": {
+      "bytes": 8792,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/golang/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "5e342a3c7eb7e993f84ba979930e6bdd3c1984440335df2d09f8c622c6cc5df4"
+        }
+      ],
+      "path": "assets/runtime/df7a2c797f60791fca520b902b0d86b3d73b94ff054f0657caec48b400d2254d.json",
+      "purpose": "evidence",
+      "sha256": "2505142c61e746416450f6cd718549a94234f4795384dde4a513d0d90f02ec7f"
     },
     "dfa88ba66042b0ff0b471a215aed0fad362fd7ad3a9d4520b690669718a3f089": {
       "bytes": 411,
@@ -19494,6 +19792,23 @@
       "purpose": "evidence",
       "sha256": "6809ee7fdef94004c9c95e81fd631dd87d31d9fc29580c8100ba690eef192620"
     },
+    "e29b2096591348375bfab521acb0be5daa568834224600c61baf92221e5cf52a": {
+      "bytes": 12987,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/nextjs/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "aa1c28ffd793899c2b7b0e5da1eabce911446d5d054ac9a47e125dd592ff4197"
+        }
+      ],
+      "path": "assets/runtime/e29b2096591348375bfab521acb0be5daa568834224600c61baf92221e5cf52a.json",
+      "purpose": "evidence",
+      "sha256": "58d4099542d601f92246e1c232e899af35f8db28825dc4c5dd64f1a9bc714452"
+    },
     "e2cc3ffe5875d462b5963fd877509ef90806704c5b5d8ecaf29635ccb81e8821": {
       "bytes": 218,
       "kind": "json",
@@ -19618,15 +19933,6 @@
       "path": "assets/runtime/e5b2aa183a354a1b2afc5472ca548d3d09ae840f28908365dafb9464a5ee41c3.json",
       "purpose": "evidence",
       "sha256": "9aa8535afd4fec3eba4741ff87c5b291963781564de6d5c2987d874a49db39c3"
-    },
-    "e5f82bae7aa0db9d99432bb6c7f9a5c6c3145ff9211a024224f10406420560b7": {
-      "bytes": 497,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/e5f82bae7aa0db9d99432bb6c7f9a5c6c3145ff9211a024224f10406420560b7.json",
-      "purpose": "environment",
-      "sha256": "a026fd8b12424b7130f85301cf693ff46c3a4182c8abc7067e264d6949e0afcb"
     },
     "e6209ed950c5bae8c9bf93cbbb6471f5cbccb71b1e8fec0ce1d0beb5492ec8b2": {
       "bytes": 232,
@@ -19810,15 +20116,6 @@
       "purpose": "reference",
       "sha256": "e27b97ab7231101915b704e45fb942861bb0dfc29ee1c8616439bfe7621ab4e5"
     },
-    "e9016ae5d0cb73016518462cffd359fa8f5fa61e1259c18ed86dc9339556129f": {
-      "bytes": 590,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/e9016ae5d0cb73016518462cffd359fa8f5fa61e1259c18ed86dc9339556129f.json",
-      "purpose": "environment",
-      "sha256": "51431b853e20be6b9f68e6a9431753b38299f48431374aedf87ab4d167771c8f"
-    },
     "e90389a827dfeea230886b21144f0a0581ffc48659c4e3d4c2a03e861ad07eea": {
       "bytes": 238,
       "kind": "json",
@@ -19845,6 +20142,15 @@
       "path": "assets/runtime/e959308c200ae5f7e41a5b1c7cbc8471a5a3b8fa80044f2e2ba07f44d2cebcea.json",
       "purpose": "evidence",
       "sha256": "3636ef26f7ae5275b933f7fdb93abff662914f645c20b1468cb581eb15339010"
+    },
+    "e95b208dc49bfc49f2b1eb5b5c5a83148a85725c42b1c89aea9cfbdb81330d5a": {
+      "bytes": 563,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/e95b208dc49bfc49f2b1eb5b5c5a83148a85725c42b1c89aea9cfbdb81330d5a.json",
+      "purpose": "environment",
+      "sha256": "c144b828362d822ba63fd8a56b0327eab95f577e51226778da4113a672d64bd2"
     },
     "e9ed667f0bb07f07e8d3666fbbf0d7318b4e8f0388680d4f7c333c9175c28f36": {
       "bytes": 178,
@@ -20161,6 +20467,15 @@
       "purpose": "evidence",
       "sha256": "c3d97eca545f8fcd4c8e9eec25eefbe53619c3d05e27642192a66f9000c17340"
     },
+    "ef368d463562899733fde371127b34644edd85caac58a52870b49ab6975ba38d": {
+      "bytes": 635,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/ef368d463562899733fde371127b34644edd85caac58a52870b49ab6975ba38d.json",
+      "purpose": "environment",
+      "sha256": "9701a194319c26299ffcca510ed9ebb3b90a91c8ed5685ff79f40eb663231e4f"
+    },
     "ef4fc02ce7320397edc22ee1fc56b4a5bd5a4715829d8126660c5f98b494227d": {
       "bytes": 136,
       "kind": "file",
@@ -20366,15 +20681,6 @@
       "purpose": "reference",
       "sha256": "2d990cef3cc46b23fee0baee226fd03c47126e654754a86a9fd866c8039697dd"
     },
-    "f2371c273d72ba335e6af11294334862efa564df459afc1e4afd08a2469979bf": {
-      "bytes": 490,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/f2371c273d72ba335e6af11294334862efa564df459afc1e4afd08a2469979bf.json",
-      "purpose": "environment",
-      "sha256": "340502359c2208d767fd7f2a32de980a4d43e1fdb067356c81b827113d1db930"
-    },
     "f247e7b29be0bf821da31b56de1c39961b9b5244e963ba063be5eca4092420f9": {
       "bytes": 333,
       "kind": "json",
@@ -20399,15 +20705,6 @@
       "path": "assets/runtime/f25f90ab0ae3a3025ca4a533edd36ea91417e85daad1525acae36cf275d4819b.sh",
       "purpose": "reference",
       "sha256": "7d35b1235b0c3a3ea7d4f2fb31aa4d567d2470b04c7ff933b67c1f4eab2c88de"
-    },
-    "f2eccda12218f65316bc774632c49b904986002663324ccad63bc51ebc8ec3d0": {
-      "bytes": 637,
-      "kind": "json",
-      "mode": "100644",
-      "origins": [],
-      "path": "assets/runtime/f2eccda12218f65316bc774632c49b904986002663324ccad63bc51ebc8ec3d0.json",
-      "purpose": "environment",
-      "sha256": "143afdb6b4281202b52e8836556917d275679d001e06e6c6f4d549a4cb342589"
     },
     "f2f48d526c13473c731bb7e33554642abffbf0738da70a110500ab42af88cdb0": {
       "bytes": 4253,
@@ -20591,6 +20888,23 @@
       "purpose": "evidence",
       "sha256": "90ba1c1e7a1c49a514c3f8030d4a6aee459cff02858cc20f48093025e569e25b"
     },
+    "f528d50af55eaa078eb8d0fc0e617ee89a31bab97a3bac3f895e2e4bd82f07c7": {
+      "bytes": 9389,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "cd660d8295b61cb99787e641938d358bea1c2086",
+          "path": "vulnerable-apps/llmchat/ground-truth/SURFACE.yaml",
+          "pointer": null,
+          "repository": "https://github.com/Dilrevx/dynast-bench",
+          "sha256": "e86b2a4a2779f5c929b6f8c9fef44a84bb92b7ffcdd0d9578e7a52970c962543"
+        }
+      ],
+      "path": "assets/runtime/f528d50af55eaa078eb8d0fc0e617ee89a31bab97a3bac3f895e2e4bd82f07c7.json",
+      "purpose": "evidence",
+      "sha256": "f7f328b15fd99bf32046fbd2c33a1d5785cfa7420ac345ca4b83669d9afed91b"
+    },
     "f5437aa229a9279ad0788872225538bca6b2a2b49dc27ab26478972a88aa7d87": {
       "bytes": 268,
       "kind": "json",
@@ -20674,6 +20988,15 @@
       "path": "assets/runtime/f76c50f9f47a169438937b1fc25c04c51ca4ff61b01f0a8b5a986a02457e5aee.json",
       "purpose": "evidence",
       "sha256": "aadf3c6e90f8df5d784be6805c6ed6fe6619e8d9dd0419a61e13cf0889c6ecaf"
+    },
+    "f7959f2cf7feb8a7568f30ba09ffc0754afbeb6a06411b0c164fc529f8d77408": {
+      "bytes": 595,
+      "kind": "json",
+      "mode": "100644",
+      "origins": [],
+      "path": "assets/runtime/f7959f2cf7feb8a7568f30ba09ffc0754afbeb6a06411b0c164fc529f8d77408.json",
+      "purpose": "environment",
+      "sha256": "7e7b6e03a85a9e49d594052a4a707b81639355691bc6aeb6cd3a4586e49c67a0"
     },
     "f7c8de9f80e32903c0fd1ad7f567a0a801c0c401205ffac8e8b083e7fa5cb26e": {
       "bytes": 238,
@@ -21609,7 +21932,7 @@
   "cases": {
     "path": "cases.jsonl",
     "records": 695,
-    "sha256": "37d2ebe863fa1a14cc42505d784f4e98956db20fa364f97995f6e130add300c5"
+    "sha256": "eb757ff9a7e062e28703d3c6fc4c29047143aaf8472ebb5bb52edcc073edb701"
   },
   "counts": {
     "case_groups": 19,
@@ -21623,7 +21946,7 @@
     },
     "versions": 1390
   },
-  "importer_sha256": "c7ecac89c1b8108cf44600e4e249edc224775ecd7f4ada0e905bb3c3f17e7cc8",
+  "importer_sha256": "cbf0cb8c6651adef3824d450be72d8b0c389fc68dd3e4c9701749bc0ae50e6a0",
   "license": {
     "assets": [
       "bc922cc839b66a3fafefbe48de8d40a0f2ea7f390e39f3f12537ad5b13e91246"

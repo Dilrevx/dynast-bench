@@ -1,0 +1,495 @@
+{
+  "application": "rails",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "path": "/api/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-me.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/yaml",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:YAML-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-yaml.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/preview/inline",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SSTI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-preview-inline.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/admin/check_email",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:REGEX-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-check-email.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/users/{id}/promote",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-id-promote.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/api/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SQLI-001",
+        "dynast:rails:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/{id}/run",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:SQLI-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-id-run.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/api/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "name"
+        ],
+        "path": "/api/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-export.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/reflect",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:REFL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reflect.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/secrets",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SECRET-001",
+        "dynast:rails:SECRET-KEY-001",
+        "dynast:rails:SECRET-COMPOSE-001",
+        "dynast:rails:SECRET-STANDALONE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-secrets.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:CONFIG-LEAK-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:CREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/goto",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.goto.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "name"
+        ],
+        "path": "/api/attachments/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-attachments-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/csrf/profile",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:CSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-csrf-profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/billing/seats",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-billing-seats.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/invites",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-invites.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/uploads",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:rails:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-uploads.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/tools/report",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:CODEINJ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-tools-report.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/signup",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:DOMXSS-001",
+        "dynast:rails:POSTMSG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.signup.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/signup/start",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SIGNUP-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-start.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/verify",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SIGNUP-TOKEN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-verify.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/profile",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SIGNUP-MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/complete",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SIGNUP-STEPSKIP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-complete.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "path": "/api/signup/draft/{id}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:rails:SIGNUP-IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-draft-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "DELETE",
+        "notes": "benign? derived from config/routes.rb - REVIEW",
+        "path": "/api/auth/logout"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-auth-logout.delete"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "notes": "only reachable mid-signup",
+        "path": "/api/signup/resend"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-resend.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from config/routes.rb - REVIEW",
+        "path": "/api/users/me"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-users-me.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "notes": "conventional API route",
+        "path": "/api/profile"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-profile.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from config/routes.rb - REVIEW",
+        "path": "/api/import/json"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-import-json.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from config/routes.rb - REVIEW",
+        "path": "/api/preview/safe"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-preview-safe.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from config/routes.rb - REVIEW",
+        "path": "/api/posts/:id/comments"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-id-comments.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from config/routes.rb - REVIEW",
+        "path": "/api/reports"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports.post"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

@@ -1,7 +1,7 @@
 {
   "application": "llmagent",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "4453402585f42f90cc9ceab801be43b9c11aedefdb903082c63d8d8e61d01b15",
+  "operation_catalog": "4b363b6d8b375d4f9529d4cc35408fe31c385e7bbf3f3ab4c9a1428efaf09d5c",
   "seed_setup": "Shared Acme/Globex users; Globex draft and ticket contain GLOBEX-CONFIDENTIAL-MARKER-7f3a; weak admin/admin service credential in vuln.\n",
   "versions": {
     "safe": "cd85212c16a1137554566592509353e95311a21a7114b10fd9f864e47b6589fc",

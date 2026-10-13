@@ -1,7 +1,7 @@
 {
   "application": "springboot",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "62ec8b5444a5ceac840a92578890850be908e1149858c113a160c0d86eb93e84",
+  "operation_catalog": "8cf4782f63b6649f7e5f69d474d7dd07033f0b26b41c757249d36f0cfa75b2fb",
   "seed_setup": "Orgs Acme + Globex; user2@bench.local is in Globex for cross-tenant IDOR. Globex DRAFT post globex-internal carries GLOBEX-CONFIDENTIAL-MARKER-7f3a. Weak default service credential admin/admin is intentionally present in vuln.\n",
   "versions": {
     "safe": "e22b203cc879012894e356358d1d18af4ce236ce53f8630a81b19b0b706c5814",

@@ -1,0 +1,373 @@
+{
+  "application": "llmagent",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "pre-auth",
+        "tool": "run_shell"
+      },
+      "case_ids": [
+        "dynast:llmagent:AGENCY-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.run-shell"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/runs",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmagent:HITL-001",
+        "dynast:llmagent:MCP-001",
+        "dynast:llmagent:MCP-002",
+        "dynast:llmagent:AUTHZ-001",
+        "dynast:llmagent:MODEL-001",
+        "dynast:llmagent:RACE-001",
+        "dynast:llmagent:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-runs.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/approvals/redeem",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmagent:APPROVAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-approvals-redeem.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "refund_order"
+      },
+      "case_ids": [
+        "dynast:llmagent:REFUND-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.refund-order"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "delegate"
+      },
+      "case_ids": [
+        "dynast:llmagent:AGENCY-002"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.delegate"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "browse"
+      },
+      "case_ids": [
+        "dynast:llmagent:IPI-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.browse"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "sql_query"
+      },
+      "case_ids": [
+        "dynast:llmagent:IPI-002"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.sql-query"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/mcp/servers",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmagent:MCP-003"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-mcp-servers.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "executeMarkers"
+      },
+      "case_ids": [
+        "dynast:llmagent:PROMPT-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.executemarkers"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "toolSql"
+      },
+      "case_ids": [
+        "dynast:llmagent:SQL-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.toolsql"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "toolFetch"
+      },
+      "case_ids": [
+        "dynast:llmagent:SSRF-001",
+        "dynast:llmagent:SSRF-002"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.toolfetch"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "read_file"
+      },
+      "case_ids": [
+        "dynast:llmagent:FILE-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.read-file"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "write_file"
+      },
+      "case_ids": [
+        "dynast:llmagent:FILE-002"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.write-file"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "create_ticket"
+      },
+      "case_ids": [
+        "dynast:llmagent:CMD-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.create-ticket"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "resumeCheckpoint"
+      },
+      "case_ids": [
+        "dynast:llmagent:CHECKPOINT-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.resumecheckpoint"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "memory_write"
+      },
+      "case_ids": [
+        "dynast:llmagent:MEM-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.memory-write"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/runs/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmagent:BOLA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-runs-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/exports/",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmagent:EXPORT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.exports.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/agents/{id}/tools",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmagent:BFLA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-agents-id-tools.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "mcp_call"
+      },
+      "case_ids": [
+        "dynast:llmagent:MCPAUTH-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.mcp-call"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "reachability": "user",
+        "tool": "mcpServers"
+      },
+      "case_ids": [
+        "dynast:llmagent:MCPRCE-001"
+      ],
+      "kind": "llm",
+      "operation_id": "llm.mcpservers"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/config",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmagent:SECRET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-config.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/api/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-login"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/api/approvals",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-approvals"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/api/checkpoints/resume",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-checkpoints-resume"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/evil-page",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.evil-page"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/redirect-internal",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.redirect-internal"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/internal/metadata",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.internal-metadata"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/internal/evil-model",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.internal-evil-model"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/app.mjs - REVIEW",
+        "path": "/exports",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.exports"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

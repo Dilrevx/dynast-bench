@@ -1,7 +1,7 @@
 {
   "application": "fastapi",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "c72ed8ee4e5265f6adadc8d42dcf7666af5ece51fbfd86167637ed6e612cb85c",
+  "operation_catalog": "6603956250e9985e5ffaf6f90a9fd058532f44b582e8497e04b855dcf57a6a36",
   "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, returned only via SQLi/IDOR. Weak default service credential admin/admin.\n",
   "versions": {
     "safe": "1995bd9896f5129a8e030cb3222939221d6719b2619ada77ed1670716762ee73",

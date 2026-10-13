@@ -1,0 +1,452 @@
+{
+  "application": "aspnet",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:aspnet:OVERPOST-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-me.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/binary",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:DESER-BIN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-binary.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/json",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:DESER-JSON-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-json.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/xml",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:XXE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-xml.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/api/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/run",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:aspnet:SQLI-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-run.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/comments",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:aspnet:XSS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.comments.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:XSS-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "returnUrl"
+        ],
+        "path": "/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:OPENREDIR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.login.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/api/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "format"
+        ],
+        "path": "/api/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-export.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "name"
+        ],
+        "path": "/api/files/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-files-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:aspnet:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/admin/users",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:aspnet:BFLA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/profile/csrf-note",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:aspnet:CSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-profile-csrf-note.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/admin-summary",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:JWT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-admin-summary.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/auth/rate-probe",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:RATE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-rate-probe.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:ENUM-001",
+        "dynast:aspnet:COOKIE-001",
+        "dynast:aspnet:DEFAULTCREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/reset/request",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-reset-request.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/cors/secret",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-cors-secret.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/debug/crash",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:ERROR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-debug-crash.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/config/client",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:CONFIG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-config-client.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "text"
+        ],
+        "path": "/api/crypto/hash",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:CRYPTO-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-crypto-hash.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/upload/avatar",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-upload-avatar.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/billing/seats",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-billing-seats.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/invite",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:aspnet:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-invite.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from Program.cs - REVIEW",
+        "path": "/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from Program.cs - REVIEW",
+        "path": "/api/posts/*",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from Program.cs - REVIEW",
+        "path": "/api/reports/name",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports-name.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from Program.cs - REVIEW",
+        "path": "/api/comments",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-comments.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from Program.cs - REVIEW",
+        "path": "/api/import/binary/sample",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-import-binary-sample.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from Program.cs - REVIEW",
+        "path": "/api/billing/seats",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-billing-seats.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from Program.cs - REVIEW",
+        "path": "/api/invite/count",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-invite-count.get"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

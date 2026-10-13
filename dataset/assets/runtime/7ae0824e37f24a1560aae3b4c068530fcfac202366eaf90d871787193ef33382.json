@@ -1,0 +1,292 @@
+{
+  "application": "gin",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/debug/info",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:INFO-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-debug-info.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:DEFAULT-CREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/grants/",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:gin:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-grants.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "path": "/api/grants/{token}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:gin:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-grants-id"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "path": "/api/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:gin:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-me.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/timeline",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:gin:SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-timeline.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/images/thumbnail",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:RCE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-images-thumbnail.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/render/pdf",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-render-pdf.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/preview",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:DOS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-preview.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/admin/users",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:gin:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/goto",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.goto.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/notes/preview",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:gin:XSS-DOMPURIFY-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.notes-preview.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/version",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-version.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/posts/:id",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/posts/:id/grant",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-id-grant.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/grants/:token",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-grants-token.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/images/thumbnail-safe",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-images-thumbnail-safe.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/link/preview",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-link-preview.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/api/import/text",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-import-text.post"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

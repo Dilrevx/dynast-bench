@@ -1,0 +1,143 @@
+{
+  "application": "weirdproxy",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/admin/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:NGINX-ADMIN-SLASH",
+        "dynast:weirdproxy:APACHE-ADMIN-SLASH"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/admin%2f",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:NGINX-ADMIN-ENCSLASH"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin-2f.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/metrics/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:NGINX-METRICS-SLASH",
+        "dynast:weirdproxy:APACHE-METRICS-SLASH"
+      ],
+      "kind": "http",
+      "operation_id": "http.metrics.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/INTERNAL",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:NGINX-INTERNAL-CASE",
+        "dynast:weirdproxy:APACHE-INTERNAL-CASE"
+      ],
+      "kind": "http",
+      "operation_id": "http.internal.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:NGINX-HEADER-TRUST",
+        "dynast:weirdproxy:APACHE-HEADER-TRUST",
+        "dynast:weirdproxy:TRAEFIK-HEADER-TRUST"
+      ],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/ADMIN",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:APACHE-ADMIN-CASE",
+        "dynast:weirdproxy:TRAEFIK-ADMIN-CASE"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin.get-2"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "//admin",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:TRAEFIK-ADMIN-DOUBLESLASH"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin.get-3"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/./admin",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:TRAEFIK-ADMIN-DOTSEG"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin.get-4"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/%2e/admin",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:TRAEFIK-ADMIN-ENCDOT"
+      ],
+      "kind": "http",
+      "operation_id": "http.2e-admin.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "//internal",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:weirdproxy:TRAEFIK-INTERNAL-DOUBLESLASH"
+      ],
+      "kind": "http",
+      "operation_id": "http.internal.get-2"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

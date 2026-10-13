@@ -1,0 +1,478 @@
+{
+  "application": "php",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "page"
+        ],
+        "path": "/page.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:LFI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.page-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/login.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:TYPEJUGGLE-001",
+        "dynast:php:DEFAULT-CREDS-001",
+        "dynast:php:SESSION-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.login-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/import.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:UNSERIALIZE-001",
+        "dynast:php:XXE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.import-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/profile.php",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:php:UPLOAD-001",
+        "dynast:php:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.profile-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:SQLI-001",
+        "dynast:php:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/fetch.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.fetch-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "file"
+        ],
+        "path": "/download.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.download-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "id"
+        ],
+        "path": "/posts.php",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:php:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/admin_users.php",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:php:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin-users-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/redirect.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.redirect-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/request_reset.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.request-reset-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/info.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:INFO-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.info-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "path": "/",
+        "port": 13312,
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:PHPMYADMIN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.root"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/tools/report.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:CODEINJ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.tools-report-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/signup.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:DOMXSS-001",
+        "dynast:php:POSTMSG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.signup-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/signup/start.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:SIGNUP-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-start-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/verify.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:SIGNUP-TOKEN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-verify-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/profile.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:SIGNUP-MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-profile-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/complete.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:SIGNUP-STEPSKIP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-complete-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "params": [
+          "id"
+        ],
+        "path": "/api/signup/draft.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:SIGNUP-IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-draft-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "conventional page",
+        "path": "/me.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.me-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from /login.php - REVIEW",
+        "path": "/login.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.login-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "notes": "benign? derived from /tools/report.php - REVIEW",
+        "path": "/tools/report.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.tools-report-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from /import.php - REVIEW",
+        "path": "/import.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.import-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "landing page",
+        "path": "/index.php"
+      },
+      "case_ids": [
+        "dynast:php:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.index-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from /request_reset.php - REVIEW",
+        "path": "/request_reset.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.request-reset-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from /comments.php - REVIEW",
+        "path": "/comments.php",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:php:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.comments-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from /export.php - REVIEW",
+        "path": "/export.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:php:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.export-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "conventional page",
+        "path": "/logout.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.logout-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from /profile.php - REVIEW",
+        "path": "/profile.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.profile-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "notes": "only reachable mid-signup",
+        "path": "/api/signup/resend.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-resend-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "notes": "benign? derived from /api/signup/complete.php - REVIEW",
+        "path": "/api/signup/complete.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-complete-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "notes": "benign? derived from /api/signup/profile.php - REVIEW",
+        "path": "/api/signup/profile.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-profile-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "notes": "benign? derived from /api/signup/verify.php - REVIEW",
+        "path": "/api/signup/verify.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-verify-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "notes": "benign? derived from /api/signup/start.php - REVIEW",
+        "path": "/api/signup/start.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-start-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "conventional page",
+        "path": "/pages/home.php"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.pages-home-php.get"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

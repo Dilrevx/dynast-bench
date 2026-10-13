@@ -1,7 +1,7 @@
 {
   "application": "rails",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "b7abf71d58053b3470825d8499faff9d478fccb32b6e97449297535951fe745b",
+  "operation_catalog": "2a277a63f5e216b5b40a9be5387f5f313d515638f06d9ed53d6347a642049bd4",
   "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, returned only via SQLi or IDOR. Weak default service credential admin/admin.\n",
   "versions": {
     "safe": "06aee84876adb96973557046cf7318074309a77b1827fd31891bd3c2f61a4f24",

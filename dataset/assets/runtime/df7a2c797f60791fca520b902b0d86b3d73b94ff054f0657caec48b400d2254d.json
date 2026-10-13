@@ -1,0 +1,366 @@
+{
+  "application": "golang",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:AUTH-ENUM-001",
+        "dynast:golang:AUTH-RATE-001",
+        "dynast:golang:DEFAULT-CREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/admin-summary",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:JWT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-admin-summary.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/reset",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-reset.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:golang:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/admin/users",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:golang:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "path": "/api/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:golang:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-me.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/api/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/{id}/results",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:SQLI-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-id-results.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/reports/render",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:SSTI-XSS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-render.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/reports/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-export.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/api/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "name"
+        ],
+        "path": "/api/attachments/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-attachments-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/archive",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:ZIPSLIP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-archive.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/goto",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.goto.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "OPTIONS",
+        "path": "/*",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.root.options"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/billing/seats",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:golang:CSRF-001",
+        "dynast:golang:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-billing-seats.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/posts/{id}/html",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:golang:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-id-html.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/invites",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:golang:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-invites.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/debug/pprof/goroutine",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:PPROF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.debug-pprof-goroutine.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/metrics",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:METRICS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.metrics.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/org",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:golang:GRAFANA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-org.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/debug/pprof/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.debug-pprof"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/debug/pprof/cmdline",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.debug-pprof-cmdline"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/debug/pprof/profile",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.debug-pprof-profile"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/debug/pprof/symbol",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.debug-pprof-symbol"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "benign? derived from main.go - REVIEW",
+        "path": "/debug/pprof/trace",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.debug-pprof-trace"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

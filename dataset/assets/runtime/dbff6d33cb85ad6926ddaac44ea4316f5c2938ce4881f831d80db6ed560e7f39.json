@@ -1,0 +1,551 @@
+{
+  "application": "laravel",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SQLI-001",
+        "dynast:laravel:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/reports/titles",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:SQLI-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.reports-titles.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/posts/{id}/comments",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-id-comments.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "params": [
+          "tpl"
+        ],
+        "path": "/tools/preview",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SSTI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.tools-preview.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "params": [
+          "format"
+        ],
+        "path": "/tools/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.tools-export.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/profile/avatar",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.profile-avatar.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:IDOR-001",
+        "dynast:laravel:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/admin/users",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/profile",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "params": [
+          "file"
+        ],
+        "path": "/tools/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.tools-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/go",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.go.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/account/name",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:CSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.account-name.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/tools/import",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:DESER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.tools-import.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/tools/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.tools-fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/diagnostics",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:DEBUG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.diagnostics.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/.env.backup",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SECRET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.env-backup.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/password/email",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.password-email.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:ENUM-001",
+        "dynast:laravel:RATELIMIT-001",
+        "dynast:laravel:DEFAULT-CREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/billing/invite",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.billing-invite.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/billing/topup",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.billing-topup.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/tools/import-mapping",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:XXE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-tools-import-mapping.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/dashboard",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:DOMXSS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.dashboard.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/profile",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:laravel:POSTMSG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.profile.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/signup/start",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SIGNUP-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-start.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/verify",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SIGNUP-TOKEN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-verify.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/profile",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SIGNUP-MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/complete",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SIGNUP-STEPSKIP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-complete.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "path": "/api/signup/draft/{id}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:SIGNUP-IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-draft-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from routes/web.php - REVIEW",
+        "path": "/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:laravel:PHPMYADMIN-001",
+        "dynast:laravel:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "literal fetch(\"/nav\") inline in home.blade.php",
+        "path": "/nav"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.nav.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from routes/web.php - REVIEW",
+        "path": "/login"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.login.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "notes": "form submit",
+        "path": "/logout"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.logout.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "auth page, like /login",
+        "path": "/register"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.register.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "auth form post, like POST /login",
+        "path": "/register"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.register.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from routes/web.php - REVIEW",
+        "path": "/password/reset"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.password-reset.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "notes": "matches POST /api/signup/start",
+        "path": "/signup"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.signup.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "notes": "only reachable mid-signup",
+        "path": "/api/signup/resend"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-resend.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "notes": "reached from the nav response, like /posts/{id}",
+        "path": "/posts"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.posts.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "notes": "form submit, like POST /posts/{id}",
+        "path": "/posts"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.posts.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "notes": "NM-IDOR-001 endpoint beside /posts/{id}",
+        "path": "/posts/{post}/audit"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.posts-id-audit.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "notes": "benign? derived from routes/web.php - REVIEW",
+        "path": "/admin/audit"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.admin-audit.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "notes": "benign? derived from routes/web.php - REVIEW",
+        "path": "/billing"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.billing.get"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

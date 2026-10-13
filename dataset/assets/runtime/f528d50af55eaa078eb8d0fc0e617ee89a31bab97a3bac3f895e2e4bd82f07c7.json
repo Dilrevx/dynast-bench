@@ -1,0 +1,378 @@
+{
+  "application": "llmchat",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/chat",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:PI-001",
+        "dynast:llmchat:RAGPI-002",
+        "dynast:llmchat:URLPI-003",
+        "dynast:llmchat:ROLE-004",
+        "dynast:llmchat:PROMPTLEAK-005",
+        "dynast:llmchat:GUARD-007",
+        "dynast:llmchat:VECTOR-014",
+        "dynast:llmchat:CACHE-016",
+        "dynast:llmchat:OPTIONS-022",
+        "dynast:llmchat:QUOTA-023",
+        "dynast:llmchat:MODEL-024"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-chat.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/chat/config",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:DEBUG-006"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-chat-config.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/conversations/{id}/html",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:XSS-008"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-conversations-id-html.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/stream",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:STREAM-XSS-009"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-stream.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/analytics/ask",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:NLSQL-010"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-analytics-ask.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/tools/calc",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:EXEC-011"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-tools-calc.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/citations/fetch",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:SSRF-012"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-citations-fetch.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/api/citations/render",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:REDIRECT-013"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-citations-render.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/rag/search",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:BOLA-015"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-rag-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/_debug/traces",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:TRACE-017"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-debug-traces.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/conversations/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:IDOR-018"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-conversations-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "PUT",
+        "path": "/api/admin/system-prompt",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:BFLA-019"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-system-prompt.put"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/documents/{id}/raw",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:TRAVERSAL-020"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-documents-id-raw.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/share/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmchat:SHARE-021"
+      ],
+      "kind": "http",
+      "operation_id": "http.share.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/summarize/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:RECURSION-025"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-summarize-id.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/llm/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmchat:OLLAMA-026"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-llm.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "path": "/api/llm/{path}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmchat:OLLAMA-026"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-llm-id"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/retriever/config",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:llmchat:PICKLE-027"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-retriever-config.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "OPTIONS",
+        "path": "/api/chat",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmchat:CORS-028"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-chat.options"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/errors/langchain",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmchat:ERRORS-029"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-errors-langchain.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmchat:SECRETS-030"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "notes": "benign? derived from app.py - REVIEW",
+        "path": "/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "notes": "benign? derived from app.py - REVIEW",
+        "path": "/api/chat/v2",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-chat-v2.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "notes": "benign? derived from app.py - REVIEW",
+        "path": "/api/documents",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-documents.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "DELETE",
+        "notes": "benign? derived from app.py - REVIEW",
+        "path": "/api/documents/{doc_id}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-documents-id.delete"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "notes": "benign? derived from app.py - REVIEW",
+        "path": "/api/conversations/{conv_id}/share",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-conversations-id-share.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "notes": "benign? derived from app.py - REVIEW",
+        "path": "/share/{code}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:llmchat:SHARE-021"
+      ],
+      "kind": "http",
+      "operation_id": "http.share-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "notes": "benign? derived from app.py - REVIEW",
+        "path": "/api/admin/system-prompt",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-admin-system-prompt.get"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

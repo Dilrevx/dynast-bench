@@ -1,0 +1,303 @@
+{
+  "application": "websocket",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/ws",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:CSWSH-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.ws.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/socket.io/",
+        "query": {
+          "transport": "polling"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:websocket:DOWNGRADE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.socket-io.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "WS",
+        "path": "/ws",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:websocket:TICKET-001",
+        "dynast:websocket:EXPIRY-001",
+        "dynast:websocket:RESUME-001",
+        "dynast:websocket:SUBPROTO-001",
+        "dynast:websocket:PAYLOAD-001",
+        "dynast:websocket:RATE-001",
+        "dynast:websocket:ROOM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.ws.ws"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "params": [
+          "token"
+        ],
+        "path": "/api/health",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:TOKEN-LEAK-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-health.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "path": "/admin",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:SIO-ADMIN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin"
+    },
+    {
+      "attributes": {
+        "channel": "org:globex:posts",
+        "discovery": "interaction",
+        "event": "subscribe",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:CHAN-BOLA-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.subscribe"
+    },
+    {
+      "attributes": {
+        "channel": "org:*",
+        "discovery": "interaction",
+        "event": "subscribe",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:CHAN-WILD-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.subscribe-2"
+    },
+    {
+      "attributes": {
+        "channel": "internal:billing",
+        "discovery": "interaction",
+        "event": "subscribe",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:CHAN-INTERNAL-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.subscribe-3"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "chat.send",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:IMPERSONATE-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.chat-send"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "admin.userDelete",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:BFLA-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.admin-userdelete"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "post.get",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:IDOR-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.post-get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "post.search",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:SQLI-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.post-search"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "sub.filter",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:RCE-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.sub-filter"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "presence.update",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:PROTO-001",
+        "dynast:websocket:LOG-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.presence-update"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "webhook.test",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:SSRF-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.webhook-test"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "file.get",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:TRAVERSAL-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.file-get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/api/rooms/{id}/transcript",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-rooms-id-transcript.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:websocket:CORS-COOKIE-001",
+        "dynast:websocket:DEFAULT-CREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "billing.seats",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:BILLING-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.billing-seats"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "event": "invite.create",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:websocket:RACE-001"
+      ],
+      "kind": "ws",
+      "operation_id": "ws.invite-create"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/server.mjs - REVIEW",
+        "path": "/api/debug/access-log",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-debug-access-log"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/server.mjs - REVIEW",
+        "path": "/ws/secure",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.ws-secure"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "notes": "benign? derived from src/server.mjs - REVIEW",
+        "path": "/api/rooms/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-rooms"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

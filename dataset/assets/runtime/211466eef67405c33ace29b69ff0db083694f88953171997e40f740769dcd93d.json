@@ -1,0 +1,337 @@
+{
+  "application": "swagger",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/schema/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:swagger:DOCS-PUBLIC-001",
+        "dynast:swagger:SPEC-LEAK-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-schema.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/api/docs/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:swagger:SWAGGERUI-001",
+        "dynast:swagger:DOCS-PUBLIC-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-docs.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/api/v1/internal/debug/config",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:swagger:SHADOW-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-internal-debug-config.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/api/v0/users/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:ZOMBIE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v0-users-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "path": "/api/v1/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:DRIFT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-users-me.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/v1/reports",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:swagger:REPORTS-ALLOWANY-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-reports.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "DELETE",
+        "path": "/api/v1/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:METHODS-DRIFT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-posts-id.delete"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/api/v1/admin/users",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:SERIALIZER-LEAK-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "ordering"
+        ],
+        "path": "/api/v1/posts",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:ORDER-SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-posts.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/api/v1/crash",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:swagger:DEBUG-LEAK-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-crash.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/v1/auth/reset",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:swagger:HOST-CORS-JWT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-auth-reset.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/v1/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:BOLA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/v1/admin/users/{id}/role",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:BFLA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-admin-users-id-role.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/v1/integrations/fetch",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-integrations-fetch.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/v1/integrations/partner/sync",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:API10-YAML-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-integrations-partner-sync.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/v1/uploads",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-uploads.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/v1/invites",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:swagger:SEATS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-invites.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "path": "/api/v1/internal/audit",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:swagger:LOG-TOKEN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-v1-internal-audit.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "landing page",
+        "path": "/"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "documented auth route",
+        "path": "/api/auth/login"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/v1/auth/token"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-v1-auth-token.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "notes": "hidden behind the x-admin-docs header",
+        "path": "/api/redoc/"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-redoc.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/docs/v2/"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-docs-v2.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/v1/users/{user_id}"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-v1-users-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/v1/admin/summary"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-v1-admin-summary.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "GET",
+        "notes": "undocumented legacy export",
+        "path": "/api/v1/exports/legacy"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-v1-exports-legacy.get"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

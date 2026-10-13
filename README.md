@@ -4,6 +4,8 @@
 
 [Cases](dataset/cases.jsonl) and [manifest](dataset/manifest.json) are the data entry points. The manifest binds complete source trees, runtime context, operation catalogues, reference PoCs and original file modes/hashes. Annotated sources remain gated from blind model input.
 
+Typed operation catalogues preserve 594 operations and their case relationships. LLM categories, network segments/open expectations and documented API versions are retained alongside the source labels.
+
 This dataset contains deliberately insecure applications. Never deploy them on a public network. Runtime assets and reference PoCs are preserved data, not a claim of executed confirmation.
 
 From [embed](https://github.com/Dilrevx/embed/tree/spec-audit-ab):

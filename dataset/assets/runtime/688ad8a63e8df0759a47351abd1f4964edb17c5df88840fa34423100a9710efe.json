@@ -1,7 +1,7 @@
 {
   "application": "graphql",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "d16f150c89aaf9f642773748572fd38c45f0835185fc0d733bc7981d2a28b227",
+  "operation_catalog": "ba87114e788dceb2ba3fba9c3958f68bb8d70f19e862127e55ecadf9b83d0469",
   "seed_setup": "Orgs Acme + Globex; user2 in Globex; a Globex DRAFT carries GLOBEX-CONFIDENTIAL-MARKER-7f3a; weak admin/admin service credential in vuln.\n",
   "versions": {
     "safe": "80859029b9e4880b9dfdf6d82a449e0b44bd54366ca7b20e1638b234ea10aedd",

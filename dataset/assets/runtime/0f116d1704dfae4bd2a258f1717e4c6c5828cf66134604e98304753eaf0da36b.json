@@ -1,0 +1,383 @@
+{
+  "application": "jsp",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/reflect.jsp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:XSS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.reflect-jsp.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/upload",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.upload.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/import",
+        "query": {
+          "type": "obj"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:DESER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.import.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/import",
+        "query": {
+          "type": "xml"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:XXE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.import.post-2"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/admin;public/users",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.admin-public-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "id"
+        ],
+        "path": "/report",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:jsp:SQLI-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.report.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "expr"
+        ],
+        "path": "/report",
+        "query": {
+          "mode": "el"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:TEMPLATE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.report.get-2"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "format"
+        ],
+        "path": "/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.export.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "file"
+        ],
+        "path": "/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "id"
+        ],
+        "path": "/post",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:jsp:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.post.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/manage/users",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:BFLA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.manage-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/profile",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:jsp:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:SESSION-001",
+        "dynast:jsp:RATE-001",
+        "dynast:jsp:ENUM-001",
+        "dynast:jsp:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/jwt/me",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:JWT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-jwt-me.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/reset",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.reset.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/comments.jsp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:XSS-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.comments-jsp.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/error-demo",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:ERROR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.error-demo.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/manager/html",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:MANAGER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.manager-html.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/internal/admin",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:XFF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.internal-admin.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "secret"
+        ],
+        "path": "/crypto",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:CRYPTO-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.crypto.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/billing/seats",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:jsp:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.billing-seats.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/invite",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:jsp:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.invite.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/captcha",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:jsp:CAPTCHA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.captcha.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from /index.jsp - REVIEW",
+        "path": "/index.jsp",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.index-jsp.get"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

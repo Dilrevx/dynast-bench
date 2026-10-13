@@ -1,0 +1,622 @@
+{
+  "application": "fastapi",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:AUTH-ENUM-001",
+        "dynast:fastapi:DEFAULT-CREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/admin-summary",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:JWT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-admin-summary.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/reset",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-reset.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/api/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SQLI-001",
+        "dynast:fastapi:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "path": "/api/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-me.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/admin/users",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/reports/render",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SSTI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-render.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/reports/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-export.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/{id}/results",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SECOND-SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-id-results.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/pickle",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:PICKLE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-pickle.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/yaml",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:YAML-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-yaml.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/xml",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:XXE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-xml.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/api/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/goto",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.goto.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "name"
+        ],
+        "path": "/api/attachments/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-attachments-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/error",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:DEBUG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-error.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/posts/{id}/html",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-id-html.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/avatar",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-avatar.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/attachments/{id}/url",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:PRESIGN-IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-attachments-id-url.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/billing/seats",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-billing-seats.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/invites",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:fastapi:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-invites.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "key"
+        ],
+        "path": "/api/cache/widget",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:CACHE-POISON-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-cache-widget.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/tools/report",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:CODEINJ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-tools-report.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/signup",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:DOMXSS-001",
+        "dynast:fastapi:POSTMSG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.signup.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/signup/start",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SIGNUP-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-start.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/verify",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SIGNUP-TOKEN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-verify.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/profile",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SIGNUP-MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/complete",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SIGNUP-STEPSKIP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-complete.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "path": "/api/signup/draft/{id}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:SIGNUP-IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-draft-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/flags/merge",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:CLASSPOLL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-flags-merge.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/exec-summary",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:fastapi:JWTCONF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-exec-summary.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "landing page",
+        "path": "/"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/auth/token"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-auth-token.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/posts/list"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-list.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/reports/dashboard"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports-dashboard.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/reports"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/import/json"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-import-json.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "conventional API route",
+        "path": "/api/comments"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-comments.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "served upload path",
+        "path": "/uploads/avatars/*"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.uploads-avatars.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/attachments/avatar-download"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-attachments-avatar-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/cache/widget-scoped"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-cache-widget-scoped.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "notes": "only reachable mid-signup",
+        "path": "/api/signup/resend"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-resend.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/auth/rs-public-key"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-auth-rs-public-key.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/auth/token-rs"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-auth-token-rs.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/flags/state"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-flags-state.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from app/main.py - REVIEW",
+        "path": "/api/flags/set"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-flags-set.post"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

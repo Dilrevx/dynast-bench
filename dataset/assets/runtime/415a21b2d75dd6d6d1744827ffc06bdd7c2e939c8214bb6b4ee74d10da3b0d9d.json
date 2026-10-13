@@ -1,0 +1,407 @@
+{
+  "application": "wordpress",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "id"
+        ],
+        "path": "/wp-json/bench-tasks/v1/task",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-task.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-json/bench-tasks/v1/report",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:wordpress:SQLI-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-report.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-admin/admin-post.php",
+        "query": {
+          "action": "bench_set_webhook"
+        },
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:wordpress:CSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-admin-admin-post-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-admin/admin-post.php",
+        "query": {
+          "action": "bench_admin_export"
+        },
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:wordpress:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-admin-admin-post-php.post-2"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-admin/admin-ajax.php",
+        "query": {
+          "action": "bench_promote_user"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:NOPRIV-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-admin-admin-ajax-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-json/bench-tasks/v1/import",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:DESER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-import.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-admin/admin-ajax.php",
+        "query": {
+          "action": "bench_upload"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-admin-admin-ajax-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "view"
+        ],
+        "path": "/wp-admin/admin.php",
+        "query": {
+          "page": "bench_tasks"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:LFI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-admin-admin-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/wp-json/bench-tasks/v1/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "id"
+        ],
+        "path": "/tasks",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.tasks.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "id"
+        ],
+        "path": "/wp-json/bench-tasks/v1/private-task",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:wordpress:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-private-task.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-json/bench-tasks/v1/profile",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:wordpress:ROLE-ESC-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "format"
+        ],
+        "path": "/wp-json/bench-tasks/v1/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-export.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "to"
+        ],
+        "path": "/go",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.go.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-admin/admin.php",
+        "query": {
+          "page": "bench_options"
+        },
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:wordpress:SECRET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-admin-admin-php.get-2"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-login.php",
+        "query": {
+          "action": "rp"
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-login-php.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-json/wp/v2/users",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:REST-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-wp-v2-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/",
+        "query": {
+          "author": 1
+        },
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:AUTHOR-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/xmlrpc.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:XMLRPC-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.xmlrpc-php.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-config.php.bak",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:WEAK-SALTS-001",
+        "dynast:wordpress:BACKUP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-config-php-bak.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-content/debug.log",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:DEBUG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-content-debug-log.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-json/bench-tasks/v1/billing",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-billing.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-json/bench-tasks/v1/invite",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-invite.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-json/bench-tasks/v1/cors",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-json-bench-tasks-v1-cors.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/wp-content/plugins/bench-tasks/vendor/vulnerable-lib.js",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:DEP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-content-plugins-bench-tasks-vendor-vulnerable-lib-js.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/wp-login.php",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:wordpress:DEFAULT-CREDS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.wp-login-php.post"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

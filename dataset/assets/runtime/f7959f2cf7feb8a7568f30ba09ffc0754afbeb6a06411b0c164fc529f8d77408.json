@@ -1,7 +1,7 @@
 {
   "application": "nestjs",
   "entry": "http://127.0.0.1:13311",
-  "operation_catalog": "00aae4fd80e45446235017694712bb48c8c829bb9e7b5a39434ccec7966c498e",
+  "operation_catalog": "23688aeb77a8766d272c44e88a1edc170f97a1d0557bc1b824068ed2e9549907",
   "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, returned only via SQLi/IDOR. Weak default service credential admin/admin.\n",
   "versions": {
     "safe": "afb9eea1b7cbd04e546766f12d0bea54286a3301677dd20a5032711aac218641",

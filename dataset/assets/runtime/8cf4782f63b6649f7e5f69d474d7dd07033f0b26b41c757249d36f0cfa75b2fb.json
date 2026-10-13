@@ -1,0 +1,670 @@
+{
+  "application": "springboot",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "expr"
+        ],
+        "path": "/api/reports/eval",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SPEL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-eval.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/actuator/env",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:ACTUATOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.actuator-env.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/actuator/heapdump",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:ACTUATOR-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.actuator-heapdump.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/actuator/prometheus",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:PROM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.actuator-prometheus.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/object",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:DESER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-object.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/xml",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:XXE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-xml.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/admin/users",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:AUTH-MISORDER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/security/csrf",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:CSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-security-csrf.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/admin-summary",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:JWT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-admin-summary.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:RATE-001",
+        "dynast:springboot:ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/reset/request",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-reset-request.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:springboot:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "path": "/api/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:springboot:MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-me.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/users/{id}/promote",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:springboot:BFLA-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-id-promote.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/api/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SQLI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/run/{id}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SQLI-002"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-run-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url"
+        ],
+        "path": "/api/fetch",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-fetch.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "format"
+        ],
+        "path": "/api/export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:CMD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-export.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/posts/{id}/view",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-id-view.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "view"
+        ],
+        "path": "/api/template",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:TPL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-template.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/public/cors",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-public-cors.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "name"
+        ],
+        "path": "/api/attachments/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-attachments-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "path"
+        ],
+        "path": "/api/docs/read",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:TRAVERSAL-BYPASS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-docs-read.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "path"
+        ],
+        "path": "/api/docs/list",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:DIRLIST-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-docs-list.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/admin-export",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:PREAUTH-BYPASS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-admin-export.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/import/typed",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:JACKSON-DESER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-import-typed.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/config/public",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SECRETS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-config-public.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/errors/boom",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:ERRORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-errors-boom.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/billing/seats",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-billing-seats.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/invites",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-invites.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/goto",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.goto.get"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/tools/report",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:CONFIGDUMP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-tools-report.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/signup",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:DOMXSS-001",
+        "dynast:springboot:POSTMSG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.signup.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/signup/start",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SIGNUP-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-start.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/verify",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SIGNUP-TOKEN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-verify.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/profile",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SIGNUP-MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/complete",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SIGNUP-STEPSKIP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-complete.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "path": "/api/signup/draft/{id}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:SIGNUP-IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-draft-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/FilesController.java - REVIEW",
+        "path": "/api/docs/read-safe"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-docs-read-safe.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/NovelController.java - REVIEW",
+        "path": "/api/import/typed-safe"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-import-typed-safe.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/api/auth/reset/complete"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-auth-reset-complete.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/api/posts/list"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-list.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/api/posts/{id}/comments"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-id-comments.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/api/reports/field"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports-field.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/api/reports"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/api/invites/reset"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-invites-reset.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/api/invites/count"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-invites-count.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from src/main/java/com/bench/springboot/Controllers.java - REVIEW",
+        "path": "/",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:springboot:JENKINS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.root.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "notes": "only reachable mid-signup",
+        "path": "/api/signup/resend"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-resend.post"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

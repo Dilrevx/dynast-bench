@@ -1,0 +1,502 @@
+{
+  "application": "nestjs",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:AUTH-ENUM-001",
+        "dynast:nestjs:DEFAULT-CREDS-001",
+        "dynast:nestjs:SESSION-FIX-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-login.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/reports/admin-summary",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:JWT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-admin-summary.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/auth/reset",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:RESET-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-auth-reset.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/api/posts/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SQLI-001",
+        "dynast:nestjs:CORS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/posts/{id}",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-posts-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "path": "/api/users/me",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:OVERPOST-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-users-me.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/admin/users",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:AUTHZ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-users.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/api/admin/internal-health",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:XFF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-admin-internal-health.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/reports/render",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:HBS-SSTI-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-render.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/posts/{id}/html",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:XSS-STORED-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.posts-id-html.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "q"
+        ],
+        "path": "/search",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:XSS-REFLECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.search.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/webhooks/test",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-webhooks-test.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/reports/import",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:DESER-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-reports-import.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/settings/email",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:CSRF-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-settings-email.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "next"
+        ],
+        "path": "/login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:REDIRECT-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.login.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "name"
+        ],
+        "path": "/api/attachments/download",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:TRAVERSAL-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-attachments-download.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "path": "/uploads../secret.txt",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:NGINX-ALIAS-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.uploads-secret-txt.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/avatar",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:UPLOAD-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-avatar.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/billing/seats",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:BILLING-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-billing-seats.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/invites",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:nestjs:RACE-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-invites.post"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "method": "POST",
+        "path": "/api/tools/report",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:CODEINJ-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-tools-report.post"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "GET",
+        "path": "/signup",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:DOMXSS-001",
+        "dynast:nestjs:POSTMSG-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.signup.get"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "method": "POST",
+        "path": "/api/signup/start",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SIGNUP-ENUM-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-start.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/verify",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SIGNUP-TOKEN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-verify.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/profile",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SIGNUP-MASSASSIGN-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-profile.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "path": "/api/signup/complete",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SIGNUP-STEPSKIP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-complete.post"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "GET",
+        "path": "/api/signup/draft/{id}",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SIGNUP-IDOR-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-signup-draft-id.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "path": "/api/prefs/merge",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:SSPP-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-prefs-merge.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "params": [
+          "url[]"
+        ],
+        "path": "/api/tools/link-preview",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:nestjs:QSCONFUSION-001"
+      ],
+      "kind": "http",
+      "operation_id": "http.api-tools-link-preview.get"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/auth/token"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-auth-token.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "PATCH",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/users/profile"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-users-profile.patch"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/reports/render-safe-preview"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports-render-safe-preview.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/posts/:id/comments"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-posts-id-comments.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/reports/import-json"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports-import-json.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "GET",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/attachments/download-safe-preview"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-attachments-download-safe-preview.get"
+    },
+    {
+      "attributes": {
+        "discovery": "flow",
+        "method": "POST",
+        "notes": "only reachable mid-signup",
+        "path": "/api/signup/resend"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-signup-resend.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/reports/generate"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-reports-generate.post"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "method": "POST",
+        "notes": "benign? derived from src/app.controller.ts - REVIEW",
+        "path": "/api/prefs/set"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-prefs-set.post"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

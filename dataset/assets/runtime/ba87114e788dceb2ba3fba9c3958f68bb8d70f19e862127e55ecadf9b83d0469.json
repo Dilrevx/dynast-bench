@@ -1,0 +1,399 @@
+{
+  "application": "graphql",
+  "entry": "http://127.0.0.1:13311",
+  "operations": [
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "__schema",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-INTROSPECT-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.schema"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "validation",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-SUGGEST-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.validation"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "me.organization.posts",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-DEPTH-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.me-organization-posts"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "posts",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-COST-001",
+        "dynast:graphql:GQL-ERROR-001",
+        "dynast:graphql:GQL-SQLI-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.posts"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "login",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-ALIAS-001",
+        "dynast:graphql:GQL-CSRF-001",
+        "dynast:graphql:GQL-LOGIN-001",
+        "dynast:graphql:GQL-CREDS-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.login"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "batch transport",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-BATCH-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.batch-transport"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "users",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-BATCHAUTH-001",
+        "dynast:graphql:GQL-JWT-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.users"
+    },
+    {
+      "attributes": {
+        "discovery": "js-runtime",
+        "graphql_kind": "mutation",
+        "op": "persistedQuery",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-APQ-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.persistedquery"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "landing",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-LANDING-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.landing"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "node",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-NODE-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.node"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "User.passwordHash",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-FIELDAUTHZ-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.user-passwordhash"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "Organization.posts",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-NESTEDAUTHZ-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.organization-posts"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "deleteOrganization",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-MISSINGAUTH-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.deleteorganization"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "updateProfile",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-MASSASSIGN-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.updateprofile"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "graphql_kind": "subscription",
+        "op": "postUpdated",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-SUBAUTH-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.subscription.postupdated"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "reportRun",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-SECONDSQLI-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.reportrun"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "searchPosts",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-JSON-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.searchposts"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "exportReport",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-CMD-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.exportreport"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "addComment",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-XSS-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.addcomment"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "linkPreview",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-SSRF-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.linkpreview"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "uploadAvatar",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-UPLOAD-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.uploadavatar"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "auth callback",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-REDIRECT-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.auth-callback"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "query",
+        "op": "transport",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-CORS-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.query.transport"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "purchaseSeats",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-SEATS-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.purchaseseats"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "graphql_kind": "mutation",
+        "op": "inviteUser",
+        "reachability": "user"
+      },
+      "case_ids": [
+        "dynast:graphql:GQL-RACE-001"
+      ],
+      "kind": "graphql",
+      "operation_id": "gql.mutation.inviteuser"
+    },
+    {
+      "attributes": {
+        "discovery": "interaction",
+        "endpoint": "/graphql/ws",
+        "notes": "graphql-ws handshake; the subscription operations ride on it",
+        "reachability": "pre-auth"
+      },
+      "case_ids": [],
+      "kind": "ws",
+      "operation_id": "ws.graphql-transport"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "the GraphQL transport itself",
+        "path": "/graphql"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.graphql"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "second GraphQL mount",
+        "path": "/graphql/public"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.graphql-public"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "conventional top-level route",
+        "path": "/api/export"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.api-export"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "conventional oauth callback path",
+        "path": "/auth/callback"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.auth-callback"
+    },
+    {
+      "attributes": {
+        "discovery": "static-html",
+        "notes": "landing page",
+        "path": "/"
+      },
+      "case_ids": [],
+      "kind": "http",
+      "operation_id": "http.root"
+    }
+  ],
+  "schema": "operation-catalogue-v1"
+}

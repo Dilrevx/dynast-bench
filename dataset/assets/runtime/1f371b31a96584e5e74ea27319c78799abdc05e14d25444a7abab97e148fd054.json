@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/wp-admin/admin.php",
+      "query": {
+        "page": "bench_options"
+      }
+    },
+    "markers": [
+      "BENCH_WEBHOOK_SECRET"
+    ]
+  },
+  "route": "GET /wp-admin/admin.php?page=bench_options",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

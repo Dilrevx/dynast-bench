@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "data-memcached",
+      "port": 11211,
+      "proto": "udp"
+    }
+  },
+  "route": "data-memcached:11211/udp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

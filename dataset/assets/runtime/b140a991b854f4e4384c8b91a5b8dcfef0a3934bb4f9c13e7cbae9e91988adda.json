@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "WS",
+      "path": "/ws"
+    },
+    "ws": {
+      "event": "invite.create",
+      "transport": "ws"
+    }
+  },
+  "route": "WS /ws {type: invite.create}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

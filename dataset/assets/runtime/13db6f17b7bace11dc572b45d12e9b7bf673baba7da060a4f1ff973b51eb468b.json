@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "me.organization.posts"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql deeply nested query",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,15 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "WS",
+      "path": "/ws"
+    },
+    "ws": {
+      "channel": "internal:billing",
+      "event": "subscribe",
+      "transport": "ws"
+    }
+  },
+  "route": "WS /ws {type: subscribe, channel: internal:billing}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

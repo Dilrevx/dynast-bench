@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/import/xml"
+    },
+    "markers": [
+      "SPRINGBOOT-INTERNAL-SINK-SECRET-2d9c"
+    ]
+  },
+  "route": "POST /api/import/xml",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

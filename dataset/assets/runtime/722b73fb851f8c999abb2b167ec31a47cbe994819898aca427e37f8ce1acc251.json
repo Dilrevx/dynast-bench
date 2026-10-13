@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/password/email"
+    }
+  },
+  "route": "POST /password/email",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

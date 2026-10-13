@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/_debug/traces"
+    },
+    "markers": [
+      "hardcoded-weak-secret",
+      "jwt_secret"
+    ]
+  },
+  "route": "GET /api/_debug/traces",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

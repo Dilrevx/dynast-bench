@@ -1,0 +1,151 @@
+{
+  "files": [
+    {
+      "asset": "f6cd19869af09e4ee9b2db5f48029a3b5b12ce61439ff85aa1be8583f2879200",
+      "path": "vulnerable-apps/wordpress/Makefile"
+    },
+    {
+      "asset": "69dc5a3e200409765660158dc0d4dd58ec82ecd191b26493b4a50ee340387598",
+      "path": "vulnerable-apps/wordpress/README.md"
+    },
+    {
+      "asset": "6c6a1e938548a80b0b03204805f623445bee5ba5dc89b7c7ad6e84b96451601c",
+      "path": "vulnerable-apps/wordpress/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "08810c7064e7c7f9c972c9c34ae2f8142886dae7799b74acf03b613be60f38b9",
+      "path": "vulnerable-apps/wordpress/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/wordpress/ground-truth/run.sh"
+    },
+    {
+      "asset": "74771a39433568595ac0ce14892ee8c3a7445b37b1a39be7cf58314f23dd182b",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "7c459c6c567410f9d4851e836c8c6195ec5d248a730d5ebf34d08d95c4a17670",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/author_enum_001.sh"
+    },
+    {
+      "asset": "c51b8bf3ff7d3fbf009529c364b62169a323b6f9af54ccc226ced395493130d2",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "29d1d90be9155807db0374ff289823b2c70bc2a8d2cc281811ec1e041edfb9bd",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/backup_001.sh"
+    },
+    {
+      "asset": "552cd5c04e0fc1cabb8cc73f72d988c9d68f12d001716f5795eea73ca196ec46",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "11b77fce7985c9c21d20262a99fc3b7bc2ef58c2645081abb8f5fc0c14caf5f5",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "dd6d749021146c5470598cd1c8fc89d0334f99e4b11e9b4078e47c237154734d",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "1c02e31dfe0302497090ffeeda19ee585cdaa06bd08a60ef4d6129ec626391e6",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/csrf_001.sh"
+    },
+    {
+      "asset": "6c55095948b4225a9ff1c90e56925148bac93588f25ca10026459881d75fd0be",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/debug_001.sh"
+    },
+    {
+      "asset": "7630da82cac4d7f5a6b26e519dbd4cbdcfb5a99ec7412707ff45f896a723f187",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/default_admin_001.sh"
+    },
+    {
+      "asset": "800421904d9d255abdc643787dbd5fd89f5eaac4318ed6ce18a233fb4fae724c",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/dep_001.sh"
+    },
+    {
+      "asset": "b31e2fe32575ebc09b9df21a1080a41dc608e5fc982f397917660a5f93f21113",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/deser_001.sh"
+    },
+    {
+      "asset": "24208bf57d05b4581b4826eb256112e90bef707efa1a62ce8501472781a4cb51",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "35d9fd76066f87bf3d4756282e306ecb33c52180fec8fade1eb6afa6ed4c9c50",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/lfi_001.sh"
+    },
+    {
+      "asset": "7b68c64a58a9aed062d260766dadb1363798c303f6883db03a609ee3cd10de1b",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/nopriv_001.sh"
+    },
+    {
+      "asset": "c34311fc48e875cb856add44fef8fcce3cc62ddcab91eaaf6faee944c21d78ce",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "e651fa8f968994c9dd80daafb90ba713842955fd852fa0f689a9470688962bd1",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "bbbbede78e061ccb26efa62e65a8ab02be27c99423c83b2e733acfd516bf4089",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "3baaf640b7824856822b7e91b6c1bc0efb4a037a39733c600e67fd331af0a5c1",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/rest_enum_001.sh"
+    },
+    {
+      "asset": "419f8ad49a5de2e1621437b8d7ebcd679b2fe25e7a48cfa3cdfafbbe43be9f18",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/role_esc_001.sh"
+    },
+    {
+      "asset": "7a1ab6f0c80631aba5a00f469e8f5dd84b9fe4223257ee95ef1eb47e4292f424",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/secret_001.sh"
+    },
+    {
+      "asset": "fcf16fc7db1fe6e1c263d95a961ce8f302c7ab1ef601d4c91c48c3fc2f4c29fe",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "d1a5f57487bbb2315b5d742a5b917188e3e50435c5ae84aae07d5b9982b2f2e1",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/sqli_second_002.sh"
+    },
+    {
+      "asset": "0ed27a8a1afafecd08600155076b1e6ee5fc39db9ec1d9bac6b80fc19559007b",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "8385680568bb429c7353d27413b9752b4a2cbfcc255a70d84916d1f6b098b5e8",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "1c1b0fcfb1e2404a56dc0afd68d895ee7119ad583beb70bdbffc7018e2d88040",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/weak_salts_001.sh"
+    },
+    {
+      "asset": "9d1a925c72f104c8bcd4eeb91ca55616b2432950fb82db108097ac1d1d64f5b2",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/xmlrpc_001.sh"
+    },
+    {
+      "asset": "0ebf371f0606890d7c673b4bff1e8505f042bd0cd1197cc6d2d2e2865bc6049a",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/xss_reflect_001.sh"
+    },
+    {
+      "asset": "986069085dc7dd776dab3d9ef7550f147d327c9248a701895ba3b20ad18a3493",
+      "path": "vulnerable-apps/wordpress/ground-truth/verify/xss_stored_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "5a0900131d6d61f84ed3692fdd5eec2fa0dd2250a488e9ef1ca0cdea35da9549",
+      "path": "vulnerable-apps/wordpress/safe"
+    },
+    {
+      "asset": "de8c62348480bb60d0dd7b35e4041dc76e7f24985ad7e5a3bf9a7a8f9b6fd6e5",
+      "path": "vulnerable-apps/wordpress/vuln"
+    }
+  ]
+}

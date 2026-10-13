@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "format"
+      ],
+      "path": "/api/export"
+    }
+  },
+  "route": "GET /api/export?format=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

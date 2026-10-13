@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/tools/report"
+    },
+    "markers": [
+      "actuator-secret-from-env-42"
+    ]
+  },
+  "route": "POST /api/tools/report",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

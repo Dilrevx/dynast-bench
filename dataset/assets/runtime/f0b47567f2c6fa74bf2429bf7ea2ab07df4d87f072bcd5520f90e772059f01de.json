@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/chat/config"
+    },
+    "llm": {
+      "channel": "user"
+    }
+  },
+  "route": "GET /api/chat/config",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

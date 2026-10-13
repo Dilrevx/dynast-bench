@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "users"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql batched auth carry-over",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

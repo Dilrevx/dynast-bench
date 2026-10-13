@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/wp-content/plugins/bench-tasks/vendor/vulnerable-lib.js"
+    }
+  },
+  "route": "GET /wp-content/plugins/bench-tasks/vendor/vulnerable-lib.js",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

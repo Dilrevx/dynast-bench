@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/admin/internal-health"
+    }
+  },
+  "route": "GET /api/admin/internal-health",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

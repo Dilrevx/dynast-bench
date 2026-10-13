@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/posts/search"
+    }
+  },
+  "route": "GET /api/posts/search (Origin reflected)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

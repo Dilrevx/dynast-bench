@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/settings/import"
+    }
+  },
+  "route": "POST /api/settings/import",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/errors/langchain"
+    },
+    "markers": [
+      "hardcoded-weak-secret"
+    ]
+  },
+  "route": "GET /api/errors/langchain",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

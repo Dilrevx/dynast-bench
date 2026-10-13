@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/admin_users.php"
+    }
+  },
+  "route": "GET /admin_users.php",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

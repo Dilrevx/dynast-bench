@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "batch transport"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql JSON array batch",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

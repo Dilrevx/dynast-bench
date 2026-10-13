@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "url"
+      ],
+      "path": "/fetch.php"
+    },
+    "markers": [
+      "PHP-INTERNAL-SINK"
+    ]
+  },
+  "route": "GET /fetch.php?url=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

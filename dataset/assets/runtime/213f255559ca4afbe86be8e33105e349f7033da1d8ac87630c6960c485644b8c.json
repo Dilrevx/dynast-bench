@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/billing/invite"
+    }
+  },
+  "route": "POST /billing/invite",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

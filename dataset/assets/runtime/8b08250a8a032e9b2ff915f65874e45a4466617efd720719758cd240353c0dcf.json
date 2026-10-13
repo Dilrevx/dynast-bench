@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "linkPreview"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    },
+    "markers": [
+      "BILLING-INTERNAL-SECRET-8d12"
+    ]
+  },
+  "route": "POST /graphql linkPreview(url:)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

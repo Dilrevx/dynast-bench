@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/posts/{id}/comments"
+    },
+    "http_alt": [
+      "/posts/{id}"
+    ]
+  },
+  "route": "POST /posts/{id}/comments then GET /posts/{id}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "mgmt-minio",
+      "port": 9000,
+      "proto": "tcp"
+    }
+  },
+  "route": "mgmt-minio:9000/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/schema/"
+    },
+    "http_alt": [
+      "/api/docs/"
+    ]
+  },
+  "route": "GET /api/schema/ and /api/docs/",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

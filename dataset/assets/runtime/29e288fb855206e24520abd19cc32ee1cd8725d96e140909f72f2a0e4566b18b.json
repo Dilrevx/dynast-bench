@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/debug/crash"
+    }
+  },
+  "route": "GET /api/debug/crash",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "mgmt-rabbitmq",
+      "port": 15672,
+      "proto": "tcp"
+    }
+  },
+  "route": "mgmt-rabbitmq:15672/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

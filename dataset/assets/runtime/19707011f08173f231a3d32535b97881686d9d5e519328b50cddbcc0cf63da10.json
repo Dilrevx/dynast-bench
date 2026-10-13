@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/%2e/admin"
+    }
+  },
+  "route": "GET /%2e/admin (traefik :13313)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

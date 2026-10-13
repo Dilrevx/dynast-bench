@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "mutation",
+      "op": "exportReport"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql exportReport(format:)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/webhooks/test"
+    },
+    "markers": [
+      "NESTJS-INTERNAL-SINK"
+    ]
+  },
+  "route": "POST /api/webhooks/test",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

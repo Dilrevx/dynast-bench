@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "key"
+      ],
+      "path": "/api/cache"
+    }
+  },
+  "route": "GET /api/cache?key=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

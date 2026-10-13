@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "returnUrl"
+      ],
+      "path": "/login"
+    }
+  },
+  "route": "GET /login?returnUrl=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

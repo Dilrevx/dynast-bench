@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/wp-json/bench-tasks/v1/billing"
+    }
+  },
+  "route": "POST /wp-json/bench-tasks/v1/billing",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

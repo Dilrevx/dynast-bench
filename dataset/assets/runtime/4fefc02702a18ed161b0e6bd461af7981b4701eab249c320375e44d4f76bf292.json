@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/wp-login.php",
+      "query": {
+        "action": "rp"
+      }
+    }
+  },
+  "route": "GET /wp-login.php?action=rp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

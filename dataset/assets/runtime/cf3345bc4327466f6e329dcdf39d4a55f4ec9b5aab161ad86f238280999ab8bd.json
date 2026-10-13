@@ -1,0 +1,10 @@
+{
+  "application": "gin",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "1653954084dee6653a09addaebda54b5b31072f01e3889001d33ba94ba92e780",
+  "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, reachable only via the multi-step IDOR grant flow or the second-order SQLi. The vulnerable variant also seeds a weak default service credential admin/admin and leaks APP_SECRET=GIN-DEBUG-SECRET-9c2e via the debug endpoint.\n",
+  "versions": {
+    "safe": "c9a81da8cb889b79ccb02d07bc6f05dab7882f71c17182ce39bd8e3542360a08",
+    "vuln": "5d9f00a26d0be3565f42f74d91f78188d63462604aaa49e8b65c9b88ec5d12c9"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/signup/profile"
+    }
+  },
+  "route": "POST /api/signup/profile",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

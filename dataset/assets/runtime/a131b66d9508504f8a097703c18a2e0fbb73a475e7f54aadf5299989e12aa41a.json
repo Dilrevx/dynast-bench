@@ -1,0 +1,18 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "WS",
+      "path": "/ws"
+    },
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ],
+    "ws": {
+      "channel": "org:globex:posts",
+      "event": "subscribe",
+      "transport": "ws"
+    }
+  },
+  "route": "WS /ws {type: subscribe, channel: org:globex:posts}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

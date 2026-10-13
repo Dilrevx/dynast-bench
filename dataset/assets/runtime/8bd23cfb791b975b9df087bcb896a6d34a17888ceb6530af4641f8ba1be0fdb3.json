@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/settings/email"
+    }
+  },
+  "route": "POST /api/settings/email",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

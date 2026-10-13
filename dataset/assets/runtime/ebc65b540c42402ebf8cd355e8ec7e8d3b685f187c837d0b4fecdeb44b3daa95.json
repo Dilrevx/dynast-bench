@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/profile/csrf-note"
+    }
+  },
+  "route": "POST /api/profile/csrf-note",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

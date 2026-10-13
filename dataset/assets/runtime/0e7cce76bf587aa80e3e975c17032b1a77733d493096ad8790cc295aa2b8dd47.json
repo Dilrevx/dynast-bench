@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "landing"
+    },
+    "http": {
+      "method": "GET",
+      "path": "/"
+    }
+  },
+  "route": "GET /",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

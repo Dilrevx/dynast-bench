@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "format"
+      ],
+      "path": "/wp-json/bench-tasks/v1/export"
+    }
+  },
+  "route": "GET /wp-json/bench-tasks/v1/export?format=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "name"
+      ],
+      "path": "/api/attachments/download"
+    },
+    "markers": [
+      "SPRINGBOOT-INTERNAL-SINK-SECRET-2d9c"
+    ]
+  },
+  "route": "GET /api/attachments/download?name=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

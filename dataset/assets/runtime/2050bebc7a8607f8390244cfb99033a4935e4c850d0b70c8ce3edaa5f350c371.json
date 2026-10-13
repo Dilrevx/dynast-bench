@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "mutation",
+      "op": "persistedQuery"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql persistedQuery.sha256Hash",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

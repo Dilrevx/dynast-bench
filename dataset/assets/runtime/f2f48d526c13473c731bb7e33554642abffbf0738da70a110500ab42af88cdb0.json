@@ -1,0 +1,103 @@
+{
+  "files": [
+    {
+      "asset": "0e9b761fe09ef0068c9ff6edadcd3a67242714ffbd5eb10b3c00a772bb485c3c",
+      "path": "vulnerable-apps/weirdproxy/Makefile"
+    },
+    {
+      "asset": "dff2cb42813ff83b46e2b29455482edc76c3343124dbb42b6a3054d530c3de83",
+      "path": "vulnerable-apps/weirdproxy/README.md"
+    },
+    {
+      "asset": "cd8395a67d857ebeb801ce4a4651c45f195df4b7c6563dd2c8409dd298824a5d",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "72919903b038ca757917420a13be818e53ea8262d3e38d269737dc929e458f37",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/run.sh"
+    },
+    {
+      "asset": "452a1639b1df08130372954a68bda6905325550b79309a245507d2e58d6a5ec0",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "d85ca17e89b7543f4fe1f7cb68b7a65eb3d38142140c992c8e87100d3ccd1924",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/apache_admin_case.sh"
+    },
+    {
+      "asset": "b39467cf12f06392dfb796b0798a93e371d848bea8f9ee48afcf5faf9e005e5e",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/apache_admin_slash.sh"
+    },
+    {
+      "asset": "307248c7d0bfd81c892e8229f180a73847fa10712d3ae11191e5b553dab6af49",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/apache_header_trust.sh"
+    },
+    {
+      "asset": "e64408aeda12541e1c09bc482cde72abd736c0010ac9ee691e45d9250bde21a5",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/apache_internal_case.sh"
+    },
+    {
+      "asset": "091dd944d805a0b6ef84e33a585cd03f1331176d9560188053f8c5502b8621bb",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/apache_metrics_slash.sh"
+    },
+    {
+      "asset": "d1a64e640dd3cffb08039274eea29fd29551f65d23419150c31a0b156a038ab3",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/nginx_admin_encslash.sh"
+    },
+    {
+      "asset": "336a420f71a2350b79ad0808b911e11f303f3ac54418222c0df9937384da2b93",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/nginx_admin_slash.sh"
+    },
+    {
+      "asset": "4930ad3a139ac6aac3b9a598b75d848611d7e701a885b7c1feaf68d12ff73291",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/nginx_header_trust.sh"
+    },
+    {
+      "asset": "44f26f41cd884ac74de3eb6990239f619e00b40fe57b48558e7ba9cb6e13016d",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/nginx_internal_case.sh"
+    },
+    {
+      "asset": "652813bd07cc31d36b3c3de51d60eef56cbad190e1fe815f1b351a431f29a741",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/nginx_metrics_slash.sh"
+    },
+    {
+      "asset": "d59e5f29cd0581ecadc685aaedcc6a3526be9247b94d5b1cfadb72eef7615e9d",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/traefik_admin_case.sh"
+    },
+    {
+      "asset": "665b63859bfd03f15ecf06ede8f5bf55d2885fc91832b9f6f610c6ef78b866fc",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/traefik_admin_dotseg.sh"
+    },
+    {
+      "asset": "d3e555e77c9d38141d73a63f0a89ae5e064cb063eef37a64dde507dc810134c6",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/traefik_admin_doubleslash.sh"
+    },
+    {
+      "asset": "7c77583f84940a4fbb87f8354a2b4c4bf32353ae4bdb1de9301804f23f46756a",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/traefik_admin_encdot.sh"
+    },
+    {
+      "asset": "38276e9601b75e1e92274b8d82f5d4a1d82f66bd853bd48f1b29ec9d7cb31643",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/traefik_header_trust.sh"
+    },
+    {
+      "asset": "f1a01511e1f7be0c00e806818d1ca740ce2e7caad51836dd7928c20fb92362d9",
+      "path": "vulnerable-apps/weirdproxy/ground-truth/verify/traefik_internal_doubleslash.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "857b3b54befdb266ce47f9703c64a21565fdf2df01e15f4ae8f8b3ca71391223",
+      "path": "vulnerable-apps/weirdproxy/safe"
+    },
+    {
+      "asset": "28db4d88e46add44052309b236a3e029023525a359356b8eec7533b31a1a14e1",
+      "path": "vulnerable-apps/weirdproxy/vuln"
+    }
+  ]
+}

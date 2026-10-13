@@ -1,0 +1,10 @@
+{
+  "application": "php",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "88d2d5e4c8dedc54c71345e85561fe3ac0ad21d439e4ea04eb1c606d1cfea7e2",
+  "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, returned only via SQLi/IDOR. Weak default service credential admin/admin is present only in vuln/; safe/ rotates it.\n",
+  "versions": {
+    "safe": "3cc0262a763492c19c893ab1da9d9c9c18082ce9b4ab9a5625ec5990d41b425a",
+    "vuln": "040558b5152a9f3cfe31094a49ad798758507e28c39be1e9d446a3385a2fbb17"
+  }
+}

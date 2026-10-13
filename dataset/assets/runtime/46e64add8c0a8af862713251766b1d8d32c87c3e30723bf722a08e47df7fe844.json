@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "edge-bastion",
+      "port": 22,
+      "proto": "tcp"
+    }
+  },
+  "route": "edge-bastion:22/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

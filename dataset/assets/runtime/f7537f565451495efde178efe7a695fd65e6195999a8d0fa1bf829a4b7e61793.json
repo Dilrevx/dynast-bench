@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/citations/fetch"
+    },
+    "llm": {
+      "channel": "tool-result"
+    }
+  },
+  "route": "POST /api/citations/fetch",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

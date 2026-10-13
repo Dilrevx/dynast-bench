@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/uploads../secret.txt"
+    },
+    "markers": [
+      "NESTJS-ATTACHMENT-SECRET",
+      "NGINX-ALIAS-TRAVERSAL-SECRET"
+    ]
+  },
+  "route": "GET /uploads../secret.txt",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

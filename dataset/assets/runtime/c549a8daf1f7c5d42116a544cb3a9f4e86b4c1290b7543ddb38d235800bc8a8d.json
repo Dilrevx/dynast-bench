@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "file"
+      ],
+      "path": "/tools/download"
+    }
+  },
+  "route": "GET /tools/download?file=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

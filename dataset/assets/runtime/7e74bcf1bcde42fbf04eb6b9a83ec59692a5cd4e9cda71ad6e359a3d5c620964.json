@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/manager/html"
+    }
+  },
+  "route": "GET /manager/html",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "q"
+      ],
+      "path": "/search.php"
+    }
+  },
+  "route": "GET /search.php?q=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

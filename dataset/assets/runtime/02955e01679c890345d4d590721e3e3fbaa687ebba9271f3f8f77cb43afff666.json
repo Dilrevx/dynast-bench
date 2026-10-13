@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "name"
+      ],
+      "path": "/api/files/download"
+    },
+    "markers": [
+      "BenchPlaintextSecret-aspnet-123"
+    ]
+  },
+  "route": "GET /api/files/download?name=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

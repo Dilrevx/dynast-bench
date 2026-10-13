@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "validation"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql typo field",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

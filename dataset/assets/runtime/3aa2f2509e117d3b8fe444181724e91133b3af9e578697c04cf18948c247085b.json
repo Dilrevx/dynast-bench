@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "app-legacy",
+      "port": 8000,
+      "proto": "tcp"
+    }
+  },
+  "route": "app-legacy:8000/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

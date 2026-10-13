@@ -1,0 +1,9 @@
+{
+  "operation_match": {
+    "http": {
+      "path": "/config.public.json"
+    }
+  },
+  "route": null,
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

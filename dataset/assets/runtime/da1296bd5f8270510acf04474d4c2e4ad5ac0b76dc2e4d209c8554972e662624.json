@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/signup/verify"
+    }
+  },
+  "route": "POST /api/signup/verify",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

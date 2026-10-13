@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/upload"
+    },
+    "markers": [
+      "JSP-SHELL-MARKER:",
+      "JSP-SHELL-MARKER:ok"
+    ]
+  },
+  "route": "POST /upload",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

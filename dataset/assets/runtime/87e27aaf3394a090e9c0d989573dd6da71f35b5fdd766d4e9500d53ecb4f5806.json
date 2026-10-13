@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "id"
+      ],
+      "path": "/api/signup/draft.php"
+    }
+  },
+  "route": "GET /api/signup/draft.php?id=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

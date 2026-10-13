@@ -1,0 +1,87 @@
+{
+  "files": [
+    {
+      "asset": "b9c3731c3344b8e643b467be895570f9934c18bbb3deb9a034806c3f7106fb17",
+      "path": "vulnerable-apps/gin/Makefile"
+    },
+    {
+      "asset": "b44f848e65e6e3b90b72eb2367ac1cc510586a9bb688a701f3978d1d4bdc86b8",
+      "path": "vulnerable-apps/gin/README.md"
+    },
+    {
+      "asset": "1653954084dee6653a09addaebda54b5b31072f01e3889001d33ba94ba92e780",
+      "path": "vulnerable-apps/gin/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "4fd4dc943589cbce0743e27b1dfea7aaf23db15ce9d8b45b22d424c14672f7c3",
+      "path": "vulnerable-apps/gin/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/gin/ground-truth/run.sh"
+    },
+    {
+      "asset": "16bef942aa7d1b638fb001d5e56af3d310274ddcbd78d4127c578058592e90ef",
+      "path": "vulnerable-apps/gin/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "cd12d946aec1b38fbbf1e6660a22e3e2f0ac320a06ec25bd7651e23dd201b21f",
+      "path": "vulnerable-apps/gin/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "78f58440f0efd64197a16cbaa2a0978e99930c6396c6801c3842e83b564905d6",
+      "path": "vulnerable-apps/gin/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "1d0f203cf6c0ae8f8806fc5495e6c9c7f82055c07a1c9a0814b67d8df036f9f0",
+      "path": "vulnerable-apps/gin/ground-truth/verify/dos_001.sh"
+    },
+    {
+      "asset": "51be39fc2b0cf666956b4d801e881a300381352d5fe939a25b53f053e5de146b",
+      "path": "vulnerable-apps/gin/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "038ae65368965eb6863951f36707a00b5f28f4b9e46163cf9413fb2d9a0ac6d2",
+      "path": "vulnerable-apps/gin/ground-truth/verify/imagemagick_rce_001.sh"
+    },
+    {
+      "asset": "f975aaa6c64a5713bfa64cba86dabd980aa6c15611e852c17f1628c8fa611f8b",
+      "path": "vulnerable-apps/gin/ground-truth/verify/info_001.sh"
+    },
+    {
+      "asset": "7011cc5a5186a22668a19982df28e80142b740e6df2b43bb742b809c3bbc5985",
+      "path": "vulnerable-apps/gin/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "29b4e1a19293b8835bcbef25ec1c867cc4c63cf9fa3309a73f420ae69414f35f",
+      "path": "vulnerable-apps/gin/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "7922940668c4f1fe72e70ddbc90f4caa86d2ae0480995d2016400fa44fc3b160",
+      "path": "vulnerable-apps/gin/ground-truth/verify/second_sqli_001.sh"
+    },
+    {
+      "asset": "eea0f16b85860ebe50fb3b2cbecf6c2016635c08db6dc6d7a4aa19296808153f",
+      "path": "vulnerable-apps/gin/ground-truth/verify/ssrf_pdf_001.sh"
+    },
+    {
+      "asset": "c2aa4eb33c847c9b59d7e5914d2638f102c3002625934533b518dc7e5025b505",
+      "path": "vulnerable-apps/gin/ground-truth/verify/xss_dompurify_001.sh"
+    },
+    {
+      "asset": "2a088961e655d880692f27e7dc7b24646416a8957fec910a50bf3dd198d7ec5a",
+      "path": "vulnerable-apps/gin/ground-truth/verify/xss_reflect_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "c9a81da8cb889b79ccb02d07bc6f05dab7882f71c17182ce39bd8e3542360a08",
+      "path": "vulnerable-apps/gin/safe"
+    },
+    {
+      "asset": "5d9f00a26d0be3565f42f74d91f78188d63462604aaa49e8b65c9b88ec5d12c9",
+      "path": "vulnerable-apps/gin/vuln"
+    }
+  ]
+}

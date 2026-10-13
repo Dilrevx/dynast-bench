@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/admin/"
+    }
+  },
+  "route": "GET /admin/ (nginx :13311)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

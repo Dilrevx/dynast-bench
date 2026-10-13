@@ -1,0 +1,171 @@
+{
+  "files": [
+    {
+      "asset": "d8c5a2e8f6ce59e21ea4957160ba5aa68fda3e8e99d83e4afd49a46d7e43028d",
+      "path": "vulnerable-apps/network/Makefile"
+    },
+    {
+      "asset": "6ec032db298c9a49fbd7f6d9852b68ddb73123734709616e4b2b829633a0ada7",
+      "path": "vulnerable-apps/network/README.md"
+    },
+    {
+      "asset": "8193b38a1ec2e7da446a349ccd9f55ff2753ac3c206993aa6c6452f4beec165e",
+      "path": "vulnerable-apps/network/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "2f3e97fe0684843d8e4b01c191d9b9d68504314cc46fc74748c6ada24df7d4da",
+      "path": "vulnerable-apps/network/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "a324cad3676941837c35d915920875193fb65dbcfba789140f9f897c6281129d",
+      "path": "vulnerable-apps/network/ground-truth/expected-ports.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/network/ground-truth/run.sh"
+    },
+    {
+      "asset": "836586d357bb8cec7c28d95b56c1d723c32cf86759154f61ecfe6cc4d09c9928",
+      "path": "vulnerable-apps/network/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "8d89dd300b570216bb0fe64540f41688c341f608db42dbe1810d3e759f5f03f8",
+      "path": "vulnerable-apps/network/ground-truth/verify/cleartext_http.sh"
+    },
+    {
+      "asset": "19f75b84b43ab16192ac36c0a74ec407dc3754d6e56de7e89a794b3b79ffbed3",
+      "path": "vulnerable-apps/network/ground-truth/verify/default_admin_admin.sh"
+    },
+    {
+      "asset": "b4f0e6e915a49876da47655b52b9aa29847b12e3b16f04111d3aea25209e27c8",
+      "path": "vulnerable-apps/network/ground-truth/verify/elastic_open.sh"
+    },
+    {
+      "asset": "9b1d2475665dcda4d76d8cf1b875a8e383a5a755051459363f7a29c87aa77d77",
+      "path": "vulnerable-apps/network/ground-truth/verify/ftp_anon.sh"
+    },
+    {
+      "asset": "ca129042d41c44b13870df740a7f8c3de760a13c9da26ec14baed52866f78785",
+      "path": "vulnerable-apps/network/ground-truth/verify/ftp_cleartext.sh"
+    },
+    {
+      "asset": "1fbb6c55d04f20089734a2a20eea8a0bfeae3e543dc89472503aaf5de87a4091",
+      "path": "vulnerable-apps/network/ground-truth/verify/ftp_passive_range.sh"
+    },
+    {
+      "asset": "cbdf0b46220405c84c66b9b64f94cf7d24754189f29e74e66b3219cd8129d4c6",
+      "path": "vulnerable-apps/network/ground-truth/verify/grafana_default.sh"
+    },
+    {
+      "asset": "becf8212f297bfd5b25677c455d6a7006553e9b7137789551e9218adc4392f27",
+      "path": "vulnerable-apps/network/ground-truth/verify/headers_missing.sh"
+    },
+    {
+      "asset": "9c0030782b3ea250e8835201e36ae4f9f8e7bfd64acede53de2a2e5562a30825",
+      "path": "vulnerable-apps/network/ground-truth/verify/jenkins_anon.sh"
+    },
+    {
+      "asset": "7573a0bbd222de00e65ad60dc0e3ddfa2787acc04a114a9c3e5c98d6027ac116",
+      "path": "vulnerable-apps/network/ground-truth/verify/legacy_banner.sh"
+    },
+    {
+      "asset": "f630762ea79ddcf46893b51b1dfefff06205ef5dcba3ea39bf283c4870d58880",
+      "path": "vulnerable-apps/network/ground-truth/verify/marker_leak.sh"
+    },
+    {
+      "asset": "42410d5bbd0f6711c75d6b301af2cda38519ad9df5ad82bc2b3aa2d4f2fdcda3",
+      "path": "vulnerable-apps/network/ground-truth/verify/memcached_open.sh"
+    },
+    {
+      "asset": "5c811cd605f0393129502f1a9577beb4c701f513dcde84354e6065d070c2b29d",
+      "path": "vulnerable-apps/network/ground-truth/verify/minio_default.sh"
+    },
+    {
+      "asset": "4b7558083fc916eadb474b09a894a7b2f71127c0c31d27abb067877fee500da0",
+      "path": "vulnerable-apps/network/ground-truth/verify/mongo_open.sh"
+    },
+    {
+      "asset": "60bf96592b6520119e08011f10f02bdeda730e7c060faf9516f682dc493bc450",
+      "path": "vulnerable-apps/network/ground-truth/verify/pg_trust.sh"
+    },
+    {
+      "asset": "cc67fd66244338f82fc674523259271382457139662e1d802d6bc3167f6445c0",
+      "path": "vulnerable-apps/network/ground-truth/verify/phpmyadmin_nopass.sh"
+    },
+    {
+      "asset": "6eea25f93199c8b1f1f7ad5a90150e88a917bf683f7d42a69df0ccc874f95036",
+      "path": "vulnerable-apps/network/ground-truth/verify/proxy_internal.sh"
+    },
+    {
+      "asset": "d1df07ebf69b9aadd4bd928b69b4a091d7f54a08e8ff65de007ee970fc64d228",
+      "path": "vulnerable-apps/network/ground-truth/verify/rabbit_default.sh"
+    },
+    {
+      "asset": "d9c6ab8e4b7eb5bc4d801a8c7f4f710be82ece4c1969f2e53a00a45a7f1c027a",
+      "path": "vulnerable-apps/network/ground-truth/verify/redis_open.sh"
+    },
+    {
+      "asset": "8b85bc23056e8d7a1d4d1ed82334dff8fad34d93bb6232d4e35412fc8cbc7a80",
+      "path": "vulnerable-apps/network/ground-truth/verify/rogue_port.sh"
+    },
+    {
+      "asset": "e41f74524d15ed9429e63119e875f90e32f5efad7b98d0f43b0838ea1236dbff",
+      "path": "vulnerable-apps/network/ground-truth/verify/seg_app_to_mgmt.sh"
+    },
+    {
+      "asset": "67bffe3c17f60d280812c52a56b7d9b0ab9c52d3bb0f2e4005a4395688b773b2",
+      "path": "vulnerable-apps/network/ground-truth/verify/seg_edge_to_data.sh"
+    },
+    {
+      "asset": "2587f0d35805900a013dfe5e1be3561d6ca3b5ddfbde020713178a33b44f1ea9",
+      "path": "vulnerable-apps/network/ground-truth/verify/smtp_relay.sh"
+    },
+    {
+      "asset": "937c2c6162fadcc5e0a1e2a58d618b4885a0869b7c5160a93d306ce3e1da0abd",
+      "path": "vulnerable-apps/network/ground-truth/verify/smtp_vrfy_no_starttls.sh"
+    },
+    {
+      "asset": "f221322b578246e52230a20ccb67be6ec7fb090e5f07bd8996db14bf61ebaa61",
+      "path": "vulnerable-apps/network/ground-truth/verify/snmp_public.sh"
+    },
+    {
+      "asset": "4ed7699b2793ab1f692e864f12929676577a931995e71378bad4df6182342499",
+      "path": "vulnerable-apps/network/ground-truth/verify/ssh_no_rate_limit.sh"
+    },
+    {
+      "asset": "a63832085014d736f25c28b7e8cc5e7e542ef6efa8301309dcc8a0fa9b20148e",
+      "path": "vulnerable-apps/network/ground-truth/verify/ssh_old_banner.sh"
+    },
+    {
+      "asset": "8e8e2f52eadf8544a195df20f2b175fadc48cda81edfc9eb9034b091b572721b",
+      "path": "vulnerable-apps/network/ground-truth/verify/ssh_weak_root.sh"
+    },
+    {
+      "asset": "888e585f7a20d6f6aae6084a07c5e38af790e3957cfd82cf6a968943c22a88b5",
+      "path": "vulnerable-apps/network/ground-truth/verify/status_exposed.sh"
+    },
+    {
+      "asset": "d548cb355d4945d0d8793190f119b64faf4bcef1ed84bc6a3215739b4bfff34f",
+      "path": "vulnerable-apps/network/ground-truth/verify/telnet_open.sh"
+    },
+    {
+      "asset": "b7700d0f0376e8c04483da6fb0b070146b7e973ff18d35a607fb544b20ea0adb",
+      "path": "vulnerable-apps/network/ground-truth/verify/tls_expired.sh"
+    },
+    {
+      "asset": "9e2692f4134211166ec7b2db42aba0175c1219c93562b938ccd81be7096c663e",
+      "path": "vulnerable-apps/network/ground-truth/verify/tls_weak.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "1e865b1b1ba7e95ec0c7499b8d7cc15e2ea75096f73032984072b656c9bd977a",
+      "path": "vulnerable-apps/network/safe"
+    },
+    {
+      "asset": "b705b9e49aa7bb5a48b0a611cf9b3d8e4dfdde1f6041148c793282aaa6811a88",
+      "path": "vulnerable-apps/network/vuln"
+    }
+  ]
+}

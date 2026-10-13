@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "mgmt-snmp",
+      "port": 161,
+      "proto": "udp"
+    }
+  },
+  "route": "mgmt-snmp:161/udp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

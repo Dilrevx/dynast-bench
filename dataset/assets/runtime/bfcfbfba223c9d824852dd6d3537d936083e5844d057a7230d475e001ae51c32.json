@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/auth/reset/request"
+    }
+  },
+  "route": "POST /api/auth/reset/request",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,167 @@
+{
+  "files": [
+    {
+      "asset": "e7f499454609aa63c81ca245133f5cffb426da8e674303388e6a21600f05d524",
+      "path": "vulnerable-apps/llmchat/Makefile"
+    },
+    {
+      "asset": "0641da3137ac189df6abb541c612d7b5d767ea3c51421c68e6847c84f1cb49b6",
+      "path": "vulnerable-apps/llmchat/README.md"
+    },
+    {
+      "asset": "c0e946f73626363d69299ff58ef6e777c4bd7835eb76be1031f64f0afb618d56",
+      "path": "vulnerable-apps/llmchat/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "bd9eeceae62cf29916df06b9abdf6cc52aa6f2f836b1f0b002fda48d4f166afa",
+      "path": "vulnerable-apps/llmchat/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "99fa242ac32e902cf7d901e5db79bd2da2dac2f455affd123c9ae699a733eeda",
+      "path": "vulnerable-apps/llmchat/ground-truth/run.sh"
+    },
+    {
+      "asset": "d49c273ac850854ceeed14b7d86ebc32f6a293e8a33cc2213aa1793f4da924ea",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "d2aed1a28c15715afa8b921a46bf4bc199bbb0cf90da9a5f538004f159823b0a",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/bfla_019.sh"
+    },
+    {
+      "asset": "0aa01b58491b77a772d17fb75741863fdaf5b196b5658b80f2cccc9d2190b7c9",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/bola_015.sh"
+    },
+    {
+      "asset": "252538a36fd102078f0d0feb9f697969b5448cd63a8ac85d58c86288f5d8a4ec",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/cache_016.sh"
+    },
+    {
+      "asset": "40ee81b659b9e3354e9aaa8b9c4cb39fb9fc6446f123a6c3793abc13c3f8782f",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/cors_028.sh"
+    },
+    {
+      "asset": "e40da44b3b93fcb724a8982321ff27492cd993fa6622df9a2441fd98bafe2d54",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/debug_006.sh"
+    },
+    {
+      "asset": "f0267bed072b08d60cf9755a11a9fce960ee05a21955067efc533e1dd8814990",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/errors_029.sh"
+    },
+    {
+      "asset": "64917cf6418e3695d4e6c2c9fa64b5cb65ff8dc840f1e6d998bb2395f9b375b5",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/exec_011.sh"
+    },
+    {
+      "asset": "6b5716a2f937c46ac982167f09a1424f2741a19726e733bbc0dbd5f477ace50c",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/guard_007.sh"
+    },
+    {
+      "asset": "990541e99e728384e9e7ea922d6e049550fc9c38114e07e69971ddb3316341bd",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/idor_018.sh"
+    },
+    {
+      "asset": "3e4770a53c8374e071cfa3b29284917638e54cc919d7837b6caac18e6ee6d11a",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/ingest.sh"
+    },
+    {
+      "asset": "4a3cfd62f5a5478c31bb9021d59f9264810903efa45d29843e5f134636e2507a",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/model_024.sh"
+    },
+    {
+      "asset": "edf34f5c226e86ab3222005884122e5d83e7e997b42ca17ab7dcfedc8e178661",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/nlsql_010.sh"
+    },
+    {
+      "asset": "6ced4b161959eef5bf597b84761f7fc9455cec6c706b79c621731cf897e11489",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/ollama_026.sh"
+    },
+    {
+      "asset": "b2f4e67d33dd097c8d11bdf5ec12fc76396b36c661a4723232a7f2ade9b03170",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/options_022.sh"
+    },
+    {
+      "asset": "7c7f095cee0960fd94215816b87736f936067f3fb0726355f6ea63a4cb976a75",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/pi_001.sh"
+    },
+    {
+      "asset": "c8a39395e95cd66b6fb3f6a250b693685978bf58f4131ae92454c4c78d6f3256",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/pickle_027.sh"
+    },
+    {
+      "asset": "205ff7c26e47a7ff3fd701559fc013c9843af267c5d7817b6f3d7a81539a5f04",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/promptleak_005.sh"
+    },
+    {
+      "asset": "36eb551ace7a6f6c0ec2cdf8ec06ab67cce9c4f5c428d581a7ea322919a5def1",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/quota_023.sh"
+    },
+    {
+      "asset": "bb6350704a857f2b9f762520d795b6afeaa90e1cd6b909d4ea91a8a5655d8d51",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/ragpi_002.sh"
+    },
+    {
+      "asset": "2c3432b1c44dcba5e0381082e5780095ab254d682df33c6060af4e98276aef06",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/recursion_025.sh"
+    },
+    {
+      "asset": "ea437b8a7ce469c7963feb7f9bb910fe543f128b8f5d238f49ab8fdd862e65e1",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/redirect_013.sh"
+    },
+    {
+      "asset": "7c8b8ebd41a9b816be8fe1e6bde5410f7aac89b56986a4259302115547830597",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/role_004.sh"
+    },
+    {
+      "asset": "b923e19df351e8684958f8e534d244906707f10eeff629a68ef80d20116ee487",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/secrets_030.sh"
+    },
+    {
+      "asset": "890eb5599b0c3e25fb3d545aba85272ef451c535634e9fa9209f331f6fc6ff00",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/share_021.sh"
+    },
+    {
+      "asset": "c118379ed45af774ade3df2dc328e6986c63fa2edf624fd20784653eb50f46c9",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/sse.mjs"
+    },
+    {
+      "asset": "7c420185d6a43047553d34fe9b7929ae5098a95d23dbaf29ac6a9d3afb7fa722",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/ssrf_012.sh"
+    },
+    {
+      "asset": "a58c77b008a6f978e468880d618145fdb77282fe30d21fb00cd3f9a0ef76994d",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/stream_xss_009.sh"
+    },
+    {
+      "asset": "501ce8b2fb2a60350cb8b1cdd6ec512426204ff5f73eb337a811c966bdbc8cec",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/trace_017.sh"
+    },
+    {
+      "asset": "78bdd562abe9f0839610516999230c886e97056034a5998fe4f7481685e24333",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/traversal_020.sh"
+    },
+    {
+      "asset": "7d0320f03bcf7c2693010c692876a9da48d6f6643bdbde727715eb08d1d846f8",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/urlpi_003.sh"
+    },
+    {
+      "asset": "339059aed9ba61458eb8293ecf6e4b85b30cb54c578399ea60549ff69f4ab790",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/vector_014.sh"
+    },
+    {
+      "asset": "0e6fa024b9bbfe3a8080e9fe19a56240e84b32a101b9affb97552325e5cf95ea",
+      "path": "vulnerable-apps/llmchat/ground-truth/verify/xss_008.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "2f4b6c45e41bf7596198760685510b8704648134beb49761203e1b70e2694946",
+      "path": "vulnerable-apps/llmchat/safe"
+    },
+    {
+      "asset": "c2aba3927abe3c9abdf168ecfcc11bf6c06dd22ac72b762f85538d5cd89a2173",
+      "path": "vulnerable-apps/llmchat/vuln"
+    }
+  ]
+}

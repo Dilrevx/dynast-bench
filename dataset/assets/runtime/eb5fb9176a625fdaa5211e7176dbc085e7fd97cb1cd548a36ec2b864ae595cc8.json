@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/preview/inline"
+    }
+  },
+  "route": "POST /api/preview/inline",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

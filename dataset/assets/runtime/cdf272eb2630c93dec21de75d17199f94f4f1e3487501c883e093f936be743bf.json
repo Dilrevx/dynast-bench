@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/chat"
+    },
+    "llm": {
+      "channel": "document"
+    },
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ]
+  },
+  "route": "POST /api/chat",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

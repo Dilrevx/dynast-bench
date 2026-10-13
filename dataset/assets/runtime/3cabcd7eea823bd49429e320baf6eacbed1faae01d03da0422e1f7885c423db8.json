@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/approvals/redeem"
+    },
+    "llm": {
+      "channel": "user"
+    }
+  },
+  "route": "POST /api/approvals/redeem",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

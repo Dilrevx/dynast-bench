@@ -1,0 +1,155 @@
+{
+  "files": [
+    {
+      "asset": "7279120cd5fb91839e84a99b94d24e35dbe995378a474db21ae3d3373193237e",
+      "path": "vulnerable-apps/websocket/Makefile"
+    },
+    {
+      "asset": "cecb962fea58d11d0eba57d4b42fb8685cfa739763b8c5923f22e6157e03a541",
+      "path": "vulnerable-apps/websocket/README.md"
+    },
+    {
+      "asset": "37bedf6211b4e9d12053d0686d67eae452e5433cf2773b74d4c603e9bfe37e4e",
+      "path": "vulnerable-apps/websocket/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "35610bf00f273a7f435416524fc8077e9c7cb21e6b18e723050e1fbd63b0445e",
+      "path": "vulnerable-apps/websocket/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/websocket/ground-truth/run.sh"
+    },
+    {
+      "asset": "01fa322c32b989160e21db5feeb323773141b01b327589f2c50f6b65c8621e8f",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "846a28ad006f574d49d447afade6ec9307ae69f1f51508f3d2a996f509b388f2",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/bfla_001.sh"
+    },
+    {
+      "asset": "7b2b81538d522c4c630edd39eab0e657a0d56abf527d77ccf00c63dcc5b1d51d",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "baf8ff5b70f87292bbb3375953cc70d2f88d36ba6dea8cd81f4d8fd0703260d8",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/channel_bola_001.sh"
+    },
+    {
+      "asset": "3351e5849d54a7dab65a3eea7471772b899f718c62f7c1229afabc75b944fa52",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/channel_internal_001.sh"
+    },
+    {
+      "asset": "07183757298448ca268827ebfb27d7ffeb736c5fbc5e3afe080b9bc3d47753bc",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/channel_wildcard_001.sh"
+    },
+    {
+      "asset": "9189054e7b49f7df899d97dbb34e12a21de5f602af21f6af57792fd923c707ee",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/cors_cookie_001.sh"
+    },
+    {
+      "asset": "9dd84c932a393ac4f383f879d346b1fa2a9c403f36e8c899ce42724da6c0e934",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/cswsh_001.sh"
+    },
+    {
+      "asset": "0ff0faa5b139011ebc90eae3b08eb79432bced089c5e56a5af22658daf38698e",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "c0f83fd365bd086def2223ab6f1d46a3762cd7738c587ecd0182d3381f80bef6",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/downgrade_001.sh"
+    },
+    {
+      "asset": "b12645a70774083fe8c925e4a11a0fb21f0c23ebb5c57c0a2d802d8d094f4850",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "c4b5ff982fcd6f7921262ac2e68e593b04399c081057c0624ff844ecb891a143",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/impersonation_001.sh"
+    },
+    {
+      "asset": "6ec21b646510e61c8e3d8d3da7bef4207498f7a8144aca3adb94016bd6606e39",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/log_injection_001.sh"
+    },
+    {
+      "asset": "88d096babca199baca2954d4dada4ea33d9eb6e15ea1a1e3bb356009501d5a05",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/payload_limit_001.sh"
+    },
+    {
+      "asset": "854fee7cb4adaab65a16c3ff1e6bd780ae1641af29696a85d2a8f3740821dd28",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/proto_001.sh"
+    },
+    {
+      "asset": "6374cdad6c8462c601459c5bb3ac24a2d558b90a632864f804c8d4e9e93cbdf8",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "2d72f46cdf214d54e5ac269c4aaf18dd38179cb0144e8b16f94f250eb6b4b137",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/rate_limit_001.sh"
+    },
+    {
+      "asset": "fac4bcec0d4dadbfff20ecf680fbd88ffff9a4842eede5dbe35903af03bd0611",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/rce_001.sh"
+    },
+    {
+      "asset": "ada6137812362c837de263be942e33f2fac44e8798d469ae8926ff1b77c34924",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/resume_001.sh"
+    },
+    {
+      "asset": "3c2199c622bcb37327de30eaed4e6c32b323b848bca7f0268a7b4930d151313d",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/room_limit_001.sh"
+    },
+    {
+      "asset": "151a9a03a0d8ac129fecc839c310d3e2226e8f680b14917fc3029c04077641fd",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/session_expiry_001.sh"
+    },
+    {
+      "asset": "c31c71bf09c2d75773c89470e9509d6084e1cf6a70f4dcb918354f383fd94cb4",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/socketio_admin_001.sh"
+    },
+    {
+      "asset": "52f56c030d5af8577ef862310ba459a15052387ecbd08b10530b620654263067",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "46660d84c727e1dfe6e5854be9aa0b16c537151daf25344e7f60021712c10606",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "d54cbd7bb7948b7a83d513134a8dd34a47116e3dcfcfa252434539707733ee61",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/subprotocol_admin_001.sh"
+    },
+    {
+      "asset": "1381ae6c582ffe3937554461defe15ed85b543623d11b26f2eed3722a93ad565",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/ticket_forge_001.sh"
+    },
+    {
+      "asset": "139244ec19531a1e8e78f806ea5584b58e496bf2304408eb0bc47f253a3f1b0b",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/token_leak_001.sh"
+    },
+    {
+      "asset": "f3c0802abb51c0f3f69a8891ff72a8d864d4d4648d2b3bc5cefde863b4cfda4c",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "70f63f255b91dce927c735fa40d7846e16b21aae7ef3c99b301a4300d368a71e",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/ws.mjs"
+    },
+    {
+      "asset": "f173f016ff203fb7a40d35b4a59565a82a71e5c8c2aff7b1ed42e2c088e362c2",
+      "path": "vulnerable-apps/websocket/ground-truth/verify/xss_stored_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "6efb579221a5f8e11e8432967600e666a42b0f96bdcd5f291a428f468ca63458",
+      "path": "vulnerable-apps/websocket/safe"
+    },
+    {
+      "asset": "a4684b70a40e2d15948c20c9d67985a4bf17b0fce5444207cced996b808d2c87",
+      "path": "vulnerable-apps/websocket/vuln"
+    }
+  ]
+}

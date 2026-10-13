@@ -1,0 +1,10 @@
+{
+  "application": "network",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "8193b38a1ec2e7da446a349ccd9f55ff2753ac3c206993aa6c6452f4beec165e",
+  "seed_setup": "Network benchmark seed includes Acme and Globex users plus the Globex DRAFT marker GLOBEX-CONFIDENTIAL-MARKER-7f3a in simulated datastores.\n",
+  "versions": {
+    "safe": "1e865b1b1ba7e95ec0c7499b8d7cc15e2ea75096f73032984072b656c9bd977a",
+    "vuln": "b705b9e49aa7bb5a48b0a611cf9b3d8e4dfdde1f6041148c793282aaa6811a88"
+  }
+}

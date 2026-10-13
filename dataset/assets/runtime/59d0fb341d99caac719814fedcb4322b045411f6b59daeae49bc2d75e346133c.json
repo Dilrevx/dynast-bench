@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "file"
+      ],
+      "path": "/download"
+    },
+    "markers": [
+      "XXE-LOCAL-FILE-MARKER-jsp-42"
+    ]
+  },
+  "route": "GET /download?file=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

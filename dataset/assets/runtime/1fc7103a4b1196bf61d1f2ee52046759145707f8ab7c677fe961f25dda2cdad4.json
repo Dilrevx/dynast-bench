@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/integrations"
+    },
+    "http_alt": [
+      "/api/integrations/sync"
+    ]
+  },
+  "route": "GET /integrations (-> chunk) then POST /api/integrations/sync",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

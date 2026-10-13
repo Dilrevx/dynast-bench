@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/chat"
+    },
+    "llm": {
+      "channel": "url"
+    }
+  },
+  "route": "POST /api/chat",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

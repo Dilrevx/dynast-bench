@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/billing/topup"
+    }
+  },
+  "route": "POST /billing/topup",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

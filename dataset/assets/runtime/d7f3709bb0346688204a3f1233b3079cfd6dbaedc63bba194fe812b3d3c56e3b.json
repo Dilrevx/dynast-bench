@@ -1,0 +1,9 @@
+{
+  "operation_match": {
+    "http": {
+      "path": "/comments.php"
+    }
+  },
+  "route": "POST/GET /comments.php",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

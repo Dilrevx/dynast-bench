@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "auth callback"
+    },
+    "http": {
+      "method": "GET",
+      "params": [
+        "next"
+      ],
+      "path": "/auth/callback"
+    }
+  },
+  "route": "GET /auth/callback?next=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

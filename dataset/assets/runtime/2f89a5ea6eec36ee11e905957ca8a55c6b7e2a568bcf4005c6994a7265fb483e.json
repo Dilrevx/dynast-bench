@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "text"
+      ],
+      "path": "/api/crypto/hash"
+    }
+  },
+  "route": "GET /api/crypto/hash?text=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

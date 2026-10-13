@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/import",
+      "query": {
+        "type": "xml"
+      }
+    },
+    "markers": [
+      "XXE-LOCAL-FILE-MARKER-jsp-42"
+    ]
+  },
+  "route": "POST /import?type=xml",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

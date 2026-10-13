@@ -1,0 +1,187 @@
+{
+  "files": [
+    {
+      "asset": "71f127e5000c7846df4585c9f09d3a0fd372421d02008023ddd2178166ad809e",
+      "path": "vulnerable-apps/jsp/Makefile"
+    },
+    {
+      "asset": "9cdb57e88566328ddbd82c6787027fa25869eae5502a38a813b2dd28f6ecbe09",
+      "path": "vulnerable-apps/jsp/README.md"
+    },
+    {
+      "asset": "fe63e427ffe9f6c49c016a0018e520c34e7d6e0990d685645e4392f4048f1ec8",
+      "path": "vulnerable-apps/jsp/exports/run-1398ded2-fac8-4a9c-a3a4-7396fe17f124.json"
+    },
+    {
+      "asset": "1da95f7f0ffab1cad418a0b7f7297619af46b4482dfc0cfb6e9c41ffba2e30aa",
+      "path": "vulnerable-apps/jsp/exports/run-4ba71cc4-cb8b-49db-ac4d-220a5bb334d7.json"
+    },
+    {
+      "asset": "5822b10f44c2bee9b061d5ed30c433abab3db53d24500e8d6b51370a673ad7d4",
+      "path": "vulnerable-apps/jsp/exports/run-860af1e2-6e3d-4f3b-a011-28b909232189.json"
+    },
+    {
+      "asset": "5dc4a94b2827a266a08cdb9a135e67c9b3f8c3e0f3ac6b54bd7e5c0621fdf4f8",
+      "path": "vulnerable-apps/jsp/exports/run-b66f9efe-2ffb-40cd-8f6e-321191acdb10.json"
+    },
+    {
+      "asset": "aeec3590aa471ac2268bb41f3a1d741d8b8356a11a0c5c49755339dc779af822",
+      "path": "vulnerable-apps/jsp/exports/run-be502714-2a79-4b95-97e7-bf47f6792855.json"
+    },
+    {
+      "asset": "f3f234fa3ecc630f57010aecd3911ca0b4999a2eef65a751b5197bb0d2b8e1e0",
+      "path": "vulnerable-apps/jsp/exports/run-cbecb131-5ffc-4184-b43f-ac8b434d042a.json"
+    },
+    {
+      "asset": "90936dcc34dfc0db53c531befa0adcafa569e9128979e37598cb86ba5902453b",
+      "path": "vulnerable-apps/jsp/exports/run-cde34806-9f84-4868-af14-83f1610138ae.json"
+    },
+    {
+      "asset": "f3078e552ac3437d4c285928c9121784838a23e15b0ccd5d415172a33c19a8a1",
+      "path": "vulnerable-apps/jsp/exports/run-cf2822e1-ee53-4d7a-a3b8-18c4e7cb7806.json"
+    },
+    {
+      "asset": "3aa834e9b751124b7ad0074aa802687c26acdeb950ecdaf8b05afd2c0937463a",
+      "path": "vulnerable-apps/jsp/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "4129d8081859ed9c9b0d90954f16666ffe20634a8164fb7430fae7e1b76be0d4",
+      "path": "vulnerable-apps/jsp/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/jsp/ground-truth/run.sh"
+    },
+    {
+      "asset": "4cbc5b0cc1e122796a12f0255495e1f5b389248c525e510111dfcfc9e9944cbc",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "591ae5e15eaf87cc08d09c57d7ea0801dad351db6098ed569a60487dc542aab8",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/authfilter_bypass_001.sh"
+    },
+    {
+      "asset": "c81e0c7cc4dd86ac5f381d5fd2368d801e3333b8a02395482e344f8e258a7353",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/bfla_001.sh"
+    },
+    {
+      "asset": "fde78a2dae36d135afed75db8a163012a680d40b2466ee219f1965c62aca8fe4",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "5e1bb46481e8a81594bf78c1f6cf2b05851b0b3e71339a9b845d249dbb572a2c",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/captcha_001.sh"
+    },
+    {
+      "asset": "d541a482be316ab2f02598e43f5182f3d236f383a6ecfc016ddddcf3d2398756",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "c8830ad6027a8b667f018240970663341763e22685f76f000ef6829d60ba19a7",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/crypto_001.sh"
+    },
+    {
+      "asset": "55425bdb962472d76a5481fb1df8af687c5f7fa62bb2dd8c0c102abb704640ce",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/deser_001.sh"
+    },
+    {
+      "asset": "511f6e2c48f9bc7b47dbc8485f5c80369667a3ca20f72c35dfecb53d9c2b4dc6",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/el_injection_001.sh"
+    },
+    {
+      "asset": "aa1455660428d4ab718d7a126a5ff2524319bff8ad433f46755712cdd4bb1f6c",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/error_001.sh"
+    },
+    {
+      "asset": "2e33f18aa042dfd5f502f82471fddcdc97da9d1164591138b753d318d17da8e8",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "989d8f7a67662d148b014296617a784735e9f2dcc9fdd2b09ef48ed531b40cdc",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/jwt_none_001.sh"
+    },
+    {
+      "asset": "e1dfbaa67ce1849eb81b1e341c866a07d0f62cd800372f37727e8c2a9bc188e1",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/login_enum_001.sh"
+    },
+    {
+      "asset": "cf67a842d0456c2e420431d110ff5c1aa67385ca6ef52be9cfc2f8e2b53f1b73",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/login_rate_001.sh"
+    },
+    {
+      "asset": "ae6faa737172714630acb9bed4e5c0b60874ce01dc6a09bbc048d46b0e226f02",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/manager_001.sh"
+    },
+    {
+      "asset": "5e05b5c22eb2ef2fe5b324c1c3ebd766f59e8489c9ac93f98cb38f6482dda3c7",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "8fdc120acbced4254235e930f3d530c297aa653238817d2f490c5f36d9d1f407",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/open_redirect_001.sh"
+    },
+    {
+      "asset": "42047b21ba996a25f599e86388fb17a2d0845fa181b4bd66292e61b1967d161b",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/path_traversal_001.sh"
+    },
+    {
+      "asset": "224747a87b63da3cbf68639dbec625fca13df9d468f447dafda7041367aedc34",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/race_invite_001.sh"
+    },
+    {
+      "asset": "521faa3b10e4c363472ab73d48b4769ec4d8fe8fe61230578e623fac1eecd3c8",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "a1d546f89f43f51cc30b51c153d665f7d996f6bd4ea5f2cb5370f61cd434dbb2",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/session_fixation_001.sh"
+    },
+    {
+      "asset": "56eb07c339195d2ee827b38ccedc5c947f132d6f924406f9c46fee7fa24cd5d8",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "36ff283f2772af5d1757dda1691107460a216eb1bef232a8127d0ed9adcde56d",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/sqli_second_001.sh"
+    },
+    {
+      "asset": "e432307683020d73b9ac5257d9277e64f3f570bd9904a795c19d8dce8384b24b",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "6f23caa3d862b6d37fa73db71c8e170e0553483171d0cae6f2c68aba74376178",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/upload_jsp_001.sh"
+    },
+    {
+      "asset": "9989a0c63812e10731b2d4edf1a1b4ff909a1fb658782c48b0cc50adc9a16bbc",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/xff_001.sh"
+    },
+    {
+      "asset": "8d743ea84c4202404f48a95bcca0d35c7633b0615cf5b797aa77eb6a8bca1295",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/xss_scriptlet_001.sh"
+    },
+    {
+      "asset": "31f050339f9f4b0fe486e5b98978a0d10056a9fda61d12224b793f44d19ef102",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "5d431834ed61955d9d61f9bd62750a319d67b8ecd1d04af65fea16428b73b6bc",
+      "path": "vulnerable-apps/jsp/ground-truth/verify/xxe_001.sh"
+    },
+    {
+      "asset": "efbde724a8da653df2d0ccc013049bac4e24394a6a19688644a9479bf5664596",
+      "path": "vulnerable-apps/jsp/workspace/welcome.txt"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "933edcb7c6049cc69b1728ed2f31b5fb660039567c772bc180a1f9a689b3eec9",
+      "path": "vulnerable-apps/jsp/safe"
+    },
+    {
+      "asset": "b17464f1777cf16b21a3a4fcca14d052390686ae313dcc0ff01fdcbdd71db0b5",
+      "path": "vulnerable-apps/jsp/vuln"
+    }
+  ]
+}

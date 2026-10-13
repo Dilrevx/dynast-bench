@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/runs"
+    },
+    "llm": {
+      "channel": "user",
+      "tool": "toolSql"
+    }
+  },
+  "route": "POST /api/runs",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/xmlrpc.php"
+    },
+    "markers": [
+      "INTERNAL-SINK"
+    ]
+  },
+  "route": "POST /xmlrpc.php pingback.ping",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,155 @@
+{
+  "files": [
+    {
+      "asset": "211c81028bded20fd9a0d4dbb27845dba643e5c9bba8960bd004181db1a4a619",
+      "path": "vulnerable-apps/llmagent/Makefile"
+    },
+    {
+      "asset": "1ee1909c5d3f8203333a21285f3d04ce49f753222d7e7e6b2ae2a3fe0df2a46e",
+      "path": "vulnerable-apps/llmagent/README.md"
+    },
+    {
+      "asset": "4453402585f42f90cc9ceab801be43b9c11aedefdb903082c63d8d8e61d01b15",
+      "path": "vulnerable-apps/llmagent/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "97b9d3f74dd138e6beb5a19db5fe9924bac2658bf6c88e778e799df9bff42200",
+      "path": "vulnerable-apps/llmagent/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "8bb4287257b41f47cbc699cdfe3a7cf37b38fc7179e729494aeeb9cebe3be57c",
+      "path": "vulnerable-apps/llmagent/ground-truth/run.sh"
+    },
+    {
+      "asset": "f38ba0425a16b753ae708319e5b242638fce6cc9a63fb08b414ca7a3cd39371a",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "30b8733a857443603aa14540445666c69e65a39d9a510fefd87241b5173b88f2",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/approval_replay_001.sh"
+    },
+    {
+      "asset": "9fd4c03b66b95c4e8354bb723627d6750540e13f3415b13f4d42e08dfa02f364",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/autonomy_loop_001.sh"
+    },
+    {
+      "asset": "deb4e7cc23674fbff9d5d7b95c5bd56f22a2b1678be20601d96b245d07e5b94f",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/bola_runs_001.sh"
+    },
+    {
+      "asset": "a39b5ad7b6841d9c9d3b51779defc3d849a16550bf983b1fd3bce846c4507abf",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/browse_injection_001.sh"
+    },
+    {
+      "asset": "ed9114f06eea442fb802272cb5edf034727d77365c124a3e667da61dbb5930f2",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/client_model_options_001.sh"
+    },
+    {
+      "asset": "ff05f18bc5f62832831169733ec8356631e259f3db598c32743c09664eed90e6",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/cmd_injection_001.sh"
+    },
+    {
+      "asset": "11b3bdbe9c086f8c10ff56098b4cd665430c0a4d0c19c36569b34e5089605a67",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/confused_deputy_001.sh"
+    },
+    {
+      "asset": "c721ba9589a7ffdf0635f971f071cbb09606cb6207746385fbc3beeb1325a0cb",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/cors_csrf_001.sh"
+    },
+    {
+      "asset": "620b294ea297b85e1b0ee345c06bbbfe3c79e5726ae0f6371dfe4aade06f01fb",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/eval_checkpoint_001.sh"
+    },
+    {
+      "asset": "0e922cfe3382760ca42091da4eba66c2cf00b77ca2665501b66ad5aa071d5ece",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/export_dirlist_001.sh"
+    },
+    {
+      "asset": "fa4ba2e1cd3ab6dbb713f8aca59d48095cfc35c2a0acd62968ea0817c90ebea1",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/flattened_prompt_001.sh"
+    },
+    {
+      "asset": "844edb8b121f25a594fe84ec6844d66c73588465a84d17665108ad2c35271162",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/hardcoded_secrets_001.sh"
+    },
+    {
+      "asset": "184a9d3512a0b7b48984d4567ba88bac02c718a0328e33a9d2f3a5f7fb786ce2",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/hitl_bypass_001.sh"
+    },
+    {
+      "asset": "5462525dbb2f6f550c0e30d7cc57c70e73ffa281c47f9dd0d494866338981511",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/mcp_bearer_confusion_001.sh"
+    },
+    {
+      "asset": "f7c8de9f80e32903c0fd1ad7f567a0a801c0c401205ffac8e8b083e7fa5cb26e",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/mcp_description_001.sh"
+    },
+    {
+      "asset": "c388193472dd4fce77399972e7936471169e852041f744f5bdb33b8e9da834ce",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/mcp_rugpull_001.sh"
+    },
+    {
+      "asset": "8d5d9f20ee92d5b57b42d478b4ad29f156951a438486ad3aa5d4ccf4e01aa588",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/mcp_shadow_001.sh"
+    },
+    {
+      "asset": "dc55f9eaf01c0bc7680785cc85be5768e7d2b50aad411f49cfbffd64783eab7d",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/mcp_spawn_rce_001.sh"
+    },
+    {
+      "asset": "740321e4f0d668d6220bf4a8f8cedcc2d7d0504adc742b1cff8396cb1e7d7c61",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/memory_poison_001.sh"
+    },
+    {
+      "asset": "f25f90ab0ae3a3025ca4a533edd36ea91417e85daad1525acae36cf275d4819b",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/quota_race_001.sh"
+    },
+    {
+      "asset": "615f29d4bdcc5c52e8072b367e090859639d73a15cbf1b235720c14444cc8cb2",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/refund_abuse_001.sh"
+    },
+    {
+      "asset": "51799a3adde881c1852033c64b49594c06d7f85360aa7abd1639e5ebea6349f6",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/self_mod_rce_001.sh"
+    },
+    {
+      "asset": "77fb667375b35191c5d35b278d8ee39f727b1766ff4586ed7ef040165fb90adb",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/sql_owner_write_001.sh"
+    },
+    {
+      "asset": "89410ac601a4431cb944217d9fcf7da79739b1201bbf41343029aaec588383ff",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/ssrf_internal_001.sh"
+    },
+    {
+      "asset": "1e8a198b71c947ccd607af77804206e6d4c038d49e871d9eeff00c434fa0dc82",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/ssrf_redirect_001.sh"
+    },
+    {
+      "asset": "697cab188674b8b922627cc111b136d2bc7b5971c0b8bc2d1be498d3fd8af32d",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/tool_enable_bfla_001.sh"
+    },
+    {
+      "asset": "15b508a3e86057047bf6e7532eb70ae7804fb1b379bac7b1e7f12cf516e547e6",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/tool_result_injection_001.sh"
+    },
+    {
+      "asset": "731f999ab8258b10affa6cf0fa5c8e070177b3d429fa72b2e3aaa20c1c2f6472",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/traversal_read_001.sh"
+    },
+    {
+      "asset": "ac4ab575077677a2cef8945a8f00aa5fe89514e5e14ba2b21357852111cbcdb5",
+      "path": "vulnerable-apps/llmagent/ground-truth/verify/unrestricted_shell_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "cd85212c16a1137554566592509353e95311a21a7114b10fd9f864e47b6589fc",
+      "path": "vulnerable-apps/llmagent/safe"
+    },
+    {
+      "asset": "87c96eb13885b5f244070b65a4d21ad14e4777d0e8c003ba439ed1aa3525d4f5",
+      "path": "vulnerable-apps/llmagent/vuln"
+    }
+  ]
+}

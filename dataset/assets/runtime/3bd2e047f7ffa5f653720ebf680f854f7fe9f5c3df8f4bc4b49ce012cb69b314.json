@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "WS",
+      "path": "/ws"
+    },
+    "markers": [
+      "INTERNAL-SERVICE-SECRET"
+    ],
+    "ws": {
+      "event": "webhook.test",
+      "transport": "ws"
+    }
+  },
+  "route": "WS /ws {type: webhook.test}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

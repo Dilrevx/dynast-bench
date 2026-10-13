@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/v0/users/{id}"
+    }
+  },
+  "route": "GET /api/v0/users/{id}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

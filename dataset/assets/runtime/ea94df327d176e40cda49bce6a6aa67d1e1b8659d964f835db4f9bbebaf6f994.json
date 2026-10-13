@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/wp-admin/admin-post.php",
+      "query": {
+        "action": "bench_admin_export"
+      }
+    },
+    "markers": [
+      "BENCH_ADMIN_REPORT_SECRET"
+    ]
+  },
+  "route": "POST /wp-admin/admin-post.php?action=bench_admin_export",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

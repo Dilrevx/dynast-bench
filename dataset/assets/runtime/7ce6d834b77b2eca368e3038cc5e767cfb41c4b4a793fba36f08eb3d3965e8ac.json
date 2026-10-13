@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "transport"
+    },
+    "http": {
+      "method": "OPTIONS",
+      "path": "/graphql"
+    }
+  },
+  "route": "OPTIONS /graphql",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

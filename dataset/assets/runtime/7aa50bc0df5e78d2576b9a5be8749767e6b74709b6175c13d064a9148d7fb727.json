@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "app-legacy",
+      "port": 23,
+      "proto": "tcp"
+    }
+  },
+  "route": "app-legacy:23/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,10 @@
+{
+  "application": "jsp",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "3aa834e9b751124b7ad0074aa802687c26acdeb950ecdaf8b05afd2c0937463a",
+  "seed_setup": "Orgs Acme + Globex; user2 in Globex; Globex DRAFT carries GLOBEX-CONFIDENTIAL-MARKER-7f3a; weak admin/admin manager-style credential.\n",
+  "versions": {
+    "safe": "933edcb7c6049cc69b1728ed2f31b5fb660039567c772bc180a1f9a689b3eec9",
+    "vuln": "b17464f1777cf16b21a3a4fcca14d052390686ae313dcc0ff01fdcbdd71db0b5"
+  }
+}

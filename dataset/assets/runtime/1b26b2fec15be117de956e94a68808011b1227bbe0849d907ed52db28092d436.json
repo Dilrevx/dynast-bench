@@ -1,0 +1,207 @@
+{
+  "files": [
+    {
+      "asset": "1225b5c35bed1cb1f16e32b88ea4b7a2e59d5ae610595575bff55950f952efcd",
+      "path": "vulnerable-apps/springboot/Makefile"
+    },
+    {
+      "asset": "16947834bb284f43eea2c92e9b15417388194730b9245078fbf10443e44e7800",
+      "path": "vulnerable-apps/springboot/README.md"
+    },
+    {
+      "asset": "62ec8b5444a5ceac840a92578890850be908e1149858c113a160c0d86eb93e84",
+      "path": "vulnerable-apps/springboot/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "e28e1d4baeab07d571394dacf39325b4645b562ed492c0454a63b357b0405bb6",
+      "path": "vulnerable-apps/springboot/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/springboot/ground-truth/run.sh"
+    },
+    {
+      "asset": "1205cb3c3247d1c90e8719b573f42cf7fbd062c6ff08050acd1ccd03d47985f6",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "275e4122409c207577310248465e91d6868701a400d9ea7ea7e85bf740b92a43",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/actuator_env_001.sh"
+    },
+    {
+      "asset": "f1f3aec5f064d76412c3a237677bfd9302892a0a4f03ccdbd953dc2cc4a876bc",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/actuator_heap_001.sh"
+    },
+    {
+      "asset": "cd9779fef95aca81c29d2460ec44f01aa68bf670c5b0eb42b214f6449c459860",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/auth_misorder_001.sh"
+    },
+    {
+      "asset": "8640ae9d4881441e240897af5397ff108894ba56bbaf1546408ba72d969bcbd3",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/bfla_001.sh"
+    },
+    {
+      "asset": "bf04d63c8ef07be5c933db77e63c8b09a892b6887d9acee7454d8bdca99bceb9",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "3950245bb7892ebcb3f030e73d66a128c20c58fc85571822860d245f3112c8f8",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "337870594e2a5f9598b5f761894594bfac8fe1a39adfe227c581254f791129a7",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/configdump_001.sh"
+    },
+    {
+      "asset": "af1fd7b0f13ce45619816eb39bc9636b2c1975e4ff9e8bedb12b9ddd2f962e53",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "12ce892e8542d6fdefc0765391c9b5846c7d90ba25edf9783672a626dbc31a6f",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/csrf_001.sh"
+    },
+    {
+      "asset": "9f92b28a949da7dad0369b6e7e8eebea09ff6bf9b16145692fb6c5876560daad",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/deser_001.sh"
+    },
+    {
+      "asset": "018f9c18e5c38c0e41e90bce5e769f2653f3455c0a56084292c7c388e9891614",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/dirlist_001.sh"
+    },
+    {
+      "asset": "54f72fa1fc2e0d074bae4e77d436898fd3729be3cf70927711a818ae95a44d63",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/domxss_001.sh"
+    },
+    {
+      "asset": "33f253b0cc2824d1bf95b573c96e876feed22496ecaaf11d9b7b7bf0a1fcbe50",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/enum_001.sh"
+    },
+    {
+      "asset": "8cde60bebf278139a24966371d2d5d413ba266e5a128e84511c0af34dc6a1b29",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/errors_001.sh"
+    },
+    {
+      "asset": "0976563711f13691a65bf4f1ea7c226085fc0b474ece8de9345f8c07b227e383",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "c3c3cf53574e75cf84c2acd6e10b7f5d4b8c9082af776f443ed73a23a5a72db4",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/jackson_deser_001.sh"
+    },
+    {
+      "asset": "f042588d133be25c04027277f83f2ca6e557bdc34c66e5bfbd70413ad94d8a17",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/jenkins_001.sh"
+    },
+    {
+      "asset": "a6a81cb2c8d27884943bc1a6c74cfc30321f081e070d42e4d8a8bd8e702b0fb3",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/jwt_001.sh"
+    },
+    {
+      "asset": "9cbd7b8792ef295dbb1cb738d6450e266a30e32af122fc2256aef5d9c8cf1bbd",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "67312aa30c8116608cb2c624be1017391570f50d0678b8c31bea8d48fdbb6918",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/postmsg_001.sh"
+    },
+    {
+      "asset": "143f1c858b004afb36da90b617d7caf706365c424356d7ee85efeeea69511b6c",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/preauth_bypass_001.sh"
+    },
+    {
+      "asset": "5696358302e967ef1e9e57a9e01700025d19a92b67e77863b407e3b1d2edd42d",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/prometheus_001.sh"
+    },
+    {
+      "asset": "e208df4e66ae92fba40797f8e740c54357f0b2a55f0892bd21f9bee185ceae2c",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "cfb509574a9efb01703b1e83ea1507dfd0e054563a0479d45f272ba31e0d7f34",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/rate_001.sh"
+    },
+    {
+      "asset": "7337351c26bcf5fd194590a7f00d24b7c7fb67c7ac07d56f22215f8ffa0fc7ef",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "3a43323fe95f04b0dac6e950099f40a8445f5fc1623f7cd6a945a52c866532c0",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "c9707176d0695e90724cc2bc65d333b34b6fcdb9bcbdfda058d341896ad99c82",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/secrets_001.sh"
+    },
+    {
+      "asset": "1b9c299869da2bd53d38fdb1658633017f45d704b9719be79def450cc94ba1b0",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/signup_enum_001.sh"
+    },
+    {
+      "asset": "9fc4e5f7d8d930b10d118f37ed91e47b1015daa530b97ab895934a2dde95121f",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/signup_idor_001.sh"
+    },
+    {
+      "asset": "913a73d9432cc9d4cec2aff568b702cc60e7887a38eccbf41e550414a1700e8b",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/signup_massassign_001.sh"
+    },
+    {
+      "asset": "7dd02e0074b2d160bfcd56d5586c2a685eb2f338d58253ef0e9ecd72f50857db",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/signup_stepskip_001.sh"
+    },
+    {
+      "asset": "5ee0b20f36f6dcfd0810efbda0376edd1d4813bf6a9d4cfcdfd3077a2fee2da6",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/signup_token_001.sh"
+    },
+    {
+      "asset": "b60f5df60df9a31a346427d0eb3933a2d774bd05c8f29694c601007686476fb2",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/spel_001.sh"
+    },
+    {
+      "asset": "9b6b68dcfa281dc4c34891761f3d742b4bb55d0ab5237beb3203a11f17630754",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "f0e50eef294f5d212cf78ff0af4ad82699fbb1d73d875057815b6cb354b09659",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/sqli_second_001.sh"
+    },
+    {
+      "asset": "9368b55a2dbb61f8137f82a3b50f5e64489d95481053d06f6930b77b23a2d061",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "4aeb757f3e1ad4dee1cab66691d38651bb28190db09fa1ffb742a37de9594e1a",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/tpl_001.sh"
+    },
+    {
+      "asset": "73f0fde4e415dbe0ead24c02f1ab57f61af96f76c629e5dfe376fbe23a663e73",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "9a20db1b4a2a018db58642344a811cc07e324ea3ba4f1fdecf8324bcb8de0b2c",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/traversal_bypass_001.sh"
+    },
+    {
+      "asset": "d3b012e6282c107c2bda6903a4a62ca385ad2dd069bad58e038df7444ff6d1a8",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/xss_reflect_001.sh"
+    },
+    {
+      "asset": "d6a7e9900ff636da514d04404d183abf9b9128ea8c9e53edc8ee3fceafe5d6a5",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "25b93d5548a1ca16091753b918439c9fe4dad23c720c01932f614fc5abecc953",
+      "path": "vulnerable-apps/springboot/ground-truth/verify/xxe_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "e22b203cc879012894e356358d1d18af4ce236ce53f8630a81b19b0b706c5814",
+      "path": "vulnerable-apps/springboot/safe"
+    },
+    {
+      "asset": "d9352a35d9e7bfbec102c44768603f843a57c8ce19e9f2938e7d7edf29386a56",
+      "path": "vulnerable-apps/springboot/vuln"
+    }
+  ]
+}

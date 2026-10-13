@@ -1,0 +1,10 @@
+{
+  "application": "swagger",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "ed35a901cabba35df649aeb51fdb2b17f5cb6755aef37cc6a2a42f9bdf21b4b2",
+  "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant BOLA/IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a. Weak default service credential admin/admin.\n",
+  "versions": {
+    "safe": "11d95c22936f16e948255e97caf98fe7f1878ca4dcaa141d4ea6a4fa53fb0ebe",
+    "vuln": "acc898942395a6e349b053a4cd323bfdce6b492f649a25128a12faf5c2521011"
+  }
+}

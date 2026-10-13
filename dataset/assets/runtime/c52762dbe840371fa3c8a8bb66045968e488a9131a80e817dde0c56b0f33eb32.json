@@ -1,0 +1,163 @@
+{
+  "files": [
+    {
+      "asset": "d90a8252cb7365a9c430b6a95835a4f56a8e0d34c756df0a635b1509aabd8c8c",
+      "path": "vulnerable-apps/rails/Makefile"
+    },
+    {
+      "asset": "c514a61504830ee8f02c7f7108a067e54e3d229a4f2e93b9c2a06dbb038134cc",
+      "path": "vulnerable-apps/rails/README.md"
+    },
+    {
+      "asset": "b7abf71d58053b3470825d8499faff9d478fccb32b6e97449297535951fe745b",
+      "path": "vulnerable-apps/rails/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "d761abd31b98e0dea3022599a6d311d0e93111c829dea12c09917368c1480b61",
+      "path": "vulnerable-apps/rails/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/rails/ground-truth/run.sh"
+    },
+    {
+      "asset": "dd88a6bb8bed4122438bc6c2d26fa3b9570ae05c2bdf9d5053ac3de905f2ca95",
+      "path": "vulnerable-apps/rails/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "4b417d0f34cf92646dee1a8e5eea1ea050393cd7b1cf817c400e3bff73f42f95",
+      "path": "vulnerable-apps/rails/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "1fc3ee83b1addea45098dfba6732d2be0c6f7997d1cac6e3b98f81ce3ea4bc54",
+      "path": "vulnerable-apps/rails/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "30ec5d9daf18312e01cde4fa182d13da5477722b623a2d15f383f88eeff36c3f",
+      "path": "vulnerable-apps/rails/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "996f886888223bbf08be4a432b596e9519d81732c1f04f926d484668a1d7dcde",
+      "path": "vulnerable-apps/rails/ground-truth/verify/codeinj_001.sh"
+    },
+    {
+      "asset": "a46e9154be022ab1cea82e8f85916c677263500662a28f1ea40e372a39faef85",
+      "path": "vulnerable-apps/rails/ground-truth/verify/config_leak_001.sh"
+    },
+    {
+      "asset": "e4dbe4dabaedfa754ea73581098530342aefb8d53885d2f754e173ae9a5961aa",
+      "path": "vulnerable-apps/rails/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "426511e5c479b604d8bd1810288560c415f2e62cc382a7cf5bf05e5bb8bd2381",
+      "path": "vulnerable-apps/rails/ground-truth/verify/creds_001.sh"
+    },
+    {
+      "asset": "4f95847c56eddf4fbacde24f0f30b5835c47cae224e4a8e88634b2f1b2eb8dcb",
+      "path": "vulnerable-apps/rails/ground-truth/verify/csrf_001.sh"
+    },
+    {
+      "asset": "a5e5edc4453fe5ebb834b12f81e55d40f280043bb04e3923935b52a5324cf859",
+      "path": "vulnerable-apps/rails/ground-truth/verify/domxss_001.sh"
+    },
+    {
+      "asset": "def307ece146fbb1ae775c260029ef58dc059aa45cc9003e4aa6e45d16475a0a",
+      "path": "vulnerable-apps/rails/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "b5133929c0a86dada784a8d80638e65cccd9791b332445c656fec0a4ec242af5",
+      "path": "vulnerable-apps/rails/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "cba41d974ae9e1d78f0db04a4737a8a710b06b8977f728906d461308f53e491d",
+      "path": "vulnerable-apps/rails/ground-truth/verify/postmsg_001.sh"
+    },
+    {
+      "asset": "4746a69a4d760064d1d476a23ca2f33af272c85a04f706c4f2bbb18405f65a5e",
+      "path": "vulnerable-apps/rails/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "18a06a9320cf8796e97302427ea48bfffa14f02abdbaf25ee9dd90050d74d3f8",
+      "path": "vulnerable-apps/rails/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "3e54d3dc6a30555b476feb9211c7911f2a8f8be2231e535444c0eade1fe23a9f",
+      "path": "vulnerable-apps/rails/ground-truth/verify/refl_001.sh"
+    },
+    {
+      "asset": "6678e63f576bcf3c47dd6d7517f91530625d3da5afad09178d6dae898d1b9684",
+      "path": "vulnerable-apps/rails/ground-truth/verify/regex_001.sh"
+    },
+    {
+      "asset": "8aa6287ebb409ffd2517c657e45b918f37f373083ea7ea2795470fcdc6d84066",
+      "path": "vulnerable-apps/rails/ground-truth/verify/secret_001.sh"
+    },
+    {
+      "asset": "65f061c0629342ab8a9b251bcf71bbbeebfea4cede50d45e6597db6badfc0b4a",
+      "path": "vulnerable-apps/rails/ground-truth/verify/signup_enum_001.sh"
+    },
+    {
+      "asset": "89c29b070b46d7a9115418c22b1d9920308c6a70f2b6ecc8ad8406291f4c962d",
+      "path": "vulnerable-apps/rails/ground-truth/verify/signup_idor_001.sh"
+    },
+    {
+      "asset": "c8fcdc1e71531b6fc364ce79e80ded2ca67e7c813e38ba1fd19eb56197fe7e98",
+      "path": "vulnerable-apps/rails/ground-truth/verify/signup_massassign_001.sh"
+    },
+    {
+      "asset": "377b08ee32647319be05c727b208694a1c4b7921fee2ecafbe512845390db6a1",
+      "path": "vulnerable-apps/rails/ground-truth/verify/signup_stepskip_001.sh"
+    },
+    {
+      "asset": "bebe32c39b20c2207b18b8ed11438c4e3cf3f7a6d467892944bc6edb7c079908",
+      "path": "vulnerable-apps/rails/ground-truth/verify/signup_token_001.sh"
+    },
+    {
+      "asset": "554834d2254781bf2e4ed19206b77b782323cd053d05793b69a3d49fe993b386",
+      "path": "vulnerable-apps/rails/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "974f28ccb0b6cf41dbf6bbb7c20d3a205cf15b0a3bf2caf3c48289ea2f4417ea",
+      "path": "vulnerable-apps/rails/ground-truth/verify/sqli_002.sh"
+    },
+    {
+      "asset": "fc754d047f42fffc30c5f65d68820f0161e7cb7794e4e8c32ef955a296891782",
+      "path": "vulnerable-apps/rails/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "331e6ee9448f0bb941ac8dba9cdf90590f93dacfde4318e2c1eeea89bc57120d",
+      "path": "vulnerable-apps/rails/ground-truth/verify/ssti_001.sh"
+    },
+    {
+      "asset": "f66a6efda0da9414ddad8b29863d23c590bc4f91ccbf55d281ce365320841e01",
+      "path": "vulnerable-apps/rails/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "158f6690502c7a98bca3e1c49c5a9af584bc6f5f5880d373831604e3df6ad181",
+      "path": "vulnerable-apps/rails/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "3748a470377a261518fe3b3fbc5232e3756f58895733283e1a24b25209cdb375",
+      "path": "vulnerable-apps/rails/ground-truth/verify/xss_reflect_001.sh"
+    },
+    {
+      "asset": "b457ca34296099bae33841b2e5cff3e6691d3daaf718f31e56fc16e1e04b232f",
+      "path": "vulnerable-apps/rails/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "878752d7e929de262c5136b91c493603b99f2be37096e49674aae97b45a29b78",
+      "path": "vulnerable-apps/rails/ground-truth/verify/yaml_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "06aee84876adb96973557046cf7318074309a77b1827fd31891bd3c2f61a4f24",
+      "path": "vulnerable-apps/rails/safe"
+    },
+    {
+      "asset": "fa8969a18c484da4d77ec4b4646d2fa99ddfc9bc483ea2c8e21bdb929a015f05",
+      "path": "vulnerable-apps/rails/vuln"
+    }
+  ]
+}

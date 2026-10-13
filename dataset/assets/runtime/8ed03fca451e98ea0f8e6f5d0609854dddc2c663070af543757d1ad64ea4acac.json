@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/v1/posts/{id}"
+    },
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ]
+  },
+  "route": "GET /api/v1/posts/{id}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

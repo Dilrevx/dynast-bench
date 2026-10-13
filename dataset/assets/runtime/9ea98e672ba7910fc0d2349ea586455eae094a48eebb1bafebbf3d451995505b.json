@@ -1,0 +1,10 @@
+{
+  "application": "golang",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "c67bf42c5d16af72c5368722cf25144e91f046265645de7a3d13749480150704",
+  "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, returned only via SQLi or IDOR. Vulnerable variant also seeds weak default service credential admin/admin.\n",
+  "versions": {
+    "safe": "b46e7907eea59a098ba5b77fb858876934e2cd2887275b98d360660a8031127f",
+    "vuln": "7ad5359785196911e545df87adf2a5848258bd96bf865adcdbf78db89fdc347f"
+  }
+}

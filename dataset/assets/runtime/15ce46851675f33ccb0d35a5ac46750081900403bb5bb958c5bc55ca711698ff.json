@@ -1,0 +1,151 @@
+{
+  "files": [
+    {
+      "asset": "ed164c71fb9cc00fece9c8a29f13a2309af9127ae2e4c211aad000d3bf7502dd",
+      "path": "vulnerable-apps/aspnet/Makefile"
+    },
+    {
+      "asset": "0c7c1ba7fc8808d6e26a66249ac4788f5e88acdc3fd3eebb7e09a0d330ce6944",
+      "path": "vulnerable-apps/aspnet/README.md"
+    },
+    {
+      "asset": "93498274af3dcf1154a99e42dc546eed8fbdf5fc53ee260bb9f478eebabd48d1",
+      "path": "vulnerable-apps/aspnet/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "ce1e9ddcb2d697977d37df46de02b56861b10b878686b94a3af787a9cc5e60d7",
+      "path": "vulnerable-apps/aspnet/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/aspnet/ground-truth/run.sh"
+    },
+    {
+      "asset": "87ef05d80fa487365ff715a1ca02dec94e2f5acbf084da96bb387c6fa384892b",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "d56008d7e7a567a89a753c56f81d74091862a0ec63977ef72cdfb398da097307",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/bfla_001.sh"
+    },
+    {
+      "asset": "e223f6599a180eba602c4d3d25dda55436ecc909acd39bb79ca5c3a2fc636967",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "e724635841318b3895dac96afe9491532f3b09b5ff5a28ef3a11662e2b42280a",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "ef4fc02ce7320397edc22ee1fc56b4a5bd5a4715829d8126660c5f98b494227d",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/config_001.sh"
+    },
+    {
+      "asset": "e7eb275eade2ab2e82a7c9fe0ec3a6a9d0bfe93c3127c46f40c2550b22ca348a",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/cookie_001.sh"
+    },
+    {
+      "asset": "29b5f71051e6d74f67390e1c0013b01a3c312fe44173409f5e10722f8bf7546d",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "a6c65d6e3a05d9868e5b93737c98f03d4f963949e994343ead44e894ca920c7f",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/crypto_001.sh"
+    },
+    {
+      "asset": "577cfc1bd1671eb66a5b5270cedebaf75cbf7580e9464eca776f930753a5bf52",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/csrf_001.sh"
+    },
+    {
+      "asset": "5ee80ba1c33019604635a9f2d7e62382c6c4949a09a9b5daa325ec1255faa7c9",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "fff5094e8d87abd9857c085a5c2e3c4f36d4d3580722ff8b8bed4eedf070ff6e",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/deser_bin_001.sh"
+    },
+    {
+      "asset": "069a063abf3f6e8e61549c22cff906d40e08644e5299f115ecf013724c4ca0cc",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/deser_json_001.sh"
+    },
+    {
+      "asset": "abd3d8a91239e14b3df895f729ac7ea0ad31b83525c750283eb641af624f6011",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/enum_001.sh"
+    },
+    {
+      "asset": "a663073a498c61d756f71cbef99a06d09e97d9c2c36425f7d56baf7b20c3158d",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/error_001.sh"
+    },
+    {
+      "asset": "4589dd269a5abb758950444f29c91fce057f0431bf2e248b735d066155391abe",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "51b0f59c45233b4f2bf4c4c99eba456336feb4208211d006151e35f41b89a68a",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/jwt_001.sh"
+    },
+    {
+      "asset": "fb2af098a92e8cd1af9b70150f640cc485e9e1e4d1c1d719c843de1804e16952",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/open_redirect_001.sh"
+    },
+    {
+      "asset": "0a72f4c201c68855ea0a2369dfa3f8c48151b4cd129c4cbbeade90ae17c6f022",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/overpost_001.sh"
+    },
+    {
+      "asset": "9c0ff41682e7d7ad9639efb7805b65d3aa294ad79f845452b68c3c75b81ddca4",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "2bb039e2d427547e5e3975c8dfc27ca613aec09aee7c8af55331c89f3f5636a7",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/rate_001.sh"
+    },
+    {
+      "asset": "d2e69ccb18ff5823c0e77294b4941df078d86f1196b8ff726d41d853ee7c26c8",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "e6eecc081853a876bdb6748f9da92cea34a46e204dd3ba9c7534909b54b0a66c",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "8522d4c98a372582f7829952727bd0a4a93a8d8074a5abdcd6d68108ab46654a",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/sqli_second_001.sh"
+    },
+    {
+      "asset": "d1b3b58233ce5187433dffc8dfa42aec3b03dc1bbb6e6afd9202f7d4f0860e2e",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "20a8e7c7f6fa152b9449acd856d15d4aed52ca3daff4230b8536a62f2eb4de07",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "7db67ee04219b86ee16ee8cbf9f94a9e083c1e0d50e9fedc418d063306c057a9",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "b3a47f3da84fcc2770f7d398ad120e94dae9f88e4eca1121b087d24e800bba03",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/xss_reflected_001.sh"
+    },
+    {
+      "asset": "755f59dedd7e3b7ae74e5041b0e5e9ed2aa8b489192fd8460cc1daf7008d4fcb",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "1c0f6b603d846c94ef7dff1beb5753238a5ad674deb8aa5646eeb7e3dd96d736",
+      "path": "vulnerable-apps/aspnet/ground-truth/verify/xxe_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "10926382e8f6bb710828ab2c2854272de3140800e251ac6a616d761502fd679c",
+      "path": "vulnerable-apps/aspnet/safe"
+    },
+    {
+      "asset": "2bdbc167d36d439edc96b098ca9634419d05762fb7f9cb8e905f109fbab9e003",
+      "path": "vulnerable-apps/aspnet/vuln"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "name"
+      ],
+      "path": "/api/attachments/download"
+    },
+    "markers": [
+      "GO-LOCAL-SECRET-2f7b"
+    ]
+  },
+  "route": "GET /api/attachments/download?name=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,10 @@
+{
+  "application": "aspnet",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "93498274af3dcf1154a99e42dc546eed8fbdf5fc53ee260bb9f478eebabd48d1",
+  "seed_setup": "Orgs Acme + Globex. user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT carries GLOBEX-CONFIDENTIAL-MARKER-7f3a. Weak admin/admin is present in vuln.\n",
+  "versions": {
+    "safe": "10926382e8f6bb710828ab2c2854272de3140800e251ac6a616d761502fd679c",
+    "vuln": "2bdbc167d36d439edc96b098ca9634419d05762fb7f9cb8e905f109fbab9e003"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "files": [
+    {
+      "asset": "1f195bac80b51e653e03ad81f3ce48c9f3e15a20eb1f8611a821f15a764f8729",
+      "path": "vulnerable-apps/nextjs/Makefile"
+    },
+    {
+      "asset": "bfb7bf8a1ab0566111403f9a5814c1083425f6b2efe0d3544047e22d41c9d90c",
+      "path": "vulnerable-apps/nextjs/README.md"
+    },
+    {
+      "asset": "76248e3a2e2a29e76e02b32920c49f32acf77505cfe1adb439cdb4331eaa5ec5",
+      "path": "vulnerable-apps/nextjs/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "d7528b1c021c8f490eab943481dbdd2f45cd2cb877cd5277ed63d58833f1bd8a",
+      "path": "vulnerable-apps/nextjs/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "356f0f78ed30254f22ea41aa9cbcf84013624e3405dcd4ad2948f1c5b6d9bde1",
+      "path": "vulnerable-apps/nextjs/ground-truth/expected/README.md"
+    },
+    {
+      "asset": "fbee55d968591da4aa43a5ff5a03e8a8e4ac1fa87c0cd001795a1427c34feca7",
+      "path": "vulnerable-apps/nextjs/ground-truth/expected/perfect.json"
+    },
+    {
+      "asset": "b7cb358dc7f79e9b1e1e3db2151e5745ddcd54e3f81f90444bbeceee44a1e300",
+      "path": "vulnerable-apps/nextjs/ground-truth/expected/sloppy.json"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/nextjs/ground-truth/run.sh"
+    },
+    {
+      "asset": "f47b3ab28ba6bca123bf69e8c1ebbc111956dfc8479b928a6d6ca09ba6216ede",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "9707092e561f4fd12916ff49f6b3d1e5b25d7999eff363e4926cf4cda0a4cead",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "460d6ed48688edda1a3522087bc05122e2e3d4242182f7a4c8c5cbfcdb3f8265",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "b20534ebd4015049536954eb6729b9e065ed3ad8892e81f7949b337b481eed2f",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/cache_poison_001.sh"
+    },
+    {
+      "asset": "9f35001933b1023e80599ee1ba476a77b9b38e1b94681c4cc32445c4ba2a43a1",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/codeinj_001.sh"
+    },
+    {
+      "asset": "27b50f91d30f7e16e465d722c4fbc4d5c96e7d15ae154c6409bc470469e077f7",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/config_leak_001.sh"
+    },
+    {
+      "asset": "85d197c926fa6460307f1066237d34993f755bfa0bf60d0a24bfcd68e3204bb3",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "733a58c7d8ff764130972bf3bd0aa1aa6fd2cfd82c8a97359203708d99973cd0",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/creds_bundle_001.sh"
+    },
+    {
+      "asset": "0492d8f1bd9425dd35afdc86fe2e1afa2cbe32a84d3e383d613926336b9a886c",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/creds_js_001.sh"
+    },
+    {
+      "asset": "ea7ca449cf335c6b74b0cac598c6c8889e50072d05a6b3c61a3914824f3a08e8",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/domxss_001.sh"
+    },
+    {
+      "asset": "cdecfc2c31c35aaf03fc424a88b46cfed8349e7e38ba3f8bc2a0d6588ebb9b92",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/enum_001.sh"
+    },
+    {
+      "asset": "674ddf3c9445bd0b1d893a490e7e50e82e4ec12bd494f36321c122f88ef9029b",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/envfile_001.sh"
+    },
+    {
+      "asset": "30592a345cbdd89df97cbd0732edade3431ba3f0194d5f88bd42d0367885e286",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "68d5d254dfcd1d21766060895c88f64355c57f6a2f9cbc86cff249e47e92a26a",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/jwt_001.sh"
+    },
+    {
+      "asset": "35b207ad48bc442477408886f72b335d32f386a7992e67cea98f1c15ca19fca9",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "9fd095abb5441ed32d2f826465f9ee7c515db96b4625c812e7764e6d074dbb50",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/mw_bypass_001.sh"
+    },
+    {
+      "asset": "02073daaa2262641b34c5b336c87f16b1d8226559a75c66700b6acdd8dce1a87",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/postmsg_001.sh"
+    },
+    {
+      "asset": "1ffe2716c3cf2c3d92ff473ecfab315ab1c1bf0d2efd10aa4d2b062a836533eb",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/postmsg_002.sh"
+    },
+    {
+      "asset": "02e4ea6b42a20a4ebaba423a766368489a539b473648069081f464f868052513",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/postmsg_003.sh"
+    },
+    {
+      "asset": "15d28e653e02faa1e1b3621d24db83a616bc9d8bcb3755fa727d69257bd344db",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/proto_001.sh"
+    },
+    {
+      "asset": "5c7b0e7986b7e7fae3810f10c5b5aa6685e53ac4c890b81776c4713621652c88",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "190023bb7588f37ab0dc77fd6114ebf4df8033a83bfeb9b2a7cc39abc06c7763",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "fd5c093fdb9e20a992a1a980f7373f8e90e0a6fefe98219a2ebc5cee8ee586a8",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/secret_001.sh"
+    },
+    {
+      "asset": "d6098f94e5e4bbec47a5ecc36f6bf21362abbae0374e57bf8998dad6f355c0eb",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/secret_002.sh"
+    },
+    {
+      "asset": "4e7861a37bfba2f9a3510068e5a8293541d4a2232495affd0d1f602cab43a10e",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/session_001.sh"
+    },
+    {
+      "asset": "e31bde1763aaeee19a1af89cd2c42859d0df0e5a924ee99fd5480513919c3e12",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/signup_enum_001.sh"
+    },
+    {
+      "asset": "d2756873cb043062979634f89617195b19dd7ff03e34fa87387f0ff9beea21c2",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/signup_idor_001.sh"
+    },
+    {
+      "asset": "2eb027bcd6533fe3d2a90ef9724ba6021955fd52637dbda68a461340f5e75b5a",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/signup_massassign_001.sh"
+    },
+    {
+      "asset": "4ffc8ec8e12d8cbaf34271fa7b83142f66a0a765f482b23d5cfb101b11a0c7a7",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/signup_stepskip_001.sh"
+    },
+    {
+      "asset": "cc05e01ba2b1b01071ae5e8fef1a28ef424c88cf698727c341f9e51cc18ca492",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/signup_token_001.sh"
+    },
+    {
+      "asset": "d427a832cc824ab4c1d58eb89bd58b1115abc60a579823c4646d6bd9c5ca4663",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/sourcemap_001.sh"
+    },
+    {
+      "asset": "49af79b7708f5f8a7423d0d71f3ea7fc34a14c73cb1a57234f9584c7f700b87c",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "8b9f652b4b053e8a6601b0b9d487a520dfc3ab4caec685db25faa1fbf5b17660",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "127ac7c701d8350b90e97e14a538ffb6fd007564bc6aa26e0b11fadd405511b3",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "d83ef34a46524e1ac4936e5b407a31dff03ebefcd8dab35c496e422070e81c09",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/xss_reflect_002.sh"
+    },
+    {
+      "asset": "80dfb28082da3e5fe328606c21eb1a2dec659a9c5bd0018492ceb081e02e4f86",
+      "path": "vulnerable-apps/nextjs/ground-truth/verify/xss_stored_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "c1e6faa3eb119624000990d9d52aac2b6a137df2110c97db183332155c10979e",
+      "path": "vulnerable-apps/nextjs/safe"
+    },
+    {
+      "asset": "83fbd94db51144c7d6dec358294e858ae9768cfa340d8eb812ac11462dc809e6",
+      "path": "vulnerable-apps/nextjs/vuln"
+    }
+  ]
+}

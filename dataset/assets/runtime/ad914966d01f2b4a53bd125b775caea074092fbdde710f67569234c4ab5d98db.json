@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/config/public"
+    },
+    "markers": [
+      "springboot-public-secret-key-17"
+    ]
+  },
+  "route": "GET /api/config/public",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

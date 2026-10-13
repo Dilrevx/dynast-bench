@@ -1,0 +1,19 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "expr"
+      ],
+      "path": "/report",
+      "query": {
+        "mode": "el"
+      }
+    },
+    "markers": [
+      "EL-INJECTION-MARKER-jsp"
+    ]
+  },
+  "route": "GET /report?mode=el&expr=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

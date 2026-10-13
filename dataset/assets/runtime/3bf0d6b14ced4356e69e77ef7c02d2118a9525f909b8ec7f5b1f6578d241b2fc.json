@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/conversations/{id}/html"
+    },
+    "llm": {
+      "channel": "tool-result"
+    }
+  },
+  "route": "GET /api/conversations/{id}/html",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

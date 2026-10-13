@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "format"
+      ],
+      "path": "/export"
+    },
+    "markers": [
+      "CMD-MARKER-jsp"
+    ]
+  },
+  "route": "GET /export?format=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

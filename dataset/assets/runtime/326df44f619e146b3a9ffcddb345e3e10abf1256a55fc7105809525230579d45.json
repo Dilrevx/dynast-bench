@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "data-redis",
+      "port": 6379,
+      "proto": "tcp"
+    }
+  },
+  "route": "data-redis:6379/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

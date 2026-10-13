@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/"
+    },
+    "markers": [
+      "rails-hardcoded-secret-key-base"
+    ]
+  },
+  "route": "GET /",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

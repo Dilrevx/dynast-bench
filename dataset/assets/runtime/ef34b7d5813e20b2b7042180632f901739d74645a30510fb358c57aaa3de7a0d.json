@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/reports/admin-summary"
+    }
+  },
+  "route": "GET /api/reports/admin-summary (Bearer)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

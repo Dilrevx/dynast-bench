@@ -1,0 +1,167 @@
+{
+  "files": [
+    {
+      "asset": "87646fb65c988c166bba71d8dcf42b7426fc43ddd1924d439a2455e8cb9642d7",
+      "path": "vulnerable-apps/graphql/Makefile"
+    },
+    {
+      "asset": "a565010203bf042c67b541c9b4c8c50746446fa15f3911774b6adc053c7dac6c",
+      "path": "vulnerable-apps/graphql/README.md"
+    },
+    {
+      "asset": "d16f150c89aaf9f642773748572fd38c45f0835185fc0d733bc7981d2a28b227",
+      "path": "vulnerable-apps/graphql/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "51d735fe9ac7a2a150ef4f7025e8d0d9c33a985138c3f54e9ca8f8f910e67f69",
+      "path": "vulnerable-apps/graphql/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/graphql/ground-truth/run.sh"
+    },
+    {
+      "asset": "2f2cbf1793aebd828605a99c4e9e4ef77db2eb2d53530e358bfdfd2ce38324f9",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "17d613ca5fe1888b9a281d79af59d7ec8c08797e3a7711fc3685fe9780f1ae2d",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/alias_001.sh"
+    },
+    {
+      "asset": "bce5ee7b69663aca739af7ad0be11a85fd73841c9448b47ce7142b3b17722cc9",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/apq_001.sh"
+    },
+    {
+      "asset": "f4752686f4a7d142987ab6795f5f6b43fc87bb2afbc49a06caa15581fb30ca69",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/batch_001.sh"
+    },
+    {
+      "asset": "10d3e2bf61a6aa1447cbc5fe93d9828221b82d83f844947f9bcd812641700e62",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/batchauth_001.sh"
+    },
+    {
+      "asset": "028d921f040569f546e0792bd358cadad3e1787a3613cbd86abf1258995ee331",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "3d5b39b426992d6fd16e13a136151fe222d2a97c440983132683af7b608ca88e",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "b4332529a2fe0b92ff65916ab36878348de156b55f65cc5f6f691b464e94edbe",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/cost_001.sh"
+    },
+    {
+      "asset": "46e76005e6277070b8055888c23c74ba6e330112f2d6092e118cab046c0f204e",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/csrf_001.sh"
+    },
+    {
+      "asset": "b475ef8b1240457037987c26b6d29b1e371c71cca1b9ca311f723b35a535522c",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "235103ae2bbb011e1171ac5f980676c693b0ab5013670f24b782db13612137ff",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/depth_001.sh"
+    },
+    {
+      "asset": "602b67e0d3ba46460b674eaeae60240c33f18c1f962c6caa101fec2d30c128fa",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/errors_001.sh"
+    },
+    {
+      "asset": "f0a7020cbb4be4b663cdd1c91059872a156cd5d21c8723fbebf328ed40c43785",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/fieldauthz_001.sh"
+    },
+    {
+      "asset": "0cc4efe20523a73d65a58578b2f81b63659b502f36a09c19feb930e857889a84",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/gqlws.mjs"
+    },
+    {
+      "asset": "27909e302289c09839ece84bf0960e5931ea10da1d548555c995dbfe0afebcc4",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/introspect_001.sh"
+    },
+    {
+      "asset": "dae5f871246be00c43b55c1f2824e6e888511197e12eb76b28f4b4df7fb15c4d",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/json_001.sh"
+    },
+    {
+      "asset": "130b713b79f21405abda4df0b2bdb25dd4cc728668235370c46211c10f853fb4",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/jwt_001.sh"
+    },
+    {
+      "asset": "388d58ea1fc7947c24c3adb272ed27cc58f6f3833265c098cb067f9fa5414773",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/landing_001.sh"
+    },
+    {
+      "asset": "1cf945c580538e2ebf372339d462cdc462e5f28bb64110f8468c40301b05290e",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/login_001.sh"
+    },
+    {
+      "asset": "9ebf5a1b479afa1720a658bb7784cbbbfe2a22eb1c2fc6ad89ed16f4d338ce25",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "0adbea88d0754078d6aabd92585ec2ebaced8b426228d143456d32c6450434cd",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/missing_auth_001.sh"
+    },
+    {
+      "asset": "d4426a32db61ec01fa2c8123e17eeb88150acf84c37ebf7d235a45ebec24ba72",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/nested_authz_001.sh"
+    },
+    {
+      "asset": "0ceabcfd014cd6be97e514fd81eaae48a4ecb3a3701d165acf2299d9acf9d1b5",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/node_idor_001.sh"
+    },
+    {
+      "asset": "d1b87871c7da3119e8a0fdca5567fef36ef25ec481f522ead3755c8d67510969",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "1b44a5bcd1136cbbf394fbe8e8a2f78bb188ce41658297c94d4cb3a79c3a8189",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "b371fbd0af5386d0a3b27668d52aa74a40edeef53eb30d1423c0b8c00f165c91",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/seats_001.sh"
+    },
+    {
+      "asset": "9512510d044ad746292cae96fec0abcaaac6ec61b39cdb6e6c9b06370890ae19",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/second_sqli_001.sh"
+    },
+    {
+      "asset": "5e5038812345755c8eb7f3dd75f314181cae8d4a02ad18aba8d0e231aef8da08",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "25a38c9ae7636adff8ae23825026764304f5f652b6b339c635cf4d0e549f8bce",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "bb23931fe10e1c2ebe9c3159ce035ef16fbbd741307b119de81391437d942bb2",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/subscription_001.sh"
+    },
+    {
+      "asset": "27587e2e89d535bcdd0026f8ba6320da32429aa3e649abeeb4ee85da749d58a3",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/suggest_001.sh"
+    },
+    {
+      "asset": "20576a87a90be34dd6fb30b0e038043405be9192ac2efcdcec929b4c9d19772b",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "717fa2adcf1810d8fef47fdd53b7ed1772097bade7ce975353fbbc1efaa3a025",
+      "path": "vulnerable-apps/graphql/ground-truth/verify/xss_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "80859029b9e4880b9dfdf6d82a449e0b44bd54366ca7b20e1638b234ea10aedd",
+      "path": "vulnerable-apps/graphql/safe"
+    },
+    {
+      "asset": "1df0c0eab94faf9b319b4f91625015ac1f8a04518fa45f3e5670de2e2594b135",
+      "path": "vulnerable-apps/graphql/vuln"
+    }
+  ]
+}

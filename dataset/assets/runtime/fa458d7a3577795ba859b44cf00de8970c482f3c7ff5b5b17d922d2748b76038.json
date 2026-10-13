@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "view"
+      ],
+      "path": "/wp-admin/admin.php",
+      "query": {
+        "page": "bench_tasks"
+      }
+    }
+  },
+  "route": "GET /wp-admin/admin.php?page=bench_tasks&view=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

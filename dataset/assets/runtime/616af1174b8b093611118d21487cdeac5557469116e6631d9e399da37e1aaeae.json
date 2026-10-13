@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/comments.jsp"
+    }
+  },
+  "route": "GET /comments.jsp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

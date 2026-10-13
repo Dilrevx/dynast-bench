@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "Organization.posts"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    },
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ]
+  },
+  "route": "POST /graphql me.organization.posts",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

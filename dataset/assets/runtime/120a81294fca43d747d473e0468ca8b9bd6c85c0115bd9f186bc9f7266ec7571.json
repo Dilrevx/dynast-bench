@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/socket.io/",
+      "query": {
+        "transport": "polling"
+      }
+    },
+    "ws": {
+      "transport": "socketio-polling"
+    }
+  },
+  "route": "GET /socket.io/?transport=polling",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

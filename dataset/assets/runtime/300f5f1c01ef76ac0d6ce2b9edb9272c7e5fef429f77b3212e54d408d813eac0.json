@@ -1,0 +1,10 @@
+{
+  "application": "nextjs",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "76248e3a2e2a29e76e02b32920c49f32acf77505cfe1adb439cdb4331eaa5ec5",
+  "seed_setup": "Orgs Acme + Globex (tenants). user2@bench.local is in Globex for cross-tenant IDOR. A Globex DRAFT (\"globex-internal\") carries GLOBEX-CONFIDENTIAL-MARKER-7f3a, returned only via SQLi or IDOR. Weak default service credential admin/admin. The homepage no longer lists seed accounts; working QA credentials ship in the sign-in page's browser chunk (CREDS-JS-001). The nav and every API path are assembled client-side from a route registry, so most endpoints are only discoverable by running the page, and registration is a four-step flow.\n",
+  "versions": {
+    "safe": "c1e6faa3eb119624000990d9d52aac2b6a137df2110c97db183332155c10979e",
+    "vuln": "83fbd94db51144c7d6dec358294e858ae9768cfa340d8eb812ac11462dc809e6"
+  }
+}

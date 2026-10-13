@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "token"
+      ],
+      "path": "/api/health"
+    },
+    "ws": {
+      "transport": "http"
+    }
+  },
+  "route": "GET /api/health?token=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

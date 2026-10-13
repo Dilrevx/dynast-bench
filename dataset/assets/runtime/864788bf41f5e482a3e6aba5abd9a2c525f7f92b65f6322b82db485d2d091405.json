@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/debug/info"
+    },
+    "markers": [
+      "GIN-DEBUG-SECRET-9c2e"
+    ]
+  },
+  "route": "GET /api/debug/info",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

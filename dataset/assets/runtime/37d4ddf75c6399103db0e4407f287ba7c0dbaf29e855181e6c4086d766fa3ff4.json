@@ -1,0 +1,183 @@
+{
+  "files": [
+    {
+      "asset": "ed164c71fb9cc00fece9c8a29f13a2309af9127ae2e4c211aad000d3bf7502dd",
+      "path": "vulnerable-apps/fastapi/Makefile"
+    },
+    {
+      "asset": "9a42645cf1470c3bd0c1a63f13a992cf998d44ba6f9f82b6d77cd565342dc836",
+      "path": "vulnerable-apps/fastapi/README.md"
+    },
+    {
+      "asset": "c72ed8ee4e5265f6adadc8d42dcf7666af5ece51fbfd86167637ed6e612cb85c",
+      "path": "vulnerable-apps/fastapi/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "2603c2126f05022b1e509ba70e18be3a0165ddd00d6748b77a60a4e9b6d6cb9e",
+      "path": "vulnerable-apps/fastapi/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/fastapi/ground-truth/run.sh"
+    },
+    {
+      "asset": "9b2c1e1bbf1cd5c02608482af4094193a542f8d9c17554c01c08ba4839fa98f3",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "52249c011b2dc8f4aab4915a330a5af5b249acea956fb59542a56f38585b9ca5",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/auth_enum_001.sh"
+    },
+    {
+      "asset": "7a959ebd79c9da6cfef44530d00fa1d13e4b6f9956aa656427a117c99f9b61ef",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "d44b14fa4747bab08a63834134b7d46392cc795b1c819cfe3399ac70175c1fae",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "36f3b21feb96ac22ecabd623e2b55c714442b9107c2c55e208a4bca48a69ca19",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/cache_poison_001.sh"
+    },
+    {
+      "asset": "197592aa64f9523430bcd6fa5d4a5a7f46533073d7e27e181a9144e85bbc202b",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/classpoll_001.sh"
+    },
+    {
+      "asset": "d33976be914bc41c8ffe30a1fd59d156bd17a4c214038f917f7c3b75b8f9e548",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "f392a1e5f80f92050db5115c63381d37b557cd80fb73682d8d777e260fd524d3",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/codeinj_001.sh"
+    },
+    {
+      "asset": "13dbe0c5934f6bb83ef784c4ddaf0d4c905f7aad13a6c811173e080fd2795f74",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "6970c3f188246cefca1d5b7bfe2ba4d7e68bc5ffaafef7461c15a3b7be9d9801",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/debug_001.sh"
+    },
+    {
+      "asset": "4ebbfe944f57484d7d416ca25b312d7ec66f5fab7e4ed93c2aca375f22d734ca",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "54f72fa1fc2e0d074bae4e77d436898fd3729be3cf70927711a818ae95a44d63",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/domxss_001.sh"
+    },
+    {
+      "asset": "b7b0b9c85a13f8c9634349697aac56be07aafbe8c6ad98d6d411e2647b25b42a",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "40fed8d7021ea340cd50538f566d7b1ed49d07dbc83ff8943cb72fd29faaa002",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/jwt_001.sh"
+    },
+    {
+      "asset": "f9962927222da3895b97f625fc67f9a00d051a68ef3c208a1e7e6c3ba925cea4",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/jwtconf_001.sh"
+    },
+    {
+      "asset": "89728f82217694da62ecc3fe9857984b6a5bbcd8d41b9a342e69d1638b76953e",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "9ec27cea96be84bf231ac471af2d58faebe8035370344675dbbf0b46419ee5ad",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/pickle_001.sh"
+    },
+    {
+      "asset": "67312aa30c8116608cb2c624be1017391570f50d0678b8c31bea8d48fdbb6918",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/postmsg_001.sh"
+    },
+    {
+      "asset": "0f3467148e02636dc59c97d5be31647a2f2d5fd04fe948e40b702469f70fc1e1",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/presign_idor_001.sh"
+    },
+    {
+      "asset": "b2efdceaf1a4975c953a718a5d8f3b8a385d020bf66316e455a8efd8e6580698",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "d9a86f0a912f5f02402055c132be45f68e8ec1ac58388ba8ecd9992dd7ab8fda",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "6e794efe0e2e6574d6b23b3e06bd9a9092a3abe3aae157b9c87411e0dc43f7db",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "1a800dbcd998f49611a8dfeb9ff94bdaf3c984808fc229cdf57f66b4b51409cc",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/second_sqli_001.sh"
+    },
+    {
+      "asset": "1b9c299869da2bd53d38fdb1658633017f45d704b9719be79def450cc94ba1b0",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/signup_enum_001.sh"
+    },
+    {
+      "asset": "9fc4e5f7d8d930b10d118f37ed91e47b1015daa530b97ab895934a2dde95121f",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/signup_idor_001.sh"
+    },
+    {
+      "asset": "913a73d9432cc9d4cec2aff568b702cc60e7887a38eccbf41e550414a1700e8b",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/signup_massassign_001.sh"
+    },
+    {
+      "asset": "7dd02e0074b2d160bfcd56d5586c2a685eb2f338d58253ef0e9ecd72f50857db",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/signup_stepskip_001.sh"
+    },
+    {
+      "asset": "adea749ac9cb521c22a700178d743d5cab90230640ac76dd0c06766c667a6285",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/signup_token_001.sh"
+    },
+    {
+      "asset": "e9ed667f0bb07f07e8d3666fbbf0d7318b4e8f0388680d4f7c333c9175c28f36",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "3a1201fcc5a2c3c194b5e148d6c028f0039d2501b7af57ad29488a77751cc748",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "cc33131b20246050bcdfe735d55ec51d642925845adfe0c47655af4174232ad7",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/ssti_001.sh"
+    },
+    {
+      "asset": "fbbee389e7c40cd68cc105b7049454a37c5311f279cb62c23674045e2341a21e",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "d8f7cb5a23a4b9c33c09e015bbbaaf0baa5d36df08e646dca48658920ac1aa15",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "0b32ddd28697acf52246c6b43796c3219bff4e757a777f6c99db9e40e3c74609",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/xss_reflect_001.sh"
+    },
+    {
+      "asset": "fc1d22f480ca48a5941d30685260c61dfee188e910d52c0c601ef07d7a523608",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "360ce1506a76fd8ed083a816c5539c87a35a9e42231dc44084c075aec8f7e550",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/xxe_001.sh"
+    },
+    {
+      "asset": "191ec335e8c9d16b5575ae86905b61a85cd7130bacefdd052e14262644e6ed57",
+      "path": "vulnerable-apps/fastapi/ground-truth/verify/yaml_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "1995bd9896f5129a8e030cb3222939221d6719b2619ada77ed1670716762ee73",
+      "path": "vulnerable-apps/fastapi/safe"
+    },
+    {
+      "asset": "161e0fd4cca33b22a3be80e81c1169e9e973a33db4cfb208c0372f045a78dae1",
+      "path": "vulnerable-apps/fastapi/vuln"
+    }
+  ]
+}

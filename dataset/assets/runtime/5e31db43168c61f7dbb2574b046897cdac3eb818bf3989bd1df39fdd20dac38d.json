@@ -1,0 +1,12 @@
+{
+  "operation_match": {
+    "http": {
+      "path": "/admin"
+    },
+    "ws": {
+      "transport": "socketio-ws"
+    }
+  },
+  "route": "Socket.IO /admin stats",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

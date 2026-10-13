@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "data-elastic",
+      "port": 9200,
+      "proto": "tcp"
+    }
+  },
+  "route": "data-elastic:9200/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

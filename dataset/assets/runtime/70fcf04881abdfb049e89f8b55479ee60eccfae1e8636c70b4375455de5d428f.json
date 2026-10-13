@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "path": "/",
+      "port": 13312
+    }
+  },
+  "route": "http://127.0.0.1:13312/",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "params": [
+        "next"
+      ],
+      "path": "/login"
+    }
+  },
+  "route": "POST /login?next=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

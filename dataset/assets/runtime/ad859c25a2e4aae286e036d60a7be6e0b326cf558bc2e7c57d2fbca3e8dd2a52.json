@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/share/"
+    },
+    "http_alt": [
+      "/share/{code}"
+    ],
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ]
+  },
+  "route": "GET /share/{code}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

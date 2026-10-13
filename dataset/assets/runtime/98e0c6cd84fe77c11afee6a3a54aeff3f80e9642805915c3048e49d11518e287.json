@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/actuator/heapdump"
+    }
+  },
+  "route": "GET /actuator/heapdump",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

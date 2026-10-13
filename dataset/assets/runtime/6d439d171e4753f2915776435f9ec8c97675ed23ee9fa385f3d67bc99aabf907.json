@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "DELETE",
+      "path": "/api/v1/posts/{id}"
+    }
+  },
+  "route": "DELETE /api/v1/posts/{id}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

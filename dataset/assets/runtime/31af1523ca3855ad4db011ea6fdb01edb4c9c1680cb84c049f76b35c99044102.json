@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "cwe_family": "CWE-843",
+    "http": {
+      "method": "GET",
+      "params": [
+        "url[]"
+      ],
+      "path": "/api/tools/link-preview"
+    },
+    "markers": [
+      "NESTJS-INTERNAL-SINK"
+    ]
+  },
+  "route": "GET /api/tools/link-preview?url[]=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

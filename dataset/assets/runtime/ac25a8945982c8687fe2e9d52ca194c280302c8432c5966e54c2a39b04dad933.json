@@ -1,0 +1,171 @@
+{
+  "files": [
+    {
+      "asset": "94ad7cf871d18dbffd088ee24efd6706b9f9ad4ca6bb7f98ee0940b98e302ac6",
+      "path": "vulnerable-apps/laravel/Makefile"
+    },
+    {
+      "asset": "1851abef5d3b12858375ee3948fc8dab2199e6f9516c80965700a5a6d45834d3",
+      "path": "vulnerable-apps/laravel/README.md"
+    },
+    {
+      "asset": "856135799cd9751c9724acbe658fb25fb6f8e6f99730ac045089fd27a88c3e80",
+      "path": "vulnerable-apps/laravel/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "ed9c6f81e665b64f274365dfc48b687d0bdbf9b41d74737b45e4b3e1fd987ec4",
+      "path": "vulnerable-apps/laravel/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/laravel/ground-truth/run.sh"
+    },
+    {
+      "asset": "7ed1a11758c4a1d50654d3a2552fee1402a2280af9c8336ee8fe09e2ea00d289",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "fdacad372dcbba2cf0bfd0783427a01c01bd7ce9980e97035c564a99716c23bd",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "c122d4a684db2366140fb3d5af5fd5ee39c2578cd52ea4f8cadd9605a2edc70f",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "8651ea473bfaa06fe6a61d1ac9e16dd170320a4c9c2d8ba39350ec5e04b06361",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "fdca9bd80cd2a23de430db00ddf10bb5c746b720f7fcea02ae1331de3608d991",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "127c9b2b0eb10684683d74adf4c3227dabacbc291ec37980a3da5fcc32fd1878",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/csrf_001.sh"
+    },
+    {
+      "asset": "523c93573af31102dcf2b72b10c1d802b50f97623859933c8bf6748e5837f302",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/debug_001.sh"
+    },
+    {
+      "asset": "c273fd713e64c804edfb2acc26e438a98b71b264a9027f35db5df8cc6ba96876",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "20eb86909c4bf5c93337b069385fb3022967046bfb391c6a4b13b5b59b336dad",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/deser_001.sh"
+    },
+    {
+      "asset": "e0f18440ba7591514e0a25c1219901e41b625537b133335c933f4d71330cdd44",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/domxss_001.sh"
+    },
+    {
+      "asset": "9e63915e95a0849075599c96499306134c9be03fd62d325ae1b4cb0697ad61f3",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/enum_001.sh"
+    },
+    {
+      "asset": "75455e5f2b8c6cca77c2fc3401e7fe64323bb230442bbaa6c91814b3f9226f4b",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "e0aef526e5ac1b1d075f164ccda4b265184a7a607287b399955b2ea6b2731404",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "ae826eaf51da98ac91b0f08007c2ca673309d1b49a90346575cf8b3ca5d95f08",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/phpmyadmin_001.sh"
+    },
+    {
+      "asset": "277fae21b0717e5b050095bf8302ba54346b06c99b0fb93cbf774ae4f693f681",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/postmsg_001.sh"
+    },
+    {
+      "asset": "527d5c8d00267a19c5e7736b68b859dac9d30fecc46ddf4f2c2b02a59d271dab",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "fd122997cb200978fb2e29cd2550e5b286ea6ed9288ad11f603b72d894500789",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/ratelimit_001.sh"
+    },
+    {
+      "asset": "ff058e15c44c4f3098e2af0d726dc19578316ded159f2a1513839872997e9996",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "78a1193e4ad8df0be6551c61ad7a38d1ffa6a26f9b916563291aeb368b1c124d",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "55d0ccce8eb1bb3819a2f79f157797b9270613ab4cc242d0d59beb1ebd8b26b0",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/secret_001.sh"
+    },
+    {
+      "asset": "cbf1c2f86f03d89f644370c01f6007ccec2a5ce96be7d490d163153bf368e298",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/signup_enum_001.sh"
+    },
+    {
+      "asset": "a680202697fac4fa378a2a1446682c7df8b1cc6e4953087bde1a4a9dd8e8ba40",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/signup_idor_001.sh"
+    },
+    {
+      "asset": "7b4ba84268ef809011b9028209d6fcc1d891db39a052f84827ecbe58dc7cb63a",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/signup_massassign_001.sh"
+    },
+    {
+      "asset": "1d94dc4560a6d64463e389e7dfa1d619ddae8dae7fe48fec772b282bfbacc588",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/signup_stepskip_001.sh"
+    },
+    {
+      "asset": "529e7fd35fd597c97c79d963bfd356c4150a097dc1fece9c616b9d8903a91510",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/signup_token_001.sh"
+    },
+    {
+      "asset": "8a52c904491435bb59bfc594027d098b26debccb9614fe8d0b2b55db2f113405",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "77da542b5393812f0b0193309e029410f801e681001eba943f25c6a3736cf039",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/sqli_002.sh"
+    },
+    {
+      "asset": "b3833e1f8c2f8bf75661f5aa850a4a52df14a2aaff29c50ca3108175029a39e0",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "ffbc79a94142e3be465d651cec250b1f0290e9b7038ec222d1a842dd8ba4b8e8",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/ssti_001.sh"
+    },
+    {
+      "asset": "bc926e5e51136aad316cfb2827e765d492c0ea04323155dd0de4cce96bf40576",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "089cd08a9f5ef05e00f752e2064edb602c59b55b00b148bbc15ee1c9c520e3f2",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "e86d1832673e6e4995f7ad38a0fa6c6379f25adce160a5fa2a04c427955b106d",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/xss_reflect_001.sh"
+    },
+    {
+      "asset": "dc2b4822cba0c8c77c5bbb1d214628d8b33d06c97898e223d790a40c145c4475",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "b20585ae8d4b5bd3dccb1801c095592dd7b8701712f4cb6066c2a3232753f1f0",
+      "path": "vulnerable-apps/laravel/ground-truth/verify/xxe_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "dc88a39280ebbcb8c0814a375752f110038488906c767feb22a389db953aed71",
+      "path": "vulnerable-apps/laravel/safe"
+    },
+    {
+      "asset": "d0941ea6f07be4436f447172e8c5597241be5814a3152ad7e0bc05dbdf62d993",
+      "path": "vulnerable-apps/laravel/vuln"
+    }
+  ]
+}

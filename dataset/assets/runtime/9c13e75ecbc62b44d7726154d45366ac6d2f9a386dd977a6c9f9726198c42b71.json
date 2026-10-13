@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/tools/calc"
+    },
+    "llm": {
+      "channel": "tool-result"
+    }
+  },
+  "route": "POST /api/tools/calc",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

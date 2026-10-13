@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/wp-json/bench-tasks/v1/import"
+    }
+  },
+  "route": "POST /wp-json/bench-tasks/v1/import",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

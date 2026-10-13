@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/config/client"
+    },
+    "markers": [
+      "BenchPlaintextSecret-aspnet-123"
+    ]
+  },
+  "route": "GET /api/config/client",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

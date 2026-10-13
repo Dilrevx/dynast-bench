@@ -1,0 +1,143 @@
+{
+  "files": [
+    {
+      "asset": "b9c3731c3344b8e643b467be895570f9934c18bbb3deb9a034806c3f7106fb17",
+      "path": "vulnerable-apps/golang/Makefile"
+    },
+    {
+      "asset": "6425a9097f28a9beabe7166eb0a23050becb3b1649b7264e3c539b79af71b9e0",
+      "path": "vulnerable-apps/golang/README.md"
+    },
+    {
+      "asset": "c67bf42c5d16af72c5368722cf25144e91f046265645de7a3d13749480150704",
+      "path": "vulnerable-apps/golang/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "205f74ab76b68a850ca5db0e4f7a623d78ed93300ae7cc34ae7496e358fe7e25",
+      "path": "vulnerable-apps/golang/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/golang/ground-truth/run.sh"
+    },
+    {
+      "asset": "8fc1b9d72fafffd34a65370a55ab5f2d97a2989369c2e66e573e6e090ee2ff2a",
+      "path": "vulnerable-apps/golang/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "37cb5d9872c9d900e91c7691b085024860d0c78a82460449f85775929f09e7d1",
+      "path": "vulnerable-apps/golang/ground-truth/verify/auth_enum_001.sh"
+    },
+    {
+      "asset": "9b0fa269790aee8b88d97b80a6cbb71579a09f776e5188122dd99f6a11cbfea4",
+      "path": "vulnerable-apps/golang/ground-truth/verify/auth_ratelimit_001.sh"
+    },
+    {
+      "asset": "b47076f7fed86ed6c6e95d6982110893d171d0a9fea344f65d0a0ae87607ccf7",
+      "path": "vulnerable-apps/golang/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "9a850abc0b73521a1b465d414791fd4ae3c4acfff8b0e868edbf9cb2a55f5885",
+      "path": "vulnerable-apps/golang/ground-truth/verify/billing_001.sh"
+    },
+    {
+      "asset": "ac86cab7a8c4be68dd73f0bb31bc6cf2bcfbd14778e81a539ba5fe1976db53fc",
+      "path": "vulnerable-apps/golang/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "375799d989994b7ba36489465b8db726c28ddf0ba28d63dbe9f8cfce8398020e",
+      "path": "vulnerable-apps/golang/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "aa57a5906d715ff620a609ff430d7d4f3d1cfd9a1e9234039a29baaa55875242",
+      "path": "vulnerable-apps/golang/ground-truth/verify/csrf_001.sh"
+    },
+    {
+      "asset": "1ba3091687c51eebeda251a52dd2630cf1043b412592039e0426b76988faf6b6",
+      "path": "vulnerable-apps/golang/ground-truth/verify/debug_001.sh"
+    },
+    {
+      "asset": "0f5dcd04526d774d655e4c01c4aa6407f8b2fef3340b25629e7f365e09848549",
+      "path": "vulnerable-apps/golang/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "d581c26232c63a6ee7797b1db321f3533f91155cd688953b7df31de04c77409b",
+      "path": "vulnerable-apps/golang/ground-truth/verify/grafana_001.sh"
+    },
+    {
+      "asset": "19bdccc2f40df2989aab6eaca3472054e8d64cf3598bf2e72fe5eb6f2c1670dd",
+      "path": "vulnerable-apps/golang/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "12e472e9d40d29a93bdb6f036a85c31b2eab14c48d16bbb499fde47af7c996ba",
+      "path": "vulnerable-apps/golang/ground-truth/verify/jwt_001.sh"
+    },
+    {
+      "asset": "4c6f06083afe20b283cce4c002a75784c961f7eacd5b949c1356e4bd8edef9d2",
+      "path": "vulnerable-apps/golang/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "15e279abb0fcf3374e41e622d9ca1735dc0396ce7c6a897bc747942a6b53af0c",
+      "path": "vulnerable-apps/golang/ground-truth/verify/metrics_001.sh"
+    },
+    {
+      "asset": "780e9be2b463065e7086e504efcd1d0754bfe29935e5c0291387907b3e52844a",
+      "path": "vulnerable-apps/golang/ground-truth/verify/race_001.sh"
+    },
+    {
+      "asset": "79cbf703cc04701e3e209089c04a34d398b84cf422475150995f349f47447870",
+      "path": "vulnerable-apps/golang/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "63f1f8c631d403117b2c1f1302902a51d76f36b2727cb12d714729cd268e96c6",
+      "path": "vulnerable-apps/golang/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "76b90caaa8b58759dabfb21e28ffc518ee649656c55cc45e4b568de0572a2c21",
+      "path": "vulnerable-apps/golang/ground-truth/verify/second_sqli_001.sh"
+    },
+    {
+      "asset": "bf1325d65c7f9f1f1c6d199b27e741880d6cc1e4babc5e9d3a8c6a668399e784",
+      "path": "vulnerable-apps/golang/ground-truth/verify/session_001.sh"
+    },
+    {
+      "asset": "bc54e139000f58be3c3222afcd12a8628b6d6567c3a52c7aafce8cb04492fd1d",
+      "path": "vulnerable-apps/golang/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "832cc9387c62b27c076561a89a086e719775cf6ab67fad8404175126a980d540",
+      "path": "vulnerable-apps/golang/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "e88fee0bad6a23bbacc7f456349879ee897fbe2d5a21189448cca13527944531",
+      "path": "vulnerable-apps/golang/ground-truth/verify/ssti_001.sh"
+    },
+    {
+      "asset": "a84f0946343f610d59db9b413c4e2e9d54cdad6ee0aa826d0fc08f23622d9475",
+      "path": "vulnerable-apps/golang/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "0cd7ffa2d5b38dc3892f0ae86ebbb47a3a2d0d37ca6b89cae878f49827197180",
+      "path": "vulnerable-apps/golang/ground-truth/verify/xss_reflect_001.sh"
+    },
+    {
+      "asset": "12e3daf9868d7a649bbbe150173f7a96aa2faa7c2b992691063db2cb93862db7",
+      "path": "vulnerable-apps/golang/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "2463fe97a7a790beb8a64e59ad777e0d34b53612293e034d1306ffb5526dea85",
+      "path": "vulnerable-apps/golang/ground-truth/verify/zipslip_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "b46e7907eea59a098ba5b77fb858876934e2cd2887275b98d360660a8031127f",
+      "path": "vulnerable-apps/golang/safe"
+    },
+    {
+      "asset": "7ad5359785196911e545df87adf2a5848258bd96bf865adcdbf78db89fdc347f",
+      "path": "vulnerable-apps/golang/vuln"
+    }
+  ]
+}

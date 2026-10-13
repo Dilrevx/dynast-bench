@@ -1,0 +1,115 @@
+{
+  "files": [
+    {
+      "asset": "15b990e3c2fb2228fa90051ad7b4071deec6adcf63cf86f336eca93435b42895",
+      "path": "vulnerable-apps/swagger/Makefile"
+    },
+    {
+      "asset": "b1acee36c66b881abde2d777ec6bd4449a43ed3565685833899902ad4a10caa9",
+      "path": "vulnerable-apps/swagger/README.md"
+    },
+    {
+      "asset": "ed35a901cabba35df649aeb51fdb2b17f5cb6755aef37cc6a2a42f9bdf21b4b2",
+      "path": "vulnerable-apps/swagger/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "bb001bad279dd786ec7b096ffec20b4fc5e4db4d824914a9a2c6fb1fd8ab77fc",
+      "path": "vulnerable-apps/swagger/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "71f111e0f2e8255a14d2b6f9623a69bc685984a873925d216cd207841c02cdb5",
+      "path": "vulnerable-apps/swagger/ground-truth/run.sh"
+    },
+    {
+      "asset": "b69be47108ca61dd3d2cdfd623a7687c01655cd4127781b9a434dbc1f9e2b228",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "9ded4bad73d84ff35fb6bec7ee69bbbadec205e582e5abb23286084a295dec1f",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/api10_yaml_001.sh"
+    },
+    {
+      "asset": "c52d5a2f288d701f9c12dea6bb1dd20c12b624aea89299ec39668c49466d3041",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/bfla_001.sh"
+    },
+    {
+      "asset": "60ca586f60169bbcce78cca16fa1b6b00096c4072d69c29c1b2248ff57fff49d",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/bola_001.sh"
+    },
+    {
+      "asset": "42e8fd2c0b8e7d97792e1a3f3b69de7ce1ef6312d681540fd1aa0f10c286c94c",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/debug_leak_001.sh"
+    },
+    {
+      "asset": "d59531dad2fa0e1cf9fb1385ffea5a4b9dfe4d0a3e9290a83d65af1b6d49481a",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/docs_public_001.sh"
+    },
+    {
+      "asset": "91e4b713a1e7839a3bde4bf897504121fd1a5a5211f0094d689a5a3f2a4bc155",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/drift_001.sh"
+    },
+    {
+      "asset": "57f38bafb792fe25960ae9cf2b9db5e87371dd432d4a575c578d3ada8cc234b7",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/host_cors_jwt_001.sh"
+    },
+    {
+      "asset": "9d42410e42374436617359c23b889af2955e8fa6cd88875e3484e918919f232b",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/log_token_001.sh"
+    },
+    {
+      "asset": "488ef04ea275835ae4181db9a5d83b48bc4770ef5c19d9313681c2fc8a4a4a89",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/methods_drift_001.sh"
+    },
+    {
+      "asset": "670b2d826ea0163f9363bf68410a2202c794272262a3f9098db00eef07f7dfd0",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/order_sqli_001.sh"
+    },
+    {
+      "asset": "d8bba1a0f05621b718d7a7638c818add61f9b9b3642e49b7d0b62adb3fb18c12",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/reports_allowany_001.sh"
+    },
+    {
+      "asset": "652386885ddba84f59bfa0ba8cb889aec8d0d4587f3b94216820c12bcae5b96a",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/seats_001.sh"
+    },
+    {
+      "asset": "8b678eb874a996240ebc5db987af4dede69d7ccc003e5a9f6df1707c25386fdb",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/serializer_leak_001.sh"
+    },
+    {
+      "asset": "ae970e5cd14249f1bed22260a89254a4f0c1c7685d01706a8da984ef67d81592",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/shadow_001.sh"
+    },
+    {
+      "asset": "dcbc9e57e2b41357437e90aa8258cf52658d90839f7a664176ac406e4fc64b57",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/spec_leak_001.sh"
+    },
+    {
+      "asset": "7fd548dc35dd46371ff7760e70d6e1fc00e73d97911529f1e0a0d2b702eeb062",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "87b4e0f86dee16dbbe3d4ec5a6cb252d487398113f1162cb51b85d0490eea262",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/swaggerui_001.sh"
+    },
+    {
+      "asset": "691cddf0b735c102bc0aa4d9c1d19c314ca85ab45a596ccc9f74fca586332970",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "f319df0a98a09e13c67c4150dabbbaf4406edabe1a55ff32c928c028cc14d80e",
+      "path": "vulnerable-apps/swagger/ground-truth/verify/zombie_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "11d95c22936f16e948255e97caf98fe7f1878ca4dcaa141d4ea6a4fa53fb0ebe",
+      "path": "vulnerable-apps/swagger/safe"
+    },
+    {
+      "asset": "acc898942395a6e349b053a4cd323bfdce6b492f649a25128a12faf5c2521011",
+      "path": "vulnerable-apps/swagger/vuln"
+    }
+  ]
+}

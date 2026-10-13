@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "view"
+      ],
+      "path": "/api/template"
+    }
+  },
+  "route": "GET /api/template?view=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

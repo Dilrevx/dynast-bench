@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/v1/reports"
+    }
+  },
+  "route": "POST /api/v1/reports",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/wp-admin/admin-ajax.php",
+      "query": {
+        "action": "bench_upload"
+      }
+    }
+  },
+  "route": "POST /wp-admin/admin-ajax.php?action=bench_upload",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

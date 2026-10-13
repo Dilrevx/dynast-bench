@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "url"
+      ],
+      "path": "/api/fetch"
+    },
+    "markers": [
+      "FASTAPI-INTERNAL-SINK"
+    ]
+  },
+  "route": "GET /api/fetch?url=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/analytics/ask"
+    },
+    "llm": {
+      "channel": "tool-result"
+    }
+  },
+  "route": "POST /api/analytics/ask",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

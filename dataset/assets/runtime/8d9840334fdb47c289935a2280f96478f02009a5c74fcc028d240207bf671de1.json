@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/reports/exec-summary"
+    },
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ]
+  },
+  "route": "GET /api/reports/exec-summary (Bearer)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

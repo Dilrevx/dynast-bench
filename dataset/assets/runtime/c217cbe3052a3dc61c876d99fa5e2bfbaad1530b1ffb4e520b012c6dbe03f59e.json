@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/checkpoints/resume"
+    },
+    "llm": {
+      "channel": "user",
+      "tool": "resumeCheckpoint"
+    }
+  },
+  "route": "POST /api/checkpoints/resume",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

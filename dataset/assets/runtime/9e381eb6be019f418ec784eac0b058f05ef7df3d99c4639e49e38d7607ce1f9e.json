@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/signup/start.php"
+    }
+  },
+  "route": "POST /api/signup/start.php",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

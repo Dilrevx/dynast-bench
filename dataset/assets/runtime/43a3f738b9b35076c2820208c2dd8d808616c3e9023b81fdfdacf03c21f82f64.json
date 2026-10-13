@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "mutation",
+      "op": "purchaseSeats"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql purchaseSeats(quantity:)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

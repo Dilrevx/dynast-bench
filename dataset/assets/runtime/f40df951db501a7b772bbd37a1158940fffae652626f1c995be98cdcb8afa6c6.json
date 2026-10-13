@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "path"
+      ],
+      "path": "/api/docs/list"
+    }
+  },
+  "route": "GET /api/docs/list?path=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/users/{id}/promote"
+    }
+  },
+  "route": "POST /api/users/{id}/promote",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

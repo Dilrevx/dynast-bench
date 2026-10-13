@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "subscription",
+      "op": "postUpdated"
+    },
+    "http": {
+      "method": "WS",
+      "path": "/graphql/ws"
+    },
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ]
+  },
+  "route": "WS /graphql/ws postUpdated(orgId:)",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

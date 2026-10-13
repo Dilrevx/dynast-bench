@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "WS",
+      "path": "/ws"
+    },
+    "ws": {
+      "event": "presence.update",
+      "transport": "ws"
+    }
+  },
+  "route": "WS /ws {type: presence.update}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

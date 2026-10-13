@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "mutation",
+      "op": "login"
+    },
+    "http": {
+      "method": "GET",
+      "path": "/graphql",
+      "query": {
+        "query": "mutation"
+      }
+    }
+  },
+  "route": "GET /graphql?query=mutation",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

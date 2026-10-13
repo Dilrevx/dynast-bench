@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "PUT",
+      "path": "/api/admin/system-prompt"
+    },
+    "llm": {
+      "channel": "user"
+    }
+  },
+  "route": "PUT /api/admin/system-prompt",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/wp-admin/admin-ajax.php",
+      "query": {
+        "action": "bench_promote_user"
+      }
+    }
+  },
+  "route": "GET /wp-admin/admin-ajax.php?action=bench_promote_user",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

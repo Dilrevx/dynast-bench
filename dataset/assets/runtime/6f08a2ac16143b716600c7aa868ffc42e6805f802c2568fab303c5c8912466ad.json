@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "WS",
+      "path": "/ws"
+    },
+    "markers": [
+      "FILE-SECRET-WEBSOCKET-TRAVERSAL"
+    ],
+    "ws": {
+      "event": "file.get",
+      "transport": "ws"
+    }
+  },
+  "route": "WS /ws {type: file.get}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

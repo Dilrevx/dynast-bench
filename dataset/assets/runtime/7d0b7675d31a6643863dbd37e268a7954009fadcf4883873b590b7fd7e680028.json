@@ -1,0 +1,17 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "WS",
+      "path": "/ws"
+    },
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ],
+    "ws": {
+      "event": "post.get",
+      "transport": "ws"
+    }
+  },
+  "route": "WS /ws {type: post.get}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

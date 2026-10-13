@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/profile/avatar"
+    }
+  },
+  "route": "POST /profile/avatar",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

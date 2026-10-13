@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "edge-proxy",
+      "port": 443,
+      "proto": "tcp"
+    }
+  },
+  "route": "edge-proxy:443/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,16 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/grants/"
+    },
+    "http_alt": [
+      "/api/grants/{token}"
+    ],
+    "markers": [
+      "GLOBEX-CONFIDENTIAL-MARKER-7f3a"
+    ]
+  },
+  "route": "GET /api/grants/{token}",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

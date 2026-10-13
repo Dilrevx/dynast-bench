@@ -1,0 +1,10 @@
+{
+  "application": "wordpress",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "6c6a1e938548a80b0b03204805f623445bee5ba5dc89b7c7ad6e84b96451601c",
+  "seed_setup": "Orgs Acme + Globex. user2@bench.local is in Globex for cross-tenant IDOR. The Globex draft task contains GLOBEX-CONFIDENTIAL-MARKER-7f3a. Vulnerable variant also accepts the weak default credential admin/admin.\n",
+  "versions": {
+    "safe": "5a0900131d6d61f84ed3692fdd5eec2fa0dd2250a488e9ef1ca0cdea35da9549",
+    "vuln": "de8c62348480bb60d0dd7b35e4041dc76e7f24985ad7e5a3bf9a7a8f9b6fd6e5"
+  }
+}

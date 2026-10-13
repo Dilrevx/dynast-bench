@@ -1,0 +1,14 @@
+{
+  "operation_match": {
+    "graphql": {
+      "kind": "query",
+      "op": "User.passwordHash"
+    },
+    "http": {
+      "method": "POST",
+      "path": "/graphql"
+    }
+  },
+  "route": "POST /graphql posts.author.passwordHash",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

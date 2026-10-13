@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/reports/render"
+    },
+    "markers": [
+      "HBS-SSTI-SECRET"
+    ]
+  },
+  "route": "POST /api/reports/render",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "url"
+      ],
+      "path": "/api/preview"
+    }
+  },
+  "route": "GET /api/preview?url=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

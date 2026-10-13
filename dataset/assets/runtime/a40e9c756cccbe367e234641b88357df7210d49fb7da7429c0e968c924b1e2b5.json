@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/agents/{id}/tools"
+    },
+    "llm": {
+      "channel": "user"
+    }
+  },
+  "route": "POST /api/agents/{id}/tools",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

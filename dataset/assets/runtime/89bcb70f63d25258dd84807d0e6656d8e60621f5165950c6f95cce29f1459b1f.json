@@ -1,0 +1,155 @@
+{
+  "files": [
+    {
+      "asset": "b21fab492855b90740732cefdffee41ca22ebdc84d32a991f7ca90fc98bedac9",
+      "path": "vulnerable-apps/php/Makefile"
+    },
+    {
+      "asset": "92091309fe639fde1c4fc023ca7411d88d61463198bacd90a5f856ae36204ad8",
+      "path": "vulnerable-apps/php/README.md"
+    },
+    {
+      "asset": "88d2d5e4c8dedc54c71345e85561fe3ac0ad21d439e4ea04eb1c606d1cfea7e2",
+      "path": "vulnerable-apps/php/ground-truth/SURFACE.yaml"
+    },
+    {
+      "asset": "4617e1da5b1f7c8480d60c456b6a47f67da5a36ba8262c146a2e67ce3615739f",
+      "path": "vulnerable-apps/php/ground-truth/VULNERABILITIES.yaml"
+    },
+    {
+      "asset": "04c7b56c3422712c945fa31e9854e638023fd08fdd365ab130a475fc659bc7a5",
+      "path": "vulnerable-apps/php/ground-truth/run.sh"
+    },
+    {
+      "asset": "3dd5248f31979ce4fd337f2af2867fdf40462d81659830b2064c40862f083efa",
+      "path": "vulnerable-apps/php/ground-truth/verify/_lib.sh"
+    },
+    {
+      "asset": "d9096af8c5fad5ac1fd8629d4d09387c29bd07e20b15e226b3580e15a85d505b",
+      "path": "vulnerable-apps/php/ground-truth/verify/authz_001.sh"
+    },
+    {
+      "asset": "7a3b8f33532f6d46cc0674d1d4d16137d31a21913241916f0eea1847af636ed9",
+      "path": "vulnerable-apps/php/ground-truth/verify/cmd_001.sh"
+    },
+    {
+      "asset": "5d2e04ee4aa3ca7324907892a71822f5fb4c0ed42e61b046e59c239d0b8a1779",
+      "path": "vulnerable-apps/php/ground-truth/verify/codeinj_001.sh"
+    },
+    {
+      "asset": "d73532f9ff339e3f928f009f69efdc78d65db15795c84cfa23024f9453e2dbc4",
+      "path": "vulnerable-apps/php/ground-truth/verify/cors_001.sh"
+    },
+    {
+      "asset": "02eeb3f58b5718cffa9ce7312c13dc99cb3924020bd8eb3150e224051a8a4c61",
+      "path": "vulnerable-apps/php/ground-truth/verify/default_creds_001.sh"
+    },
+    {
+      "asset": "d12420e14d2b5cf89dec56fa261949f2e6f37dd5155bcba19e95a545d3695312",
+      "path": "vulnerable-apps/php/ground-truth/verify/domxss_001.sh"
+    },
+    {
+      "asset": "3b8178493e96b3a4f3aacbdddb484aaa78d1f6a0e81e9938c38cba945292496a",
+      "path": "vulnerable-apps/php/ground-truth/verify/idor_001.sh"
+    },
+    {
+      "asset": "0fe3feef7c1aa56162633384fd9a62cef36581202f67820945a001f302fac539",
+      "path": "vulnerable-apps/php/ground-truth/verify/info_001.sh"
+    },
+    {
+      "asset": "a8f149d97b87ce975cd855da4581f2bd566d8ed34ccb35649305cc6c4d96e03b",
+      "path": "vulnerable-apps/php/ground-truth/verify/lfi_001.sh"
+    },
+    {
+      "asset": "94eb2d93c0b97499193b87691d134f63ac291a2adc0b1ba1b1164e9d12a677f3",
+      "path": "vulnerable-apps/php/ground-truth/verify/massassign_001.sh"
+    },
+    {
+      "asset": "0d33ecdc5c10485efd5b5dfb12ce72fe23130013614bcecf24cd84453d6c2828",
+      "path": "vulnerable-apps/php/ground-truth/verify/phpmyadmin_001.sh"
+    },
+    {
+      "asset": "b64a75cae62748b8f629cb74f574d6e993fa3a5d9da9714f8178a8fdf4547e06",
+      "path": "vulnerable-apps/php/ground-truth/verify/postmsg_001.sh"
+    },
+    {
+      "asset": "3793ac43fea33896a2e4b5ce02702e94579c170d74cb390c7f47301f42a1784c",
+      "path": "vulnerable-apps/php/ground-truth/verify/redirect_001.sh"
+    },
+    {
+      "asset": "e00374c80d478d822cbde7d0cc00495bd092ad4d446513158543d5d56177a911",
+      "path": "vulnerable-apps/php/ground-truth/verify/reset_001.sh"
+    },
+    {
+      "asset": "091001aa403509318e9754629c9d8a305cc9088348c50ce39f1648c8ce84d8a2",
+      "path": "vulnerable-apps/php/ground-truth/verify/session_001.sh"
+    },
+    {
+      "asset": "a6194bb2e7fbcf6fe6c6217d267c16944d30ef4948d096cd4d1e76d87df880b9",
+      "path": "vulnerable-apps/php/ground-truth/verify/signup_enum_001.sh"
+    },
+    {
+      "asset": "af538d1e04da964e16c6f4bf46f027830aa3b4fb327f927bb1ec8d21dbc23cb3",
+      "path": "vulnerable-apps/php/ground-truth/verify/signup_idor_001.sh"
+    },
+    {
+      "asset": "70367c78325652e596a52f0fbebe5e8dfe0709362df7960304e19e831003d725",
+      "path": "vulnerable-apps/php/ground-truth/verify/signup_massassign_001.sh"
+    },
+    {
+      "asset": "305b741c1bb7ccd5101deb4d94ad4b85415c102482afc1edb07bc3bfd4f88e4c",
+      "path": "vulnerable-apps/php/ground-truth/verify/signup_stepskip_001.sh"
+    },
+    {
+      "asset": "b01370d48af5873e5ef6c31cad529717879a4d924f8c723d78faa4418d48c241",
+      "path": "vulnerable-apps/php/ground-truth/verify/signup_token_001.sh"
+    },
+    {
+      "asset": "588ad4d0489a8a6b6268c39295908e679a2fab1a17c28fa058f1c363bf64e9e6",
+      "path": "vulnerable-apps/php/ground-truth/verify/sqli_001.sh"
+    },
+    {
+      "asset": "665e4e195d5301356e5972f63d73d4c35c30f4c4b9230b25f4977d723f2a9bd6",
+      "path": "vulnerable-apps/php/ground-truth/verify/ssrf_001.sh"
+    },
+    {
+      "asset": "3c0519d2021491c7f6bab454475335f4633567cb7b045cdb307a68d3eda56fc4",
+      "path": "vulnerable-apps/php/ground-truth/verify/traversal_001.sh"
+    },
+    {
+      "asset": "cbd8a80756994e92d3631ea68ecc4288fe7005723c6a7e8ad7b045a11d2cf12c",
+      "path": "vulnerable-apps/php/ground-truth/verify/typejuggle_001.sh"
+    },
+    {
+      "asset": "4a8038c69a4dc6228a3947c36c9303061e0f7981f42d96b098d6da7e4c1982d8",
+      "path": "vulnerable-apps/php/ground-truth/verify/unserialize_001.sh"
+    },
+    {
+      "asset": "ee5e1b5e2344abe970ffcf1053861bf5d135006b6e79d7313aa0c043786fa6f6",
+      "path": "vulnerable-apps/php/ground-truth/verify/upload_001.sh"
+    },
+    {
+      "asset": "70a80bd5441e1b53ea3e16c1026034a8aa640b5d3795befdf91fd7d1be211e9e",
+      "path": "vulnerable-apps/php/ground-truth/verify/xss_reflect_001.sh"
+    },
+    {
+      "asset": "7668b2d7da5225837bbfc73456ec39b37305295308912ff42d0b082aab17c8b3",
+      "path": "vulnerable-apps/php/ground-truth/verify/xss_stored_001.sh"
+    },
+    {
+      "asset": "14d95ac2a87b1b20c2e739f8d5a570de249cb8aa976dc20fec1c1eb8e77cad35",
+      "path": "vulnerable-apps/php/ground-truth/verify/xxe_001.sh"
+    }
+  ],
+  "kind": "runtime_file_context",
+  "source_trees": [
+    {
+      "asset": "3cc0262a763492c19c893ab1da9d9c9c18082ce9b4ab9a5625ec5990d41b425a",
+      "path": "vulnerable-apps/php/safe"
+    },
+    {
+      "asset": "040558b5152a9f3cfe31094a49ad798758507e28c39be1e9d446a3385a2fbb17",
+      "path": "vulnerable-apps/php/vuln"
+    }
+  ]
+}

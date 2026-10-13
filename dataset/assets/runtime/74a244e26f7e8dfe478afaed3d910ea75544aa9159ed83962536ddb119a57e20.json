@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/reports/admin-export"
+    },
+    "markers": [
+      "SPRINGBOOT-PREAUTH-SECRET-7f3a"
+    ]
+  },
+  "route": "GET /api/reports/admin-export",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

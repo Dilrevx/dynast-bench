@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/actuator/env"
+    }
+  },
+  "route": "GET /actuator/env",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

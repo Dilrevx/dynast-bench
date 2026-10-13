@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "data-postgres",
+      "port": 5432,
+      "proto": "tcp"
+    }
+  },
+  "route": "data-postgres:5432/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

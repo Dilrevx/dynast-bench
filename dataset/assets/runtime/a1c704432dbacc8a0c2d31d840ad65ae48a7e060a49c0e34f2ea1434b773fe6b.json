@@ -1,0 +1,11 @@
+{
+  "operation_match": {
+    "net": {
+      "host": "mgmt-jenkins",
+      "port": 8080,
+      "proto": "tcp"
+    }
+  },
+  "route": "mgmt-jenkins:8080/tcp",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

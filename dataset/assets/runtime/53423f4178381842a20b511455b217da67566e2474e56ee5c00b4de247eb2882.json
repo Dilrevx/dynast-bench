@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/import/xml"
+    },
+    "markers": [
+      "BenchPlaintextSecret-aspnet-123"
+    ]
+  },
+  "route": "POST /api/import/xml",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

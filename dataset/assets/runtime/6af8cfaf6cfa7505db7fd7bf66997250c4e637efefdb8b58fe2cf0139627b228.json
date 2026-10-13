@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "params": [
+        "q"
+      ],
+      "path": "/reflect.jsp"
+    }
+  },
+  "route": "GET /reflect.jsp?q=",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

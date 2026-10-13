@@ -1,0 +1,13 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "POST",
+      "path": "/api/mcp/servers"
+    },
+    "llm": {
+      "channel": "user"
+    }
+  },
+  "route": "POST /api/mcp/servers",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

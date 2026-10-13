@@ -1,0 +1,10 @@
+{
+  "application": "websocket",
+  "entry": "http://127.0.0.1:13311",
+  "operation_catalog": "37bedf6211b4e9d12053d0686d67eae452e5433cf2773b74d4c603e9bfe37e4e",
+  "seed_setup": "Orgs Acme + Globex; user2@bench.local is in Globex for cross-tenant realtime BOLA/IDOR. A Globex DRAFT carries GLOBEX-CONFIDENTIAL-MARKER-7f3a. Weak service credential admin/admin exists only in vuln.\n",
+  "versions": {
+    "safe": "6efb579221a5f8e11e8432967600e666a42b0f96bdcd5f291a428f468ca63458",
+    "vuln": "a4684b70a40e2d15948c20c9d67985a4bf17b0fce5444207cced996b808d2c87"
+  }
+}

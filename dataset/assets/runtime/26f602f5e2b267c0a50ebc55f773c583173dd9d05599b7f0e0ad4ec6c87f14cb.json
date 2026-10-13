@@ -1,0 +1,10 @@
+{
+  "operation_match": {
+    "http": {
+      "method": "GET",
+      "path": "/api/cors/secret"
+    }
+  },
+  "route": "GET /api/cors/secret",
+  "scope": "authored_mechanism_not_whole_application_safety"
+}

@@ -1,0 +1,9 @@
+{
+  "operation_match": {
+    "http": {
+      "path": "/api/preview-internal"
+    }
+  },
+  "route": null,
+  "scope": "authored_mechanism_not_whole_application_safety"
+}
